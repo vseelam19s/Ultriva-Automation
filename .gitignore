@@ -4,7 +4,8 @@ __pycache__/
 .venv/
 .env
 .vscode/
-reports/
+/reports/
+/QASite/reports/
 *.png
 *_Report_*.txt
 *.zip

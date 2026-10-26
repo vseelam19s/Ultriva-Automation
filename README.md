@@ -12,7 +12,7 @@ qa_automation/
 │   ├── base_page.py         # Common Selenium helpers
 │   ├── login_page.py        # Login page object
 │   └── dashboard_page.py    # Dashboard page object
-├── tests/
+├── QASite/
 │   ├── test_login.py        # TC-001 – TC-007  (Authentication)
 │   ├── test_dashboard.py    # TC-101 – TC-107  (Dashboard UI)
 │   └── test_navigation.py   # TC-201 – TC-205  (Navigation)
@@ -53,9 +53,9 @@ $env:ULTRIVA_PASSWORD = "<test account password>"   # optional override
 pytest
 
 # Specific suite
-pytest tests/test_login.py
-pytest tests/test_dashboard.py
-pytest tests/test_navigation.py
+pytest QASite/test_login.py
+pytest QASite/test_dashboard.py
+pytest QASite/test_navigation.py
 
 # Headless (no browser window)
 # Edit config/config.py and set HEADLESS = True

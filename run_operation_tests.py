@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from selenium.webdriver.support.ui import WebDriverWait
 from utils.driver_setup import get_driver
-from qa_automation.tests.QALS11.Admin.Entities.test_Operation import add_operation, edit_operation, view_operation
+from qa_automation.QASite.QALS11.Admin.Entities.test_Operation import add_operation, edit_operation, view_operation
 
 driver = get_driver()
 wait   = WebDriverWait(driver, 20)

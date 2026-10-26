@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from selenium.webdriver.support.ui import WebDriverWait
 from utils.driver_setup import get_driver
-from qa_automation.tests.QALS11.Admin.Entities.test_Container import (
+from qa_automation.QASite.QALS11.Admin.Entities.test_Container import (
     add_container,
     edit_container,
     view_container,

@@ -1,7 +1,7 @@
 ﻿import os
 import re
 
-target = r"qa_automation/tests/QALS11/Admin/Entities"
+target = r"qa_automation/QASite/QALS11/Admin/Entities"
 
 if not os.path.exists(target):
     os.makedirs(target)

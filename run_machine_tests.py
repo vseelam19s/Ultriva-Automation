@@ -30,7 +30,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from utils.driver_setup import get_driver
 
 # Import the three Machine test-case functions
-from qa_automation.tests.QALS11.Admin.Entities.test_Machine import add_machine, edit_machine, view_machine
+from qa_automation.QASite.QALS11.Admin.Entities.test_Machine import add_machine, edit_machine, view_machine
 
 # ── Driver / Wait setup ───────────────────────────────────────────────────────
 driver = get_driver()

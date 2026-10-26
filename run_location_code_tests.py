@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from selenium.webdriver.support.ui import WebDriverWait
 from utils.driver_setup import get_driver
-from qa_automation.tests.QALS11.Admin.Entities.test_LocationCode import (
+from qa_automation.QASite.QALS11.Admin.Entities.test_LocationCode import (
     add_location_code,
     edit_location_code,
     view_location_code,

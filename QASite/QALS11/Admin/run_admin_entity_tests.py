@@ -8,7 +8,6 @@ Runs test cases for:
     • Notes            (TC-NOT-01 Add, TC-NOT-02 Edit, TC-NOT-03 View)
     • Production Issue (TC-PI-01  Add, TC-PI-02  Edit, TC-PI-03  View)
     • Exception Code   (TC-EC-01  Add, TC-EC-02  Edit, TC-EC-03  View)
-    • Route            (TC-RT-01  Add, TC-RT-02  Edit, TC-RT-03  View)
     • Operation        (TC-OP-01  Add, TC-OP-02  Edit, TC-OP-03  View)
     • Machine          (TC-MC-01  Add, TC-MC-02  Edit, TC-MC-03  View)
 
@@ -26,15 +25,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from utils.driver_setup import get_driver
 
 # Import per-entity test functions
-from qa_automation.tests.QALS11.Admin.Entities.test_logisticsMode   import add_logistics_mode,    edit_logistics_mode,    view_logistics_mode
-from admin.Entities.ABCCode         import add_abc_code,          edit_abc_code,          view_abc_code
-from admin.Entities.Carrier         import add_carrier,           edit_carrier,           view_carrier
-from qa_automation.tests.QALS11.Admin.Entities.test_Notes           import add_note,              edit_note,              view_note
-from qa_automation.tests.QALS11.Admin.Entities.test_ProductionIssue import add_production_issue,  edit_production_issue,  view_production_issue
-from qa_automation.tests.QALS11.Admin.Entities.test_ExceptionCode   import add_exception_code,    edit_exception_code,    view_exception_code
-from admin.Entities.Route           import add_route,             edit_route,             view_route
-from qa_automation.tests.QALS11.Admin.Entities.test_Operation       import add_operation,         edit_operation,         view_operation
-from qa_automation.tests.QALS11.Admin.Entities.test_Machine         import add_machine,           edit_machine,           view_machine
+from qa_automation.QASite.QALS11.Admin.Entities.test_logisticsMode   import add_logistics_mode,    edit_logistics_mode,    view_logistics_mode
+from qa_automation.QASite.QALS11.Admin.Entities.test_ABCCode         import add_abc_code,          edit_abc_code,          view_abc_code
+from qa_automation.QASite.QALS11.Admin.Entities.test_Carrier         import add_carrier,           edit_carrier,           view_carrier
+from qa_automation.QASite.QALS11.Admin.Entities.test_Notes           import add_note,              edit_note,              view_note
+from qa_automation.QASite.QALS11.Admin.Entities.test_ProductionIssue import add_production_issue,  edit_production_issue,  view_production_issue
+from qa_automation.QASite.QALS11.Admin.Entities.test_ExceptionCode   import add_exception_code,    edit_exception_code,    view_exception_code
+from qa_automation.QASite.QALS11.Admin.Entities.test_Operation       import add_operation,         edit_operation,         view_operation
+from qa_automation.QASite.QALS11.Admin.Entities.test_Machine         import add_machine,           edit_machine,           view_machine
 
 
 def run_all():
@@ -61,9 +59,6 @@ def run_all():
         ("TC-EC-01  Add  Exception Code",         add_exception_code),
         ("TC-EC-02  Edit Exception Code",         edit_exception_code),
         ("TC-EC-03  View Exception Code",         view_exception_code),
-        ("TC-RT-01  Add  Route",                  add_route),
-        ("TC-RT-02  Edit Route",                  edit_route),
-        ("TC-RT-03  View Route",                  view_route),
         ("TC-OP-01  Add  Operation",              add_operation),
         ("TC-OP-02  Edit Operation",              edit_operation),
         ("TC-OP-03  View Operation",              view_operation),

@@ -1,7 +1,7 @@
 import os
 import re
 
-TESTS_DIR = r"C:\Prcatices-AI\qa_automation\tests\QALS11"
+TESTS_DIR = r"C:\Prcatices-AI\qa_automation\QASite\QALS11"
 
 def repair_and_wrap_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:

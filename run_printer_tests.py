@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from selenium.webdriver.support.ui import WebDriverWait
 from utils.driver_setup import get_driver
-from qa_automation.tests.QALS11.Admin.Entities.test_Printer import (
+from qa_automation.QASite.QALS11.Admin.Entities.test_Printer import (
     add_printer,
     edit_printer,
     view_printer,

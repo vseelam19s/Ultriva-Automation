@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from selenium.webdriver.support.ui import WebDriverWait
 from utils.driver_setup import get_driver
-from qa_automation.tests.QALS11.Admin.Entities.Test_OperationParams import (
+from qa_automation.QASite.QALS11.Admin.Entities.test_OperationParams import (
     add_operation_params,
     edit_operation_params,
     view_operation_params,

@@ -2,7 +2,7 @@ import os
 import re
 
 # Target directory containing your test files
-TARGET_DIR = r"tests/QALS11/Admin/Entities"
+TARGET_DIR = r"QASite/QALS11/Admin/Entities"
 
 def convert_file_to_pytest(file_path):
     with open(file_path, "r", encoding="utf-8") as f:

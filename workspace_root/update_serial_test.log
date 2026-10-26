@@ -1,0 +1,12 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.1.1, pluggy-1.6.0 -- C:\Users\vseelam\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.9', 'Platform': 'Windows-10-10.0.26200-SP0', 'Packages': {'pytest': '8.1.1', 'pluggy': '1.6.0'}, 'Plugins': {'anyio': '4.12.1', 'langsmith': '0.7.17', 'locust': '2.43.3', 'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\Program Files\\Java\\jdk-25'}
+rootdir: c:\Prcatices-AI\qa_automation
+configfile: pytest.ini
+plugins: anyio-4.12.1, langsmith-0.7.17, locust-2.43.3, html-4.1.1, metadata-3.1.1
+collecting ... ERROR: file or directory not found: ;
+
+collected 0 items
+
+============================ no tests ran in 0.01s ============================

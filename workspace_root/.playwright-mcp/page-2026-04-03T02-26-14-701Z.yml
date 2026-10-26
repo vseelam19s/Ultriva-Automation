@@ -1,0 +1,246 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - text: Ultriva Integration Documentation
+    - generic [ref=e3]:
+      - textbox [ref=e4]
+      - button [ref=e5] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: "#!"
+          - link "Ultriva Integration Documentation" [ref=e11] [cursor=pointer]:
+            - /url: ../html/04a7037a-8d71-4d68-8f71-027b6da1ac9b.htm
+        - link "Introduction" [ref=e13] [cursor=pointer]:
+          - /url: ../html/04a7037a-8d71-4d68-8f71-027b6da1ac9b.htm
+        - link "SQL Table Format" [ref=e15] [cursor=pointer]:
+          - /url: ../html/ca5c40ce-3a8e-4082-ac12-9b903c9fbd59.htm
+        - link "Import Export Processor" [ref=e17] [cursor=pointer]:
+          - /url: ../html/59710a47-a5fa-4ce5-aefe-21e3cc09554a.htm
+        - link "Flat File Format" [ref=e19] [cursor=pointer]:
+          - /url: ../html/bd527592-b4ff-43b8-9ba9-34f9d56512d7.htm
+        - generic [ref=e20]:
+          - link [ref=e21] [cursor=pointer]:
+            - /url: "#!"
+          - link "File Based Integration Points" [ref=e22] [cursor=pointer]:
+            - /url: ../html/eda992e3-2f1c-4dbf-bcb0-2def3b5f8b9f.htm
+        - generic [ref=e66]:
+          - link [ref=e67] [cursor=pointer]:
+            - /url: "#!"
+          - link "ERP to Ultriva" [ref=e68] [cursor=pointer]:
+            - /url: ../html/16544c5f-f712-4bbc-acb7-f1877808578a.htm
+        - link "Item Sync" [ref=e75] [cursor=pointer]:
+          - /url: ../html/e3916242-9e11-419c-9494-85fe683eac01.htm
+        - link "Supplier Sync" [ref=e77] [cursor=pointer]:
+          - /url: ../html/db9b7f17-1469-4bf7-aa11-3b95390637f3.htm
+        - link "Workcenter Sync" [ref=e79] [cursor=pointer]:
+          - /url: ../html/6ee963fe-ea81-41a5-af8c-bbce3ace5a4d.htm
+        - link "Consumption Data" [ref=e81] [cursor=pointer]:
+          - /url: ../html/38d56c9a-9e07-4f0c-b8dc-50491101fc8c.htm
+        - link "Inventory Sync" [ref=e83] [cursor=pointer]:
+          - /url: ../html/3851ad33-a669-4dad-ac23-873b48dd2acf.htm
+        - link "Accept Data" [ref=e85] [cursor=pointer]:
+          - /url: ../html/cf86eb3b-6296-4843-ab70-0eb1f1c51558.htm
+        - link "PO Change Data" [ref=e87] [cursor=pointer]:
+          - /url: ../html/e0a72f19-ac75-4a9d-a098-665e1250c845.htm
+        - link "PO Cancel Data" [ref=e89] [cursor=pointer]:
+          - /url: ../html/99b58acc-e8f6-4a92-a3b8-deb93d784a5d.htm
+        - link "Shipment Data" [ref=e91] [cursor=pointer]:
+          - /url: ../html/47804929-a9d8-4fdb-ac1a-333a61647f62.htm
+        - link "Consol Shipment Data" [ref=e93] [cursor=pointer]:
+          - /url: ../html/e5f9da17-b940-4a74-a755-418441bd7c96.htm
+        - link "Card Receipts" [ref=e95] [cursor=pointer]:
+          - /url: ../html/87a520ac-ba13-4a95-9386-fb664f18cabf.htm
+        - link "Receipt Data" [ref=e97] [cursor=pointer]:
+          - /url: ../html/f161cdff-4134-42a8-aaed-76ff776ecf08.htm
+        - link "Inspect/Reject data" [ref=e99] [cursor=pointer]:
+          - /url: ../html/7cfba370-938e-4701-9b9e-bbcffefab931.htm
+        - link "Set Del Card" [ref=e101] [cursor=pointer]:
+          - /url: ../html/2d74989e-1ab2-40cc-ad52-6b921a99dbaf.htm
+        - link "Set PO" [ref=e103] [cursor=pointer]:
+          - /url: ../html/f32f5f94-58cb-42ec-a814-63e14df98d40.htm
+        - link "Set WO" [ref=e105] [cursor=pointer]:
+          - /url: ../html/e32ded81-f6e0-40dc-90cf-47668590d86a.htm
+        - link "Set PO Accept" [ref=e107] [cursor=pointer]:
+          - /url: ../html/b87674dc-2ec4-4569-8e1d-9c6052c34299.htm
+        - link "Set PO Change" [ref=e109] [cursor=pointer]:
+          - /url: ../html/70e07fed-da65-48db-9827-f9f6b7c89d46.htm
+        - link "Set PO Recall" [ref=e111] [cursor=pointer]:
+          - /url: ../html/00a5a6b5-c4b6-45ce-b572-0009b907bf31.htm
+        - link "Set PO Ship" [ref=e113] [cursor=pointer]:
+          - /url: ../html/fa52623c-be14-434c-b48b-ac9d1105c2d2.htm
+        - link "Set PO Consol Ship" [ref=e115] [cursor=pointer]:
+          - /url: ../html/ee3b6284-848c-440d-a425-2decfaa70332.htm
+        - link "Set PO Receipt" [ref=e117] [cursor=pointer]:
+          - /url: ../html/9686937c-0f49-41a8-8024-ac68636e2826.htm
+        - link "Set WO Receive/Close" [ref=e119] [cursor=pointer]:
+          - /url: ../html/8fcdffb1-05ee-4190-b79d-dc9dc92b4a89.htm
+        - link "Set PO Inspect/Approve" [ref=e121] [cursor=pointer]:
+          - /url: ../html/7429220b-7b9d-4dda-b3f3-e2ab65127b7e.htm
+        - link "Set Close Production" [ref=e123] [cursor=pointer]:
+          - /url: ../html/18659635-aacf-4278-b175-13f008cf1344.htm
+        - link "Planned Orders" [ref=e125] [cursor=pointer]:
+          - /url: ../html/f8ea56a9-3ae7-4c28-9e2a-d20fb2934fd4.htm
+        - link "PO Sync" [ref=e127] [cursor=pointer]:
+          - /url: ../html/9205f3b9-3273-46be-bdb4-8473854ccb8b.htm
+        - link "Forecast Data" [ref=e129] [cursor=pointer]:
+          - /url: ../html/5434299c-4ee3-4ea6-b2b0-a9a59a4466fc.htm
+        - link "Customer Sync" [ref=e131] [cursor=pointer]:
+          - /url: ../html/f9eb1eb9-e677-45a4-b601-02d6008b409c.htm
+        - link "Customer Item Sync" [ref=e133] [cursor=pointer]:
+          - /url: ../html/b4138da0-c248-4795-8728-5892df8acf95.htm
+        - link "Customer Consumption Data" [ref=e135] [cursor=pointer]:
+          - /url: ../html/7ce9c8ab-5651-4070-a9a9-40acb032c66d.htm
+        - link "Customer Orders" [ref=e137] [cursor=pointer]:
+          - /url: ../html/61842d8f-9e89-4039-81eb-c4e23e1bac96.htm
+        - link "Customer Order Changes" [ref=e139] [cursor=pointer]:
+          - /url: ../html/9545e794-4240-4623-9f91-0cc42e197a16.htm
+        - link "Customer Card Receipts" [ref=e141] [cursor=pointer]:
+          - /url: ../html/e934c8cc-4e18-4590-93c7-244df439337a.htm
+        - link "Customer Set SO" [ref=e143] [cursor=pointer]:
+          - /url: ../html/2b2eb86e-8e94-4f0f-a869-5b92d66a4d60.htm
+        - link "Customer Set SO Ship" [ref=e145] [cursor=pointer]:
+          - /url: ../html/b42442ff-703e-4a86-91a1-163634855fc9.htm
+        - link "Customer Set SO Consol Ship" [ref=e147] [cursor=pointer]:
+          - /url: ../html/f940b0cf-fcd4-4d05-9511-a40ad3c63064.htm
+        - link "Customer Shipment Data" [ref=e149] [cursor=pointer]:
+          - /url: ../html/341c5d30-2652-4ba5-91e1-d5a38f54be1a.htm
+        - link "Customer Consol Shipment Data" [ref=e151] [cursor=pointer]:
+          - /url: ../html/cd3e3901-4feb-453d-927b-2d44dc6ed544.htm
+        - link "NCR Data Load" [ref=e153] [cursor=pointer]:
+          - /url: ../html/c26be53d-b504-4f2f-b5e4-ed936d1662f4.htm
+        - generic [ref=e69]:
+          - link [ref=e70] [cursor=pointer]:
+            - /url: "#!"
+          - link "Ultriva To ERP" [ref=e71] [cursor=pointer]:
+            - /url: ../html/fb1e7c9d-0140-4f75-a59d-c6e46199aa40.htm
+        - link "Inventory Transfer" [ref=e155] [cursor=pointer]:
+          - /url: ../html/2ed4e17c-1076-4247-9b4e-e1b04ef72b67.htm
+        - link "Card Delete Data" [ref=e157] [cursor=pointer]:
+          - /url: ../html/075177ff-c129-41ad-b866-5fa5fe621597.htm
+        - link "Purchase Order Release/Create" [ref=e159] [cursor=pointer]:
+          - /url: ../html/13c9f304-3383-467c-8bf5-c3230eb3644b.htm
+        - link "Work Order Release/Create" [ref=e161] [cursor=pointer]:
+          - /url: ../html/3fe0a83b-f89c-407c-a8b3-3bd27840a93b.htm
+        - link "Purchase Order Accept" [ref=e163] [cursor=pointer]:
+          - /url: ../html/a0b4f655-949a-4ac5-ae6f-8245edf8efc8.htm
+        - link "Purchase Order Change" [ref=e165] [cursor=pointer]:
+          - /url: ../html/31a873d3-c16d-4054-8f3d-6a1336d742a6.htm
+        - link "Purchase Order Recall" [ref=e167] [cursor=pointer]:
+          - /url: ../html/7216a496-67ee-4c06-befa-d305b25d1415.htm
+        - link "Purchase Order Ship" [ref=e169] [cursor=pointer]:
+          - /url: ../html/3bc14082-b551-4cc6-a218-44d658495a30.htm
+        - link "Purchase Order Consol Ship" [ref=e171] [cursor=pointer]:
+          - /url: ../html/297d6314-0d30-4a45-a5ba-0b9265315627.htm
+        - link "Purchase Order Receipt" [ref=e173] [cursor=pointer]:
+          - /url: ../html/6d94c818-1aa0-422c-a564-54cbab78ce82.htm
+        - link "Work Order Close/Receive" [ref=e175] [cursor=pointer]:
+          - /url: ../html/e33d3bf5-05c9-4700-a104-6079edf01df4.htm
+        - link "Purchase Order Inspect/Approve" [ref=e177] [cursor=pointer]:
+          - /url: ../html/2fa434b0-4cf9-42c7-a5cf-ede7d3be683c.htm
+        - link "Close Production" [ref=e179] [cursor=pointer]:
+          - /url: ../html/c93bc384-69f4-4c10-926b-32eefeb2a0cf.htm
+        - link "Customer Sales Order Release" [ref=e181] [cursor=pointer]:
+          - /url: ../html/a0326e02-1dbd-4c44-b46b-65cf41196e4c.htm
+        - link "Customer Sales Order Ship" [ref=e183] [cursor=pointer]:
+          - /url: ../html/3bab7b73-7252-44fe-a5dd-c8fd64f3a0b8.htm
+        - link "Customer Sales Order Consol Ship" [ref=e185] [cursor=pointer]:
+          - /url: ../html/0a49ea26-f00c-440c-86f9-8b1dba148f70.htm
+        - link "Error File Format" [ref=e73] [cursor=pointer]:
+          - /url: ../html/a0a55dca-08f2-405d-8c71-feb2675d8c5f.htm
+        - generic [ref=e23]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: "#!"
+          - link "API Based Integration Point" [ref=e25] [cursor=pointer]:
+            - /url: ../html/f0539d93-50d0-4298-a8dd-8896ac416a48.htm
+        - generic [ref=e186]:
+          - link [ref=e187] [cursor=pointer]:
+            - /url: "#!"
+          - link "Ultriva To ERP" [ref=e188] [cursor=pointer]:
+            - /url: ../html/e3281bbb-544a-46dd-a1cb-79b8e373b69a.htm
+        - generic [ref=e189]:
+          - link [ref=e190] [cursor=pointer]:
+            - /url: "#!"
+          - link "ERP To Ultriva" [ref=e191] [cursor=pointer]:
+            - /url: ../html/65b053c4-f16d-4e0f-823d-74f6bca94e35.htm
+        - generic [ref=e26]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: "#!"
+          - link "SQL Table Based Integration Points" [ref=e28] [cursor=pointer]:
+            - /url: ../html/6fdb864a-88d8-4d09-a1db-6a295ca761b5.htm
+        - generic [ref=e192]:
+          - link [ref=e193] [cursor=pointer]:
+            - /url: "#!"
+          - link "ERP To Ultriva" [ref=e194] [cursor=pointer]:
+            - /url: ../html/71f07239-51df-438b-b19c-6be6f44cb5b0.htm
+        - generic [ref=e195]:
+          - link [ref=e196] [cursor=pointer]:
+            - /url: "#!"
+          - link "Ultriva To ERP" [ref=e197] [cursor=pointer]:
+            - /url: ../html/6c6f008c-791b-4167-a33a-864a46e93386.htm
+        - link "Support Tables" [ref=e199] [cursor=pointer]:
+          - /url: ../html/414d65c1-13f0-4a8d-b8b5-ad69ad1e4e1f.htm
+        - generic [ref=e29]:
+          - link [ref=e30] [cursor=pointer]:
+            - /url: "#!"
+          - link "Ultriva Oracle Connector" [ref=e31] [cursor=pointer]:
+            - /url: ../html/97a56274-4387-4c57-992e-1fd7de5de343.htm
+        - generic [ref=e200]:
+          - link [ref=e201] [cursor=pointer]:
+            - /url: "#!"
+          - link "Technical Overview" [ref=e202] [cursor=pointer]:
+            - /url: ../html/995d6c27-9839-485a-ac51-f60669992962.htm
+        - generic [ref=e203]:
+          - link [ref=e204] [cursor=pointer]:
+            - /url: "#!"
+          - link "Integration Points" [ref=e205] [cursor=pointer]:
+            - /url: ../html/45f42d9c-1a62-4b5d-be8b-0b779f1b55cb.htm
+        - generic [ref=e32]:
+          - link [active] [ref=e33] [cursor=pointer]:
+            - /url: "#!"
+          - link "EDI Interface Overview" [ref=e34] [cursor=pointer]:
+            - /url: ../html/1880d23d-dad7-404f-aa18-5b7227d4a127.htm
+        - link "Architecture" [ref=e207] [cursor=pointer]:
+          - /url: ../html/fe336120-bcf9-4891-a787-b9d9c1b34208.htm
+        - generic [ref=e208]:
+          - link [ref=e209] [cursor=pointer]:
+            - /url: "#!"
+          - link "EDI Documents" [ref=e210] [cursor=pointer]:
+            - /url: ../html/54a9b68a-2fa8-4461-960f-30902f72b95c.htm
+        - generic [ref=e35]:
+          - link [ref=e36] [cursor=pointer]:
+            - /url: "#!"
+          - link "SampleIntegration" [ref=e37] [cursor=pointer]:
+            - /url: ../html/64a518a0-d6c5-4023-f611-6fb84c689f61.htm
+      - img "Click or drag to resize" [ref=e40] [cursor=pointer]
+    - generic [ref=e41]:
+      - table [ref=e42]:
+        - rowgroup [ref=e43]:
+          - row "Introduction" [ref=e44]:
+            - cell "Introduction" [ref=e45]:
+              - heading "Introduction" [level=1] [ref=e46]
+      - generic [ref=e47]:
+        - paragraph [ref=e48]: "Ultriva Application can be integrated with any ERP applications which provides programming interface. Ultriva supports following approaches to integrate with ERP Applications:"
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - paragraph [ref=e51]: Flat file based integration
+          - listitem [ref=e52]:
+            - paragraph [ref=e53]: SQL Table based Integration
+          - listitem [ref=e54]:
+            - paragraph [ref=e55]: Ultriva Oracle Connector
+          - listitem [ref=e56]:
+            - paragraph [ref=e57]: EDI Integration (mainly Suppliers to integrate with Ultriva)
+        - paragraph [ref=e58]:
+          - text: This Help document describes the common integration points between Ultriva and ERP systems using
+          - strong [ref=e59]: Flat File
+          - text: based approach.
+        - paragraph [ref=e60]
+  - generic [ref=e61]:
+    - paragraph [ref=e62]:
+      - link "2000 - 2020 Ultriva Inc. All Rights Reserved." [ref=e63] [cursor=pointer]:
+        - /url: http://www.ultriva.com
+    - generic [ref=e64]:
+      - text: Send comments on this topic to
+      - link "support@ultriva.com" [ref=e65] [cursor=pointer]:
+        - /url: "mailto:support%40ultriva.com?Subject=Ultriva%20Integration%20Documentation: Introduction&body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2C%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2C%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed."

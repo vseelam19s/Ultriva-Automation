@@ -15,11 +15,12 @@ Section tree (from API):
   ├─ Location Code                              (92098)
   └─ Machine                                    (144109)
 """
+import os
 import requests, json, time
 
 TESTRAIL_URL = "https://upland.testrail.com/"
 EMAIL        = "vseelam@uplandsoftware.com"
-API_KEY      = "LR5Bc8syGLl4d.dweMDC-bN9OoDA5pyiO6dKCHlh3"
+API_KEY      = os.environ["TESTRAIL_API_KEY"]
 PROJECT_ID   = 15
 SUITE_ID     = 2571
 

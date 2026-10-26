@@ -1,0 +1,334 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [aria-hidden] [ref=f1e5] [cursor=pointer]: 
+      - list [ref=f1e6]:
+        - listitem [ref=f1e7] [cursor=pointer]:
+          - link "Home" [ref=f1e8]:
+            - /url: /POC/Home/LandingHome
+            - generic [aria-hidden] [ref=f1e9]: 
+        - listitem [ref=f1e10] [cursor=pointer]:
+          - link "Material Status" [ref=f1e11]:
+            - /url: /POC/MaterialStatus/Index
+            - generic [aria-hidden] [ref=f1e12]: 
+        - listitem [ref=f1e13] [cursor=pointer]:
+          - link "Actions" [ref=f1e14]:
+            - /url: /POC/Action/Home
+            - generic [aria-hidden] [ref=f1e15]: 
+        - listitem [ref=f1e16] [cursor=pointer]:
+          - link "Scan" [ref=f1e17]:
+            - /url: /POC/Scan/Home
+            - generic [aria-hidden] [ref=f1e18]: 
+        - listitem [ref=f1e19] [cursor=pointer]:
+          - link "Reports" [ref=f1e20]:
+            - /url: /POC/Report/Home
+            - generic [aria-hidden] [ref=f1e21]: 
+        - listitem [ref=f1e22] [cursor=pointer]:
+          - link "Integration" [ref=f1e23]:
+            - /url: /POC/Integration/Home
+            - generic [aria-hidden] [ref=f1e24]: 
+        - listitem [ref=f1e25] [cursor=pointer]:
+          - link "Admin" [ref=f1e26]:
+            - /url: /POC/Admin/Home
+            - generic [aria-hidden] [ref=f1e27]: 
+    - generic [ref=f1e28]:
+      - banner [ref=f1e30]:
+        - generic:
+          - img "Upland Ultriva" [ref=f1e35]
+          - generic [ref=f1e36]: Ultriva Lean Suite POC
+          - list [ref=f1e37]:
+            - listitem [ref=f1e38]:
+              - generic [ref=f1e40]:
+                - generic [ref=f1e42] [cursor=pointer]:
+                  - button "Categories" [ref=f1e43]:
+                    - generic [aria-hidden] [ref=f1e45]: 
+                  - generic [ref=f1e46]:
+                    - textbox "Search Application" [ref=f1e47]:
+                      - /placeholder: Search...
+                    - text: 
+                - generic "Search" [ref=f1e48] [cursor=pointer]: 
+            - listitem [ref=f1e50]:
+              - button "" [ref=f1e51] [cursor=pointer]
+              - generic [ref=f1e54] [cursor=pointer]:
+                - button [ref=f1e55]:
+                  - generic [aria-hidden] [ref=f1e56]: 
+                - text:                                     
+            - listitem [ref=f1e57]:
+              - generic [ref=f1e58] [cursor=pointer]:
+                - button "" [ref=f1e59]
+                - text:  
+            - listitem [ref=f1e62]:
+              - button "Buyer K Test" [ref=f1e64] [cursor=pointer]
+      - generic [ref=f1e65]:
+        - generic "Layout Settings" [ref=f1e66]:
+          - generic [aria-hidden] [ref=f1e67]: 
+        - generic "Home Filter" [ref=f1e68]:
+          - generic [aria-hidden] [ref=f1e69]: 
+        - generic [ref=f1e70]:
+          - generic [ref=f1e72] [cursor=pointer]:
+            - generic [ref=f1e73]:
+              - generic [ref=f1e74]: Business Unit
+              - text: ":"
+            - button "TCEK-Ram" [ref=f1e75]
+            - text: 
+          - generic [ref=f1e79] [cursor=pointer]:
+            - generic [ref=f1e80]:
+              - generic [ref=f1e81]: Application
+              - text: ":"
+            - button "Application (Plant)" [ref=f1e82]
+            - text:        
+      - listitem [ref=f1e87] [cursor=pointer]:
+        - text: Buyer Home
+        - generic [aria-hidden] [ref=f1e88]: 
+      - text:    
+      - generic [ref=f1e89]:
+        - table [ref=f1e90]:
+          - rowgroup [ref=f1e91]:
+            - row [ref=f1e92]:
+              - cell [ref=f1e93]:
+                - table [ref=f1e94]:
+                  - rowgroup [ref=f1e95]:
+                    - row [ref=f1e96]:
+                      - cell [ref=f1e97]
+            - row [ref=f1e98]:
+              - cell [ref=f1e99]:
+                - generic [ref=f1e100]:
+                  - table [ref=f1e105]:
+                    - rowgroup [ref=f1e106]:
+                      - row [ref=f1e107]:
+                        - cell "Inventory Health (Items - Stock Out Risk)" [ref=f1e108]:
+                          - generic [ref=f1e109]:
+                            - generic [aria-hidden] [ref=f1e110]: 
+                            - generic "Inventory Health (Items - Stock Out Risk)" [ref=f1e111] [cursor=pointer]
+                      - row [ref=f1e112]:
+                        - cell [ref=f1e113]:
+                          - table [ref=f1e114]:
+                            - rowgroup [ref=f1e115]:
+                              - row [ref=f1e116]:
+                                - cell "5 Items High" [ref=f1e117]:
+                                  - generic [ref=f1e118] [cursor=pointer]:
+                                    - generic [ref=f1e119]: "5"
+                                    - generic [ref=f1e120]: Items
+                                  - generic [ref=f1e121]: High
+                                - cell [ref=f1e123]
+                                - cell "0 Items Medium" [ref=f1e124]:
+                                  - generic [ref=f1e125] [cursor=pointer]:
+                                    - generic [ref=f1e126]: "0"
+                                    - generic [ref=f1e127]: Items
+                                  - generic [ref=f1e128]: Medium
+                                - cell [ref=f1e130]
+                                - cell "571 Items Low" [ref=f1e131]:
+                                  - generic [ref=f1e132] [cursor=pointer]:
+                                    - generic [ref=f1e133]: "571"
+                                    - generic [ref=f1e134]: Items
+                                  - generic [ref=f1e135]: Low
+                  - table [ref=f1e141]:
+                    - rowgroup [ref=f1e142]:
+                      - row [ref=f1e143]:
+                        - cell "Alerts" [ref=f1e144]:
+                          - generic [ref=f1e145]:
+                            - generic [aria-hidden] [ref=f1e146]: 
+                            - generic "Alerts" [ref=f1e147] [cursor=pointer]
+                          - generic [aria-hidden] [ref=f1e149] [cursor=pointer]: 
+                      - row [ref=f1e150]:
+                        - cell "You have no new alerts" [ref=f1e151]: 
+                  - table [ref=f1e158]:
+                    - rowgroup [ref=f1e159]:
+                      - row [ref=f1e160]:
+                        - cell "Integration Status (Last 7 days)" [ref=f1e161]:
+                          - generic [ref=f1e162]:
+                            - generic [aria-hidden] [ref=f1e163]: 
+                            - generic "Integration Status (Last 7 days)" [ref=f1e164] [cursor=pointer]
+                          - generic [aria-hidden] [ref=f1e166] [cursor=pointer]: 
+                      - row [ref=f1e167]:
+                        - cell [ref=f1e168]:
+                          - table [ref=f1e170]:
+                            - rowgroup [ref=f1e171]:
+                              - row [ref=f1e172]:
+                                - columnheader "Integration Type" [ref=f1e173]
+                                - columnheader "Failure" [ref=f1e175]
+                                - columnheader "Pending" [ref=f1e177]
+                                - columnheader "Success" [ref=f1e179]
+                            - rowgroup [ref=f1e181]:
+                              - row [ref=f1e182]:
+                                - cell "All" [ref=f1e183]
+                                - cell "0" [ref=f1e184]
+                                - cell "36" [ref=f1e186]
+                                - cell "0" [ref=f1e188]
+                              - row [ref=f1e190]:
+                                - cell "PO Creation" [ref=f1e191]
+                                - cell "0" [ref=f1e192]
+                                - cell "36" [ref=f1e194]
+                                - cell "0" [ref=f1e196]
+                              - row [ref=f1e198]:
+                                - cell "PO Receipt" [ref=f1e199]
+                                - cell "0" [ref=f1e200]
+                                - cell "0" [ref=f1e202]
+                                - cell "0" [ref=f1e204]
+                              - row [ref=f1e206]:
+                                - cell "PO Inspection" [ref=f1e207]
+                                - cell "0" [ref=f1e208]
+                                - cell "0" [ref=f1e210]
+                                - cell "0" [ref=f1e212]
+                              - row [ref=f1e214]:
+                                - cell "PO Change" [ref=f1e215]
+                                - cell "0" [ref=f1e216]
+                                - cell "0" [ref=f1e218]
+                                - cell "0" [ref=f1e220]
+                              - row [ref=f1e222]:
+                                - cell "PO Ship" [ref=f1e223]
+                                - cell "0" [ref=f1e224]
+                                - cell "0" [ref=f1e226]
+                                - cell "0" [ref=f1e228]
+                              - row [ref=f1e230]:
+                                - cell "Close Production" [ref=f1e231]
+                                - cell "0" [ref=f1e232]
+                                - cell "0" [ref=f1e234]
+                                - cell "0" [ref=f1e236]
+                              - row [ref=f1e238]:
+                                - cell "Inventory Transfer" [ref=f1e239]
+                                - cell "0" [ref=f1e240]
+                                - cell "0" [ref=f1e242]
+                                - cell "0" [ref=f1e244]
+                              - row [ref=f1e246]:
+                                - cell "Put Away" [ref=f1e247]
+                                - cell "0" [ref=f1e248]
+                                - cell "0" [ref=f1e250]
+                                - cell "0" [ref=f1e252]
+                              - row [ref=f1e254]:
+                                - cell "Delete Card" [ref=f1e255]
+                                - cell "0" [ref=f1e256]
+                                - cell "0" [ref=f1e258]
+                                - cell "0" [ref=f1e260]
+                              - row [ref=f1e262]:
+                                - cell "PO Cancel" [ref=f1e263]
+                                - cell "0" [ref=f1e264]
+                                - cell "0" [ref=f1e266]
+                                - cell "0" [ref=f1e268]
+                              - row [ref=f1e270]:
+                                - cell "PO Accept" [ref=f1e271]
+                                - cell "0" [ref=f1e272]
+                                - cell "0" [ref=f1e274]
+                                - cell "0" [ref=f1e276]
+                              - row [ref=f1e278]:
+                                - cell "PO Consol Ship" [ref=f1e279]
+                                - cell "0" [ref=f1e280]
+                                - cell "0" [ref=f1e282]
+                                - cell "0" [ref=f1e284]
+                              - row [ref=f1e286]:
+                                - cell "Bulk Issue" [ref=f1e287]
+                                - cell "0" [ref=f1e288]
+                                - cell "0" [ref=f1e290]
+                                - cell "0" [ref=f1e292]
+                              - row [ref=f1e294]:
+                                - cell "Sales Order Created Status" [ref=f1e295]
+                                - cell "0" [ref=f1e296]
+                                - cell "0" [ref=f1e298]
+                                - cell "0" [ref=f1e300]
+                          - table [ref=f1e303]:
+                            - rowgroup [ref=f1e304]:
+                              - row [ref=f1e305]:
+                                - cell [ref=f1e306]
+                                - cell "1 to 15 of 15" [ref=f1e307]
+                  - table [ref=f1e313]:
+                    - rowgroup [ref=f1e314]:
+                      - row [ref=f1e315]:
+                        - cell "MRP Order Recommendations" [ref=f1e316]:
+                          - generic [ref=f1e317]:
+                            - generic [aria-hidden] [ref=f1e318]: 
+                            - generic "MRP Order Recommendations" [ref=f1e319] [cursor=pointer]
+                      - row [ref=f1e320]:
+                        - cell [ref=f1e321]:
+                          - table [ref=f1e322]:
+                            - rowgroup [ref=f1e323]:
+                              - row [ref=f1e324]:
+                                - cell "0 Defer" [ref=f1e325]:
+                                  - generic [ref=f1e326]: "0"
+                                  - generic [ref=f1e330]: Defer
+                                - cell "0 Expedite" [ref=f1e332]:
+                                  - generic [ref=f1e333]: "0"
+                                  - generic [ref=f1e337]: Expedite
+                                - cell "0 Cancel" [ref=f1e339]:
+                                  - generic [ref=f1e340]: "0"
+                                  - generic [ref=f1e344]: Cancel
+                  - table [ref=f1e350]:
+                    - rowgroup [ref=f1e351]:
+                      - row [ref=f1e352]:
+                        - cell "Order Tracking" [ref=f1e353]:
+                          - generic [ref=f1e354]:
+                            - generic [aria-hidden] [ref=f1e355]: 
+                            - generic "Order Tracking" [ref=f1e356] [cursor=pointer]
+                      - row [ref=f1e357]:
+                        - cell [ref=f1e358]:
+                          - table [ref=f1e359]:
+                            - rowgroup [ref=f1e360]:
+                              - row [ref=f1e361]:
+                                - cell "1381 Orders Awaiting Approval" [ref=f1e362]:
+                                  - generic [ref=f1e363]: "1381"
+                                  - generic [ref=f1e367]: Orders AwaitingApproval
+                                - cell "17049 Orders Not yet Acknowledged" [ref=f1e369]:
+                                  - generic [ref=f1e370]: "17049"
+                                  - generic [ref=f1e374]: Orders Not yetAcknowledged
+                                - cell "21953 Orders past due for Shipping" [ref=f1e376]:
+                                  - generic [ref=f1e377]: "21953"
+                                  - generic [ref=f1e381]: Orders past due for Shipping
+                                - cell "21953 Orders past due for Receipts" [ref=f1e383]:
+                                  - generic [ref=f1e384]: "21953"
+                                  - generic [ref=f1e388]: Orders past due for Receipts
+                                - cell "1077 Reschedule Requests Awaiting Approval" [ref=f1e390]:
+                                  - generic [ref=f1e391]: "1077"
+                                  - generic [ref=f1e395]: RescheduleRequestsAwaitingApproval
+                  - table [ref=f1e401]:
+                    - rowgroup [ref=f1e402]:
+                      - row [ref=f1e403]:
+                        - cell "My Routines" [ref=f1e404]:
+                          - generic [ref=f1e405]:
+                            - generic [aria-hidden] [ref=f1e406]: 
+                            - generic "My Routines" [ref=f1e407] [cursor=pointer]
+                      - row [ref=f1e408]:
+                        - cell [ref=f1e409]:
+                          - table [ref=f1e410]:
+                            - rowgroup [ref=f1e411]:
+                              - row [ref=f1e412]:
+                                - cell "DAILY" [ref=f1e413] [cursor=pointer]
+                                - cell "MONTHLY" [ref=f1e416] [cursor=pointer]
+                              - row [ref=f1e419]:
+                                - cell [ref=f1e420]:
+                                  - generic [ref=f1e422]:
+                                    - link "Release Orders" [ref=f1e424] [cursor=pointer]:
+                                      - /url: /POC/BuyerAction/ReleaseFilter
+                                    - link "Receive Goods" [ref=f1e426] [cursor=pointer]:
+                                      - /url: /POC/BuyerAction/ReceiveFilter
+                                    - link "Create Spike Order" [ref=f1e428] [cursor=pointer]:
+                                      - /url: /POC/BuyerAction/SpikeOrderEntry
+                                    - link "Analyze Material Status" [ref=f1e430] [cursor=pointer]:
+                                      - /url: /POC/MaterialStatus/Index
+                                    - link "Approve Virtual Kanban" [ref=f1e432] [cursor=pointer]:
+                                      - /url: /POC/BuyerAction/VKApproveFilter
+                                    - link "View Receipts Due" [ref=f1e434] [cursor=pointer]:
+                                      - /url: /POC/BuyerReport/ReceiptsDueByDay
+                  - table [ref=f1e439]:
+                    - rowgroup [ref=f1e440]:
+                      - row [ref=f1e441]:
+                        - cell "MRP Forecasts Planned Orders" [ref=f1e442]:
+                          - generic [ref=f1e443]:
+                            - generic [aria-hidden] [ref=f1e444]: 
+                            - generic "MRP Forecasts Planned Orders" [ref=f1e445] [cursor=pointer]
+                          - generic [aria-hidden] [ref=f1e447] [cursor=pointer]: 
+                      - row [ref=f1e448]:
+                        - cell [ref=f1e449]:
+                          - table [ref=f1e450]:
+                            - rowgroup [ref=f1e451]:
+                              - row [ref=f1e452]:
+                                - cell "0 Past + 7 Days" [ref=f1e453]:
+                                  - generic [ref=f1e454]: "0"
+                                  - generic [ref=f1e458]: Past + 7 Days
+                                - cell "0 Next 7 Days" [ref=f1e460]:
+                                  - generic [ref=f1e461]: "0"
+                                  - generic [ref=f1e465]: Next 7 Days
+                                - cell "0 Future" [ref=f1e467]:
+                                  - generic [ref=f1e468]: "0"
+                                  - generic [ref=f1e472]: Future
+        - text:                                                                          
+  - generic [ref=f1e474]: Ultriva © 2026
+  - log [ref=f1e476]

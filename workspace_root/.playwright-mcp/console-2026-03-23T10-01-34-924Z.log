@@ -1,0 +1,22 @@
+[    3837ms] [ERROR] The Content-Security-Policy directive 'object-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://upland.testrail.com/index.php?/auth/login/:5
+[    3837ms] [ERROR] The Content-Security-Policy directive 'worker-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://upland.testrail.com/index.php?/auth/login/:5
+[   10978ms] [ERROR] Labels Control: Project ID is not set. @ https://static.testrail.io/10.1.3.1006/js/bundle/application-entrypoint.js:0
+[   11354ms] Uncaught [object Object]
+    at <anonymous> (https://static.testrail.io/10.1.3.1006/js/bundle/common-deps-header.js:9:30978)
+[   63545ms] [ERROR] The Content-Security-Policy directive 'object-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://upland.testrail.com/index.php?/auth/login/:5
+[   63545ms] [ERROR] The Content-Security-Policy directive 'worker-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://upland.testrail.com/index.php?/auth/login/:5
+[   63811ms] [ERROR] Labels Control: Project ID is not set. @ https://static.testrail.io/10.1.3.1006/js/bundle/application-entrypoint.js:0
+[   64144ms] Uncaught [object Object]
+    at <anonymous> (https://static.testrail.io/10.1.3.1006/js/bundle/common-deps-header.js:9:30978)
+[  159450ms] [ERROR] The Content-Security-Policy directive 'object-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://upland.testrail.com/index.php?/auth/login/:5
+[  159450ms] [ERROR] The Content-Security-Policy directive 'worker-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://upland.testrail.com/index.php?/auth/login/:5
+[  159641ms] [ERROR] Labels Control: Project ID is not set. @ https://static.testrail.io/10.1.3.1006/js/bundle/application-entrypoint.js:0
+[  159966ms] Uncaught [object Object]
+    at <anonymous> (https://static.testrail.io/10.1.3.1006/js/bundle/common-deps-header.js:9:30978)
+[  441997ms] [ERROR] The Content-Security-Policy directive 'object-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://upland.testrail.com/index.php?/onboarding:5
+[  441997ms] [ERROR] The Content-Security-Policy directive 'worker-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://upland.testrail.com/index.php?/onboarding:5
+[  442560ms] [ERROR] The Content-Security-Policy directive 'object-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ about:blank:0
+[  442560ms] [ERROR] The Content-Security-Policy directive 'worker-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ about:blank:0
+[  442562ms] [ERROR] The Content-Security-Policy directive 'object-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ about:blank:0
+[  442562ms] [ERROR] The Content-Security-Policy directive 'worker-src' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ about:blank:0
+[  442762ms] [ERROR] Labels Control: Project ID is not set. @ https://static.testrail.io/10.1.3.1006/js/bundle/application-entrypoint.js:0

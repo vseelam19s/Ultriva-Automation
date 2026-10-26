@@ -1,0 +1,21 @@
+======================================================================
+  ASSIGN SUPPLIER — TEST REPORT
+======================================================================
+  Date            : 2026-04-27 16:38:09
+  URL             : https://engineering.ultrivalms.com/QALS1011
+  User            : buyeruser
+  Entity / BU     : Supplier
+  Entity GID      : BSU22ZAQALQG
+  Supplier Assigned: Sup@WorkCenter@B
+  Code Entered    : AC7658
+
+  STEPS
+  -----
+  [PASS] Login                      — buyeruser authenticated
+  [PASS] External Supplier List     — Admin > Supplier navigated
+  [PASS] Associate Supplier         — Assigned Supplier List opened
+  [PASS] Show Unassigned Suppliers  — Unassigned list loaded
+  [PASS] Select Supplier            — checkbox ticked
+  [PASS] Enter Code                 — code field filled
+  [PASS] Assign                    — supplier confirmed in assigned list
+======================================================================

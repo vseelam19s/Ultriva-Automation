@@ -8,6 +8,7 @@ Run from the qa_automation folder:
     python report_automated_modules.py
 """
 
+import os
 import requests
 import json
 import time
@@ -16,7 +17,7 @@ from collections import defaultdict
 # ── Config ────────────────────────────────────────────────────────────────────
 TESTRAIL_URL = "https://upland.testrail.com/"
 EMAIL        = "vseelam@uplandsoftware.com"
-API_KEY      = "LR5Bc8syGLl4d.dweMDC-bN9OoDA5pyiO6dKCHlh3"
+API_KEY      = os.environ["TESTRAIL_API_KEY"]
 PROJECT_ID   = 15
 
 AUTH    = (EMAIL, API_KEY)

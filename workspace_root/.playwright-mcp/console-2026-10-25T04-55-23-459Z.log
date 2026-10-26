@@ -1,0 +1,142 @@
+[    4725ms] [INFO] 
+IFRAME-RESIZER
+
+Iframe-Resizer 5 is now available via the following two packages:
+
+ * @iframe-resizer/parent
+ * @iframe-resizer/child
+
+Additionally their are also new versions of iframe-resizer for React, Vue, and jQuery.
+
+Version 5 of iframe-resizer has been extensively rewritten to use modern browser APIs, which has enabled significantly better performance and greater accuracy in the detection of content resizing events.
+
+Please see https://iframe-resizer.com/upgrade for more details.
+ @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/async-forge-ui-extension.01ff00a2.js:328
+[    4828ms] [LOG] BridgeContext changed: [surfaceColor] @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/async-forge-ui-extension.01ff00a2.js:565
+[    4831ms] [LOG] BridgeContext changed: [surfaceColor] @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/async-forge-ui-extension.01ff00a2.js:565
+[    5172ms] [WARNING] DEPRECATED JS - Cookie has been deprecated since 5.8.0 and will be removed in a future release. Use cookie instead.   
+     at b.default (https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/2a93a757e7029d32b858b87d0f929fad/_/download/contextbatch/js/jira.webresources:skate,jira.webresources:dialogs,jira.webresources:jira-global,jira.webresources:key-commands,com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources,com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init,jira.webresources:util-lite,jira.webresources:util,jira.webresources:feature-flags,com.atlassian.auiplugin:aui-spinner,com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client,jira.webresources:header,jira.webresources:global-static,com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next,com.atlassian.analytics.analytics-client:js-events,com.atlassian.jira.jira-issue-nav-plugin:stylesheets,com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources,com.atlassian.jira.jira-atlaskit-plugin:overrides-general,com.atlassian.auiplugin:dialog2,com.atlassian.jira.plugins.jira-browser-metrics:contrib,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api,com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl,-jira.heritage.critical/batch.js?locale=en-US:29:209) @ https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/2a93a757e7029d32b858b87d0f929fad/_/download/contextbatch/js/jira.webresources:skate,jira.webresources:dialogs,jira.webresources:jira-global,jira.webresources:key-commands,com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources,com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init,jira.webresources:util-lite,jira.webresources:util,jira.webresources:feature-flags,com.atlassian.auiplugin:aui-spinner,com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client,jira.webresources:header,jira.webresources:global-static,com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next,com.atlassian.analytics.analytics-client:js-events,com.atlassian.jira.jira-issue-nav-plugin:stylesheets,com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources,com.atlassian.jira.jira-atlaskit-plugin:overrides-general,com.atlassian.auiplugin:dialog2,com.atlassian.jira.plugins.jira-browser-metrics:contrib,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api,com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl,-jira.heritage.critical/batch.js?locale=en-US:31
+[    5190ms] [LOG] Failed to run init function: TypeError: removeOldAnalytics is not a function
+function() {
+    	determineStorageKey();
+        setTimeout(bulkPublish, 500);
+        removeOldAnalytics();
+    } @ https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/2a93a757e7029d32b858b87d0f929fad/_/download/contextbatch/js/jira.webresources:skate,jira.webresources:dialogs,jira.webresources:jira-global,jira.webresources:key-commands,com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources,com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init,jira.webresources:util-lite,jira.webresources:util,jira.webresources:feature-flags,com.atlassian.auiplugin:aui-spinner,com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client,jira.webresources:header,jira.webresources:global-static,com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next,com.atlassian.analytics.analytics-client:js-events,com.atlassian.jira.jira-issue-nav-plugin:stylesheets,com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources,com.atlassian.jira.jira-atlaskit-plugin:overrides-general,com.atlassian.auiplugin:dialog2,com.atlassian.jira.plugins.jira-browser-metrics:contrib,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api,com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl,-jira.heritage.critical/batch.js?locale=en-US:218
+[    5468ms] [WARNING] DEPRECATED JS - Dropdown constructor has been deprecated and will be removed in a future release. Use Dropdown2 instead.   
+     at HTMLDocument.<anonymous> (https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/2a93a757e7029d32b858b87d0f929fad/_/download/contextbatch/js/jira.webresources:skate,jira.webresources:dialogs,jira.webresources:jira-global,jira.webresources:key-commands,com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources,com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init,jira.webresources:util-lite,jira.webresources:util,jira.webresources:feature-flags,com.atlassian.auiplugin:aui-spinner,com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client,jira.webresources:header,jira.webresources:global-static,com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next,com.atlassian.analytics.analytics-client:js-events,com.atlassian.jira.jira-issue-nav-plugin:stylesheets,com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources,com.atlassian.jira.jira-atlaskit-plugin:overrides-general,com.atlassian.auiplugin:dialog2,com.atlassian.jira.plugins.jira-browser-metrics:contrib,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api,com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl,-jira.heritage.critical/batch.js?locale=en-US:3629:201) @ https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/2a93a757e7029d32b858b87d0f929fad/_/download/contextbatch/js/jira.webresources:skate,jira.webresources:dialogs,jira.webresources:jira-global,jira.webresources:key-commands,com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources,com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init,jira.webresources:util-lite,jira.webresources:util,jira.webresources:feature-flags,com.atlassian.auiplugin:aui-spinner,com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client,jira.webresources:header,jira.webresources:global-static,com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next,com.atlassian.analytics.analytics-client:js-events,com.atlassian.jira.jira-issue-nav-plugin:stylesheets,com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources,com.atlassian.jira.jira-atlaskit-plugin:overrides-general,com.atlassian.auiplugin:dialog2,com.atlassian.jira.plugins.jira-browser-metrics:contrib,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api,com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl,-jira.heritage.critical/batch.js?locale=en-US:31
+[    5549ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 0.0.0-use.local when module version 4.23.4 was loading. @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/async-connect-js-api.cd772521.js:1
+[    5630ms] [WARNING] AJS's create element functionality has been deprecated since 5.9.0.
+No alternative will be provided.
+Use document.createElement() or jQuery.parseHTML(), or preferably use a templating library. @ https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/2a93a757e7029d32b858b87d0f929fad/_/download/contextbatch/js/jira.webresources:skate,jira.webresources:dialogs,jira.webresources:jira-global,jira.webresources:key-commands,com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources,com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init,jira.webresources:util-lite,jira.webresources:util,jira.webresources:feature-flags,com.atlassian.auiplugin:aui-spinner,com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client,jira.webresources:header,jira.webresources:global-static,com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next,com.atlassian.analytics.analytics-client:js-events,com.atlassian.jira.jira-issue-nav-plugin:stylesheets,com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources,com.atlassian.jira.jira-atlaskit-plugin:overrides-general,com.atlassian.auiplugin:dialog2,com.atlassian.jira.plugins.jira-browser-metrics:contrib,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api,com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl,-jira.heritage.critical/batch.js?locale=en-US:20
+[    5638ms] [WARNING] DEPRECATED JS - Inline dialog constructor has been deprecated and will be removed in a future release. Use inline dialog 2 instead.   
+     at l (https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/beb183fb8303632b5ef3e9337d0ab21a/_/download/contextbatch/js/jira.heritage.critical/batch.js:6:2054) @ https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/2a93a757e7029d32b858b87d0f929fad/_/download/contextbatch/js/jira.webresources:skate,jira.webresources:dialogs,jira.webresources:jira-global,jira.webresources:key-commands,com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources,com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init,jira.webresources:util-lite,jira.webresources:util,jira.webresources:feature-flags,com.atlassian.auiplugin:aui-spinner,com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client,jira.webresources:header,jira.webresources:global-static,com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next,com.atlassian.analytics.analytics-client:js-events,com.atlassian.jira.jira-issue-nav-plugin:stylesheets,com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources,com.atlassian.jira.jira-atlaskit-plugin:overrides-general,com.atlassian.auiplugin:dialog2,com.atlassian.jira.plugins.jira-browser-metrics:contrib,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api,com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl,-jira.heritage.critical/batch.js?locale=en-US:31
+[    8891ms] [WARNING] jQuery.Deferred exception: Cookies is not defined ReferenceError: Cookies is not defined
+    at self.applyNotificationBar (https://static.testrail.io/10.9.0.1032/js/application.js:107:28)
+    at HTMLDocument.<anonymous> (https://static.testrail.io/10.9.0.1032/js/application.js:262:8)
+    at mightThrow (https://static.testrail.io/10.9.0.1032/js/jquery.js:3489:29)
+    at process (https://static.testrail.io/10.9.0.1032/js/jquery.js:3557:12) undefined @ https://static.testrail.io/10.9.0.1032/js/jquery.js:3782
+[    8892ms] [WARNING] jQuery.Deferred exception: Cookies is not defined ReferenceError: Cookies is not defined
+    at self.applyNotificationBar (https://static.testrail.io/10.9.0.1032/js/application.js:107:28)
+    at HTMLDocument.<anonymous> (https://static.testrail.io/10.9.0.1032/js/application.js:262:8)
+    at mightThrow (https://static.testrail.io/10.9.0.1032/js/jquery.js:3489:29)
+    at process (https://static.testrail.io/10.9.0.1032/js/jquery.js:3557:12) undefined @ https://static.testrail.io/10.9.0.1032/js/jquery.js:3782
+[    8890ms] Uncaught ReferenceError: Cookies is not defined
+    at self.applyNotificationBar (https://static.testrail.io/10.9.0.1032/js/application.js:106:27)
+    at <anonymous> (https://static.testrail.io/10.9.0.1032/js/application.js:261:7)
+    at mightThrow (https://static.testrail.io/10.9.0.1032/js/jquery.js:3488:28)
+    at process (https://static.testrail.io/10.9.0.1032/js/jquery.js:3556:11)
+[    8891ms] Uncaught ReferenceError: Cookies is not defined
+    at self.applyNotificationBar (https://static.testrail.io/10.9.0.1032/js/application.js:106:27)
+    at <anonymous> (https://static.testrail.io/10.9.0.1032/js/application.js:261:7)
+    at mightThrow (https://static.testrail.io/10.9.0.1032/js/jquery.js:3488:28)
+    at process (https://static.testrail.io/10.9.0.1032/js/jquery.js:3556:11)
+[   12420ms] [WARNING] Deprecated API for given entry type. @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/react-ufo-create-extra-search-page-interaction-payload.8ec473b7.js:1
+[   17892ms] [LOG] [web-vitals] Sending metrics triggered by: timeout {metric:ttfb: 1269} @ https://connect-cdn.atl-paas.net/all.js:415
+[   17956ms] [LOG] [web-vitals] Sending metrics triggered by: timeout {metric:ttfb: 1328} @ https://connect-cdn.atl-paas.net/all.js:415
+[   20182ms] [WARNING] IndexedDB timed out. @ https://d3o8rfddrufp17.cloudfront.net/uplandsoftware.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/qtw0ha/b/0/2a93a757e7029d32b858b87d0f929fad/_/download/contextbatch/js/jira.webresources:skate,jira.webresources:dialogs,jira.webresources:jira-global,jira.webresources:key-commands,com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources,com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init,jira.webresources:util-lite,jira.webresources:util,jira.webresources:feature-flags,com.atlassian.auiplugin:aui-spinner,com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client,jira.webresources:header,jira.webresources:global-static,com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next,com.atlassian.analytics.analytics-client:js-events,com.atlassian.jira.jira-issue-nav-plugin:stylesheets,com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources,com.atlassian.jira.jira-atlaskit-plugin:overrides-general,com.atlassian.auiplugin:dialog2,com.atlassian.jira.plugins.jira-browser-metrics:contrib,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api,com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition,com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl,-jira.heritage.critical/batch.js?locale=en-US:3200
+[  164443ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://uplandsoftware.atlassian.net/rest/internal/1/work-category/id:0
+[ 4117173ms] [ERROR] WebSocket connection to 'wss://uplandsoftware.atlassian.net/gateway/api/graphql/subscriptions' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:1
+[ 4117206ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://uplandsoftware.atlassian.net/gateway/api/graphql/pq/9f3b4a09a7e4266768d98a555e0cad4773688c2aea1b8b19bc7c70ae5741160a?operation=Nav4NotificationsRefetchableQuery&variables=%7B%22collabContextRoutingAri%22%3A%22ari%3Acloud%3Aplatform%3A%3Asite%2Fc2e5b6e5-e457-414b-a1b5-53ab88c2acd4%22%7D:0
+[ 4117358ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://uplandsoftware.atlassian.net/rest/internal/2/log/safe/error:0
+[ 4117720ms] TypeError: Failed to fetch
+    at i (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1143)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1831
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39742)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39797)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1823
+    at new Promise (<anonymous>)
+    at s (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1801)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1989
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39579)
+    at l (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1938)
+    at Object.safeErrorWithoutCustomerData (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:2509)
+    at Object.onError [as error] (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/async-issue-app--full-page.4b98e443.js:722:31765)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at t._error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:490495)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:488237)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:430643)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:3:13427)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:3:14035)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:2:191249
+[ 4117416ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://uplandsoftware.atlassian.net/rest/internal/2/log/unsafe/frontend-exception:0
+[ 4117721ms] TypeError: Failed to fetch
+    at i (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1143)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:2100
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39742)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39797)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:2092
+    at new Promise (<anonymous>)
+    at u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:2070)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:2303
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39579)
+    at c (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:2252)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:2589)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa-issue-view.ba4fc0bc.js:16:43657
+    at Object.u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa-issue-view.ba4fc0bc.js:16:42919)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:2:207226)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at a (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:3:148)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:3:1453
+[ 4117449ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://uplandsoftware.atlassian.net/rest/internal/2/log/safe/error:0
+[ 4117722ms] TypeError: Failed to fetch
+    at i (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1143)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1831
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39742)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39797)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1823
+    at new Promise (<anonymous>)
+    at s (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1801)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1989
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:39579)
+    at l (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:1938)
+    at Object.safeErrorWithoutCustomerData (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:2:2509)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa-issue-view.ba4fc0bc.js:833:505531)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:435856
+    at Set.forEach (<anonymous>)
+    at t.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:435827)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:433536)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at t._error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:490495)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:488237)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:430643)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:2:207240)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.9f050e10.js:5:431688)
+    at a (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:3:148)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.40ad1df7.js:3:1453
+[ 7175656ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://xp.atlassian.com/v1/rgstr?k=client-7hFqlBhHaY5b2zA7LaaHDy1QKH7yZigbikmrwNpCuRy&st=javascript-client&sv=3.30.2&t=1792911296194&sid=d3912fba-d59f-4eeb-9c80-77b631d889b6&ec=3&gz=1:0
+[ 7179685ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://as.atlassian.com/api/v1/batch:0
+[ 7179687ms] [LOG] GASv3 submission failed with HTTP Status Code %d: %s -1 Unknown Status @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/parse-gates-and-init-controls-early-entry.0138f85c.js:3
+[73111647ms] [LOG] GASv3 submission failed with HTTP Status Code %d: %s -1 Unknown Status @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/parse-gates-and-init-controls-early-entry.0138f85c.js:3
+[73111974ms] [LOG] GASv3 submission failed with HTTP Status Code %d: %s -1 Unknown Status @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/parse-gates-and-init-controls-early-entry.0138f85c.js:3

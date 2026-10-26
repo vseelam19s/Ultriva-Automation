@@ -1,0 +1,631 @@
+======================================================================
+  ASSIGN SUPPLIER — TEST REPORT
+======================================================================
+  Date            : 2026-04-27 15:48:33
+  URL             : https://engineering.ultrivalms.com/QALS1011
+  User            : buyeruser
+  Entity / BU     : Supplier
+  Entity GID      : BSU22ZAQALQG
+  Supplier Assigned: Required fields do not have valid values.
+				
+			
+		
+	
+
+
+
+ 
+
+
+    
+        
+	
+		   Go
+	
+                
+    
+
+    
+    
+	 
+
+  
+
+    
+	
+		AssignBack
+	
+
+
+  
+
+    
+        
+            
+                
+                    Sorted by: Name
+                    1 to 17 of 17   
+                
+            
+                
+                    Sorted by: Name
+                    1 to 17 of 17   
+                
+            
+        
+        
+            
+
+	
+		
+		Name
+		Location
+		Code
+		Site Id
+		Label
+		Auto Receive
+		Auto StartFirstOperation
+		Ship UsingShipmentModule
+		Print UsingUltriva Software
+		Adjust CalculatedReqd ShipDateto EOD
+		QualityOwner
+	
+
+	
+		
+		Name
+		Location
+		Code
+		Site Id
+		Label
+		Auto Receive
+		Auto StartFirstOperation
+		Ship UsingShipmentModule
+		Print UsingUltriva Software
+		Adjust CalculatedReqd ShipDateto EOD
+		QualityOwner
+	
+
+
+	
+		
+		Bedrock Enterprises
+		ABC
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		LeanPlant
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		LeanSup
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Plant-A
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Plant-B
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Sup@PlantB
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Sup@WorkCenter@B
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Sup231024
+		Test
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Supp@plantB
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Supplier@PlantA
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Supplier-A
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Supplier-B
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		SupS12
+		VIzag22
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		SupTestPlant
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		SupUU
+		India
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Tech Production
+		USA
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+	
+		
+		Upland-Ultriva
+		Canada
+		
+	
+		
+			
+		
+	
+
+		
+		
+	
+DropoffLocationLblUpdatedeBizKanbanNew labelRegal_Routing4X6RegalLatestlabelScrap Tag
+		
+		
+		
+		
+		
+		
+	
+SherifUser01119User1101023User150426_1
+	
+
+
+
+        
+    
+
+
+
+
+ 
+    var pageURL = '/QALS1011/Supplier/AssignSupplier';
+    var GID="BSU22ZAQALQG";
+    var gridQueryString = "B~2~ABCDEFGHIJKL&"
+    var ParentQryString = "pse%3D%26pfe%3D%26pti%3D0";
+    var filterQueryString = "";
+    var labels = [{"Name":"DropoffLocationLblUpdated","GID":"LBL-22YKJ2-2222AQ-QAL3X","rowno":"1"},{"Name":"eBizKanban","GID":"$","rowno":"2"},{"Name":"New label","GID":"LBL-22YKDN-222225-QALNT","rowno":"3"},{"Name":"Regal_Routing4X6","GID":"LBL-22ZCJ5-22223G-QAL8N","rowno":"4"},{"Name":"RegalLatestlabel","GID":"LBL-22ZHMG-222228-QALUK","rowno":"5"},{"Name":"Scrap Tag","GID":"LBL-22ZQ4S-222224-QAL88","rowno":"6"}]
+    var _sup_relations = [{"Name":"External","GID":"EXTERNAL","rowno":"1"},{"Name":"Inter Org","GID":"INTER","rowno":"2"}]
+    var quality =  [{"id":"USR232KQALJD","text":"Sherif","rowno":"1"},{"id":"USR232XQALMU","text":"User01119","rowno":"2"},{"id":"USR233PQALT7","text":"User1101023","rowno":"3"},{"id":"USR2355QALFN","text":"User150426_1","rowno":"4"}]
+
+    function AssignSupplier_Sort(se) {
+        goPage(pageURL, "se=" + se + "&GID=" + GID + "&" + ParentQryString);
+    }
+
+    function AssignSupplier_TabClick(tabIndex, prevTabIndex) {
+        switch (tabIndex) {
+            case 0:
+                assign();
+                break;
+            case 1:
+                backToListPage();
+                break;
+        } 
+    }
+
+    function backToListPage() {
+        goPage('/QALS1011/Supplier/AssignedSupplier', "se=&fe=&GID=BSU22ZAQALQG&BusGID=BSU22ZAQALQG&FPG=");
+    }
+
+    function AssignSupplier_Pager_PageChanged(pi) {
+        goPage(pageURL, "pi=" + pi + "&se=" + gridQueryString + "&GID=" + GID + "&" + ParentQryString);
+    }
+
+    function AssignSupplier_Pager_KeyPressed(event, maxPageNumber) {
+        ToolbarPager_KeyPressed(event, maxPageNumber, AssignSupplier_Pager_PageChanged);
+    }
+
+    function assign() {
+        var frm = $("div#frma form")
+        var tbl = $("table#AssignSupplier", frm)
+        if ($("tr:gt(0) input:checkbox:checked[name^='AssignSupplier']", tbl).length == 0) {
+            $("#dialog").ebomodal({ modalType: "Close", modalText: "Please select at least one Supplier to assign" });
+            return;
+        }
+        var isValid = true
+        
+        $("tr:gt(0) input:checkbox[name^='AssignSupplier']", tbl).each(function() {
+            if ($(this).parent()[0].tagName === "TH") return true;
+            var oC = $(this);
+            var tr = oC.closest("td").closest("tr");
+            var txtCode = $("td input[id*='TextboxBusSupplierCode']", tr);
+            var objImg = $("img", txtCode.closest("td"));
+            var code = jQuery.trim(txtCode.val());
+            
+            if($(this).is(":checked")) {
+                if(code == ""){
+                    txtCode.addClass("input-validation-error")
+                    objImg.attr("src", objImg.attr("esrc")); 
+                    objImg.addClass("TipImage"); 
+                    objImg.ebotooltip();
+                    isValid = false;
+                }
+                else{
+                    objImg.attr("src", objImg.attr("dsrc")); 
+                    objImg.removeClass("TipImage");
+                    txtCode.removeClass("input-validation-error")
+                }
+            }
+            else{
+                objImg.attr("src", objImg.attr("dsrc")); 
+                txtCode.removeClass("input-validation-error")
+            }
+        });
+        if(!isValid) 
+        {
+            $("div#pgerr").show()
+            return; 
+        }        
+        frm.submit()
+    }
+
+    function PageFilter_Click(filterID, filterExpr) {
+        goPage(pageURL, "se=" + gridQueryString + "&fe=" + filterExpr + "&GID=" + GID)
+    }
+
+    function PageFind_Click(findID, findExpr) {
+        goPage(pageURL, "se=" + gridQueryString + "&fe=" + filterQueryString + "&fne=" + findExpr + "&GID=" + GID)
+    }
+    var _asgnGridTable = null;
+    $(document).ready(function() {
+        $("ul.find").ebofind({ gridID: "table#AssignSupplier" })
+        _asgnGridTable = $("table#AssignSupplier");
+        
+        $("tr td select[name$='DropDownLabel2']", _asgnGridTable).each(function(){
+            for(var i = 0; i < labels.length; i++)
+            {
+                $(this).append($("<option></option>").val(labels[i].GID).html(labels[i].Name));
+            }
+            var selGID = $(this).parent("td").attr("sv")
+            $("option[value='" + selGID + "']", $(this)).attr("selected", "selected")
+        });
+
+        $("tr td select[name$='DropDownQuality']", _asgnGridTable).each(function(){
+            for(var i = 0; i < quality.length; i++)
+            {
+                $(this).append($("<option></option>").val(quality[i].id).html(quality[i].text));
+            }
+            var selqGID = $(this).parent("td").attr("qu")
+            $("option[value='" + selqGID + "']", $(this)).attr("selected", "selected")
+        });
+
+        UIUtils.InitDataGridAndStickyHeader("table#AssignSupplier");
+    });
+  Code Entered    : AC3782
+
+  STEPS
+  -----
+  [PASS] Login                      — buyeruser authenticated
+  [PASS] External Supplier List     — Admin > Supplier navigated
+  [PASS] Associate Supplier         — Assigned Supplier List opened
+  [PASS] Show Unassigned Suppliers  — Unassigned list loaded
+  [PASS] Select Supplier            — checkbox ticked
+  [PASS] Enter Code                 — code field filled
+  [WARN] Assign                    — supplier assign clicked (verify manually)
+======================================================================

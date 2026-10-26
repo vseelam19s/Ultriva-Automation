@@ -1,0 +1,29 @@
+
+================================================================================
+WORKCENTER CREATION REPORT — WC1783
+================================================================================
+Date/Time  : 2026-04-19 16:25:02
+Test URL   : https://engineering.ultrivalms.com/QALS1011
+User       : buyeruser
+Action     : Create New Workcenter
+
+WORKCENTER DETAILS:
+================================================================================
+  Name                : WC1783
+  Location            : Loc799
+  Code                : WC1783
+  Label               : eBizKanban
+  Time zone           : Inherit From Owner Business Unit
+  Weekly Holiday      : Sun, Sat (default)
+
+OPERATIONS PERFORMED:
+================================================================================
+1. Login as buyeruser
+2. Navigate to Admin > Workcenter
+3. Click '+ Add' to open Create New Workcenter form
+4. Fill mandatory fields with random values
+5. Select Label = ebizkanban
+6. Click Save
+
+CURRENT URL: https://engineering.ultrivalms.com/QALS1011/PageFlow/List?GID=BSU2363QALTJ&cc=Workcenter&ca=Create
+================================================================================

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "qa_automation", "qa_automation", "{4C9CE966-CB18-7ADB-D3B1-EA49CBF7D870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ultriva_selenium_csharp", "qa_automation\ultriva_selenium_csharp\ultriva_selenium_csharp.csproj", "{D6FCF7AD-E5F0-3580-E97B-89FB8E8337CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6FCF7AD-E5F0-3580-E97B-89FB8E8337CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FCF7AD-E5F0-3580-E97B-89FB8E8337CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FCF7AD-E5F0-3580-E97B-89FB8E8337CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FCF7AD-E5F0-3580-E97B-89FB8E8337CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6FCF7AD-E5F0-3580-E97B-89FB8E8337CF} = {4C9CE966-CB18-7ADB-D3B1-EA49CBF7D870}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E91EDA61-F25E-4722-A89F-2308393A200A}
+	EndGlobalSection
+EndGlobal

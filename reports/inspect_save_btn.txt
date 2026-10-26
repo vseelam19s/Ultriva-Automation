@@ -1,0 +1,11 @@
+Edit page URL: https://engineering.ultrivalms.com/QALS1011/User/Update?GID=USR234WQALWE
+Total buttons/links: 254
+  tag=button text='Buyer K Test' id='' onclick='None' href='None'
+  tag=a text='Home' id='' onclick='None' href='https://engineering.ultrivalms.com/QALS1011/User/PopBreadCrumb?idx=2'
+  tag=a text='Admin' id='' onclick='None' href='https://engineering.ultrivalms.com/QALS1011/User/PopBreadCrumb?idx=1'
+  tag=a text='User' id='' onclick='None' href='https://engineering.ultrivalms.com/QALS1011/User/PopBreadCrumb?idx=0'
+  tag=button text='TCEK-Ram' id='' onclick='None' href='None'
+  tag=button text='Application (Plant)' id='' onclick='None' href='None'
+  tag=a text='Show Privilege' id='swprv' onclick='None' href="javascript:swprv_X('GRP00002')"
+
+--- Elements with save/Save in any attribute ---

@@ -1,0 +1,26 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\vseelam\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\vseelam\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.cwd": "${workspaceFolder}/qa_automation",
+    "python.testing.pytestArgs": [
+        "QASite/QALS11",
+        "--continue-on-collection-errors",
+        "--rootdir=${workspaceFolder}/qa_automation"
+    ],
+    "python.testing.pytestPath": "C:\\Users\\vseelam\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pytest.exe",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./qa_automation",
+        "-p",
+        "*test.py"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "chat.tools.terminal.autoApprove": {
+        "pytest": true
+    }
+}

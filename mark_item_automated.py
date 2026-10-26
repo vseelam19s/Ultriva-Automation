@@ -4,11 +4,12 @@ Purpose: Mark all test cases in AdminModule > Admin > Item (ID=92099) as "Is Aut
 Project : Ultriva (ID=15)
 Suite   : AdminModule (ID=2571)
 """
+import os
 import requests, json, time
 
 TESTRAIL_URL = "https://upland.testrail.com/"
 EMAIL        = "vseelam@uplandsoftware.com"
-API_KEY      = "LR5Bc8syGLl4d.dweMDC-bN9OoDA5pyiO6dKCHlh3"
+API_KEY      = os.environ["TESTRAIL_API_KEY"]
 PROJECT_ID   = 15
 SUITE_ID     = 2571
 SECTION_ID   = 92099  # Admin > Item

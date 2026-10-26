@@ -1,0 +1,36 @@
+
+================================================================================
+EDIT WORKCENTER REPORT — WC97705
+================================================================================
+Date/Time  : 2026-04-19 15:50:37
+Test URL   : https://engineering.ultrivalms.com/QALS1011
+User       : buyeruser
+Action     : Edit Workcenter
+
+ORIGINAL CREATION VALUES:
+================================================================================
+  Name                : WC97705
+  Location            : Loc260
+  Code                : WC97705
+  Label               : eBizKanban
+  Time zone           : Inherit From Owner Business Unit
+  Weekly Holiday      : Sun, Sat (default)
+
+UPDATED VALUES (EDIT):
+================================================================================
+  Location            : EditLoc362
+  Time zone           : (GMT-01:00) Cape Verde Is.
+  Checkbox MISC$chk6  : checked
+  Checkbox MISC$chk7  : unchecked
+
+OPERATIONS PERFORMED:
+================================================================================
+1. Navigate to Workcenter list
+2. Search for 'WC97705'
+3. Select the workcenter row
+4. Click 'Edit' button
+5. Update Location, Time zone, Weekly Holidays, Auto Accept
+6. Click Save
+
+CURRENT URL: https://engineering.ultrivalms.com/QALS1011/Workcenter/List?GID=BSU22ZKQALPC
+================================================================================

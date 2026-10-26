@@ -3,12 +3,6 @@ __pycache__/
 .pytest_cache/
 .venv/
 .env
-.vscode/
-/reports/
-/QASite/reports/
-*.png
-*_Report_*.txt
-*.zip
-*.log
+screenshots/
 ultriva_selenium_csharp/bin/
 ultriva_selenium_csharp/obj/

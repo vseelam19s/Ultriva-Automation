@@ -1,0 +1,95 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - text: Ultriva Integration Documentation
+    - generic [ref=e3]:
+      - textbox [ref=e4]
+      - button [ref=e5] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: "#!"
+          - link "Ultriva Integration Documentation" [ref=e11] [cursor=pointer]:
+            - /url: ../html/04a7037a-8d71-4d68-8f71-027b6da1ac9b.htm
+        - link "Introduction" [ref=e13] [cursor=pointer]:
+          - /url: ../html/04a7037a-8d71-4d68-8f71-027b6da1ac9b.htm
+        - link "SQL Table Format" [ref=e15] [cursor=pointer]:
+          - /url: ../html/ca5c40ce-3a8e-4082-ac12-9b903c9fbd59.htm
+        - link "Import Export Processor" [ref=e17] [cursor=pointer]:
+          - /url: ../html/59710a47-a5fa-4ce5-aefe-21e3cc09554a.htm
+        - link "Flat File Format" [ref=e19] [cursor=pointer]:
+          - /url: ../html/bd527592-b4ff-43b8-9ba9-34f9d56512d7.htm
+        - generic [ref=e20]:
+          - link [active] [ref=e21] [cursor=pointer]:
+            - /url: "#!"
+          - link "File Based Integration Points" [ref=e22] [cursor=pointer]:
+            - /url: ../html/eda992e3-2f1c-4dbf-bcb0-2def3b5f8b9f.htm
+        - generic [ref=e66]:
+          - link [ref=e67] [cursor=pointer]:
+            - /url: "#!"
+          - link "ERP to Ultriva" [ref=e68] [cursor=pointer]:
+            - /url: ../html/16544c5f-f712-4bbc-acb7-f1877808578a.htm
+        - generic [ref=e69]:
+          - link [ref=e70] [cursor=pointer]:
+            - /url: "#!"
+          - link "Ultriva To ERP" [ref=e71] [cursor=pointer]:
+            - /url: ../html/fb1e7c9d-0140-4f75-a59d-c6e46199aa40.htm
+        - link "Error File Format" [ref=e73] [cursor=pointer]:
+          - /url: ../html/a0a55dca-08f2-405d-8c71-feb2675d8c5f.htm
+        - generic [ref=e23]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: "#!"
+          - link "API Based Integration Point" [ref=e25] [cursor=pointer]:
+            - /url: ../html/f0539d93-50d0-4298-a8dd-8896ac416a48.htm
+        - generic [ref=e26]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: "#!"
+          - link "SQL Table Based Integration Points" [ref=e28] [cursor=pointer]:
+            - /url: ../html/6fdb864a-88d8-4d09-a1db-6a295ca761b5.htm
+        - generic [ref=e29]:
+          - link [ref=e30] [cursor=pointer]:
+            - /url: "#!"
+          - link "Ultriva Oracle Connector" [ref=e31] [cursor=pointer]:
+            - /url: ../html/97a56274-4387-4c57-992e-1fd7de5de343.htm
+        - generic [ref=e32]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: "#!"
+          - link "EDI Interface Overview" [ref=e34] [cursor=pointer]:
+            - /url: ../html/1880d23d-dad7-404f-aa18-5b7227d4a127.htm
+        - generic [ref=e35]:
+          - link [ref=e36] [cursor=pointer]:
+            - /url: "#!"
+          - link "SampleIntegration" [ref=e37] [cursor=pointer]:
+            - /url: ../html/64a518a0-d6c5-4023-f611-6fb84c689f61.htm
+      - img "Click or drag to resize" [ref=e40] [cursor=pointer]
+    - generic [ref=e41]:
+      - table [ref=e42]:
+        - rowgroup [ref=e43]:
+          - row "Introduction" [ref=e44]:
+            - cell "Introduction" [ref=e45]:
+              - heading "Introduction" [level=1] [ref=e46]
+      - generic [ref=e47]:
+        - paragraph [ref=e48]: "Ultriva Application can be integrated with any ERP applications which provides programming interface. Ultriva supports following approaches to integrate with ERP Applications:"
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - paragraph [ref=e51]: Flat file based integration
+          - listitem [ref=e52]:
+            - paragraph [ref=e53]: SQL Table based Integration
+          - listitem [ref=e54]:
+            - paragraph [ref=e55]: Ultriva Oracle Connector
+          - listitem [ref=e56]:
+            - paragraph [ref=e57]: EDI Integration (mainly Suppliers to integrate with Ultriva)
+        - paragraph [ref=e58]:
+          - text: This Help document describes the common integration points between Ultriva and ERP systems using
+          - strong [ref=e59]: Flat File
+          - text: based approach.
+        - paragraph [ref=e60]
+  - generic [ref=e61]:
+    - paragraph [ref=e62]:
+      - link "2000 - 2020 Ultriva Inc. All Rights Reserved." [ref=e63] [cursor=pointer]:
+        - /url: http://www.ultriva.com
+    - generic [ref=e64]:
+      - text: Send comments on this topic to
+      - link "support@ultriva.com" [ref=e65] [cursor=pointer]:
+        - /url: "mailto:support%40ultriva.com?Subject=Ultriva%20Integration%20Documentation: Introduction&body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2C%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2C%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed."

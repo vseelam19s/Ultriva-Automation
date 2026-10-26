@@ -1,0 +1,19 @@
+======================================================================
+  ADD SHIPPING RULE — TEST REPORT
+======================================================================
+  Date     : 2026-04-27 18:29:45
+  URL      : https://engineering.ultrivalms.com/QALS1011
+  User     : buyeruser
+  Supplier : cimplsupplier
+  GID      : BSU232HQALMF
+
+  STEPS
+  -----
+  [PASS] Login                  — buyeruser authenticated
+  [PASS] External Supplier List — Admin > Supplier navigated
+  [PASS] Shipping Rules         — More Options > Shipping Rules opened
+  [PASS] Add Shipping Rule      — Add form opened
+  [PASS] Select Rule            — Rule chosen, Select clicked
+  [PASS] Mandatory Links        — Each link dialog filled & Applied
+  [PASS] Save                   — Shipping Rule saved successfully
+======================================================================

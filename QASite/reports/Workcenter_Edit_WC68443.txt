@@ -1,0 +1,38 @@
+
+================================================================================
+EDIT WORKCENTER REPORT — WC68443
+================================================================================
+Date/Time  : 2026-04-19 17:42:56
+Test URL   : https://engineering.ultrivalms.com/QALS1011
+User       : buyeruser
+Action     : Edit Workcenter
+
+ORIGINAL CREATION VALUES:
+================================================================================
+  Name                : WC68443
+  Location            : Loc809
+  Code                : WC68443
+  Label               : eBizKanban
+  Time zone           : Inherit From Owner Business Unit
+  Weekly Holiday      : Sun, Sat (default)
+
+UPDATED VALUES (EDIT):
+================================================================================
+  Location            : EditLoc975
+  Time zone           : (GMT+04:00) Abu Dhabi, Muscat
+  Checkbox MISC$chk3  : unchecked
+  Checkbox MISC$chk4  : checked
+  Checkbox MISC$chk5  : checked
+  Checkbox MISC$chk6  : checked
+
+OPERATIONS PERFORMED:
+================================================================================
+1. Navigate to Workcenter list
+2. Search for 'WC68443'
+3. Select the workcenter row
+4. Click 'Edit' button
+5. Update Location, Time zone, Weekly Holidays, Auto Accept
+6. Click Save
+
+CURRENT URL: https://engineering.ultrivalms.com/QALS1011/Workcenter/List?GID=BSU232QQALMS
+================================================================================

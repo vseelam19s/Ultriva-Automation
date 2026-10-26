@@ -1,0 +1,88 @@
+URL: https://engineering.ultrivalms.com/QALS1011/User/Update?GID=USR234WQALWE
+
+
+--- save #1 at pos 73842 ---
+d="entryPGSubmit" tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item" onclick="frmEntryPage_onSubmit();" title="Save">
+                                                        <i class="fa fa-check-square-o btn-toolbar-icon" aria-hidden="true"></i>
+                                                        <span class="btn-toolbar-text">Save</span>
+                                                    </span>
+     
+
+--- save #2 at pos 74065 ---
+ar-icon" aria-hidden="true"></i>
+                                                        <span class="btn-toolbar-text">Save</span>
+                                                    </span>
+                                                
+                                                    <span id="entryPGCancel" tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item" onclick="backToListPage()" title="Cancel">
+
+--- save #3 at pos 111511 ---
+User/PopBreadCrumb', 'idx=0');
+        }
+        
+        function upload_frmEntryPage_onSubmit() {
+            UIUtils.SaveInLocalStorage('accordion-active-index', '1');
+            frmEntryPage_onSubmit();
+        }
+
+        function frmEntryPage_onSubmit() {
+            $('#EntrySubmit').val('PostBack');
+            UIUtils.EnableDisableUIBtn('entryPGSubmit', false);
+            UIUtils.EnableDisableUIBtn('entryPG
+
+
+=== frmEntryPage occurrences ===
+
+--- frm #1 ---
+>
+                    <form action="/QALS1011/User/Update?GID=USR234WQALWE" id="frmEntryPage" method="post" name="frmEntryPage"><input name="__RequestVerificationToken" type="hidden" value="30hoacnAeJ-X-umNTmHnqjo9NaSOGi3hzmpQsaSjiuRu4xqxKGco3kqfkxg5xORaH4uPpSr3GHOlsFLOrTxQEDbtbPF2VebV3lXBevhpZms1">
+                    <div style="margin-left:auto;margin-right:auto;width:100%">
+                        <div class="contentb">
+                            <table style="width:100%
+
+--- frm #2 ---
+="/QALS1011/User/Update?GID=USR234WQALWE" id="frmEntryPage" method="post" name="frmEntryPage"><input name="__RequestVerificationToken" type="hidden" value="30hoacnAeJ-X-umNTmHnqjo9NaSOGi3hzmpQsaSjiuRu4xqxKGco3kqfkxg5xORaH4uPpSr3GHOlsFLOrTxQEDbtbPF2VebV3lXBevhpZms1">
+                    <div style="margin-left:auto;margin-right:auto;width:100%">
+                        <div class="contentb">
+                            <table style="width:100%;" class="Entrypageheader">
+      
+
+--- frm #3 ---
+onAccess" + hidControlName.substring("imgListItem_".length)
+
+        // Getting frmEntryPage, in UplandOne the form[0] is the search form.
+        document.forms['frmEntryPage'].elements[hidControlName].value = appAccessMode
+    }
+    
+    function backToListPage()
+    {
+        goPage('/QALS1011/User/List?GID=USR234WQALWE&iea=0', '');
+    }
+    var defAccountType = 'GRP00002'
+    function swprv_X(defGID)
+    {
+        var gid = $("select[name='USR$AccountType']").val()
+     
+
+--- frm #4 ---
+EntryPage, in UplandOne the form[0] is the search form.
+        document.forms['frmEntryPage'].elements[hidControlName].value = appAccessMode
+    }
+    
+    function backToListPage()
+    {
+        goPage('/QALS1011/User/List?GID=USR234WQALWE&iea=0', '');
+    }
+    var defAccountType = 'GRP00002'
+    function swprv_X(defGID)
+    {
+        var gid = $("select[name='USR$AccountType']").val()
+        var title = $("select[name='USR$AccountType'] option:selected").html()
+        d
+
+--- frm #5 ---
+yPGSubmit" tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item" onclick="frmEntryPage_onSubmit();" title="Save">
+                                                        <i class="fa fa-check-square-o btn-toolbar-icon" aria-hidden="true"></i>
+                                                        <span class="btn-toolbar-text">Save</span>
+                                                    </span>
+                                                
+                       

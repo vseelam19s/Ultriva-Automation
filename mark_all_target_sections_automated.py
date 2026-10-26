@@ -18,6 +18,7 @@ Project : Ultriva (ID=15)
 Suite   : AdminModule (ID=2571)
 """
 
+import os
 import requests
 import json
 import time
@@ -25,7 +26,7 @@ import time
 # ── Config ────────────────────────────────────────────────────────────────────
 TESTRAIL_URL = "https://upland.testrail.com/"
 EMAIL        = "vseelam@uplandsoftware.com"
-API_KEY      = "LR5Bc8syGLl4d.dweMDC-bN9OoDA5pyiO6dKCHlh3"
+API_KEY      = os.environ["TESTRAIL_API_KEY"]
 PROJECT_ID   = 15
 SUITE_ID     = 2571  # AdminModule
 

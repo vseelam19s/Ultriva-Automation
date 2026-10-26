@@ -1,0 +1,690 @@
+- generic [ref=f35e2]:
+  - generic:
+    - generic: "Skip to:"
+    - list:
+      - listitem:
+        - link "Top Bar":
+          - /url: "#jira-page-layout-top-nav"
+      - listitem:
+        - link "Sidebar":
+          - /url: "#jira-page-layout-side-nav"
+      - listitem:
+        - link "Main Content":
+          - /url: "#jira-page-layout-main"
+  - generic [ref=f35e3]:
+    - banner [ref=f35e4]:
+      - generic [ref=f35e5]:
+        - button "Collapse sidebar" [ref=f35e6] [cursor=pointer]
+        - button "Switch sites or apps" [ref=f35e1410] [cursor=pointer]
+        - link "Go to your Jira homepage" [ref=f35e27] [cursor=pointer]:
+          - /url: /jira
+          - img "Jira homepage" [ref=f35e29]
+      - generic [ref=f35e30]:
+        - button [ref=f35e31] [cursor=pointer]:
+          - search [ref=f35e32]:
+            - combobox "Search" [ref=f35e35]
+            - generic [ref=f35e36]: Press enter to navigate to advanced search with your text query
+            - button "Open app connections" [ref=f35e38]:
+              - generic: Connect apps
+        - button "Create" [ref=f35e41] [cursor=pointer]
+      - navigation "Actions" [ref=f35e45]:
+        - list [ref=f35e46]:
+          - listitem [ref=f35e47]:
+            - button "Ask Rovo" [ref=f35e49] [cursor=pointer]
+          - listitem [ref=f35e58]:
+            - generic [ref=f35e60]:
+              - button "8 Notifications" [ref=f35e61] [cursor=pointer]
+              - generic [aria-hidden]:
+                - generic: "8"
+          - listitem [ref=f35e67]:
+            - button "Help" [ref=f35e68] [cursor=pointer]
+          - listitem [ref=f35e71]:
+            - button "Settings" [ref=f35e73] [cursor=pointer]
+          - listitem [ref=f35e76]:
+            - button "vseelam@uplandsoftware.com" [ref=f35e77] [cursor=pointer]
+    - navigation "Sidebar" [ref=f35e82]:
+      - generic [ref=f35e85]:
+        - list [ref=f35e86]:
+          - generic [ref=f35e88]:
+            - listitem [ref=f35e90]:
+              - link "For you" [ref=f35e92] [cursor=pointer]:
+                - /url: /jira/for-you
+            - listitem [ref=f35e98]:
+              - button "Recent" [ref=f35e100] [cursor=pointer]
+            - listitem [ref=f35e105]:
+              - button "Starred" [ref=f35e107] [cursor=pointer]
+            - listitem [ref=f35e112]:
+              - button "Apps" [ref=f35e116] [cursor=pointer]
+            - listitem [ref=f35e121]:
+              - button "Roadmaps" [ref=f35e125] [cursor=pointer]
+            - listitem [ref=f35e130]:
+              - button "Plans" [ref=f35e134] [cursor=pointer]
+            - listitem [ref=f35e139]:
+              - generic [ref=f35e140]:
+                - generic [ref=f35e142]:
+                  - button "Spaces" [expanded] [ref=f35e143] [cursor=pointer]
+                  - button "More actions for spaces" [ref=f35e149] [cursor=pointer]
+                - list [ref=f35e153]:
+                  - listitem [ref=f35e154]:
+                    - group [ref=f35e155]:
+                      - paragraph [ref=f35e156]: Recent
+                      - list [ref=f35e157]:
+                        - listitem [ref=f35e158]:
+                          - generic [ref=f35e159]:
+                            - generic [ref=f35e161]:
+                              - link "Ultriva App" [ref=f35e162] [cursor=pointer]:
+                                - /url: /browse/ULT
+                              - button "Ultriva App" [expanded] [ref=f35e169] [cursor=pointer]
+                              - generic [ref=f35e173]:
+                                - button "Create board" [ref=f35e175] [cursor=pointer]
+                                - button "More actions for Ultriva App" [ref=f35e179] [cursor=pointer]
+                            - list [ref=f35e183]:
+                              - listitem [ref=f35e184]:
+                                - group [ref=f35e185]:
+                                  - paragraph [ref=f35e186]: Recent
+                                  - list [ref=f35e187]:
+                                    - listitem [ref=f35e189]:
+                                      - generic [ref=f35e190]:
+                                        - link "Nandu" [ref=f35e191] [cursor=pointer]:
+                                          - /url: /jira/software/c/projects/ULT/boards/208
+                                        - generic:
+                                          - button "Board actions for Nandu"
+                                    - listitem [ref=f35e201]:
+                                      - generic [ref=f35e202]:
+                                        - link "Open Sprint" [ref=f35e203] [cursor=pointer]:
+                                          - /url: /jira/software/c/projects/ULT/boards/218
+                                        - generic:
+                                          - button "Board actions for Open Sprint"
+                                    - listitem [ref=f35e213]:
+                                      - generic [ref=f35e214]:
+                                        - link "Ultriva - LeanSuite" [ref=f35e215] [cursor=pointer]:
+                                          - /url: /jira/software/c/projects/ULT/boards/199
+                                        - generic:
+                                          - button "Board actions for Ultriva - LeanSuite"
+                                    - listitem [ref=f35e225]:
+                                      - generic [ref=f35e226]:
+                                        - link "Ultriva_PS_Board" [ref=f35e227] [cursor=pointer]:
+                                          - /url: /jira/software/c/projects/ULT/boards/280
+                                        - generic:
+                                          - button "Board actions for Ultriva_PS_Board"
+                  - listitem [ref=f35e236]:
+                    - group [ref=f35e237]:
+                      - list [ref=f35e238]:
+                        - listitem [ref=f35e239]:
+                          - button "More spaces" [ref=f35e241] [cursor=pointer]
+            - listitem [ref=f35e246]:
+              - button "Filters" [ref=f35e250] [cursor=pointer]
+            - listitem [ref=f35e255]:
+              - generic [ref=f35e258]:
+                - button "Dashboards" [ref=f35e259] [cursor=pointer]
+                - button "Create dashboard" [ref=f35e264] [cursor=pointer]
+        - generic [ref=f35e269]:
+          - list [ref=f35e274]:
+            - listitem [ref=f35e276]:
+              - link "Confluence , (opens new window)" [ref=f35e278] [cursor=pointer]:
+                - /url: https://uplandsoftware.atlassian.net/wiki
+                - generic [ref=f35e280]: Confluence
+                - generic [ref=f35e284]: ", (opens new window)"
+            - listitem [ref=f35e286]:
+              - generic [ref=f35e287]:
+                - link "Teams , (opens new window)" [ref=f35e288] [cursor=pointer]:
+                  - /url: https://home.atlassian.com/o/c8497d10-c1fb-47c2-8558-972d1642b3fa/people/?cloudId=c2e5b6e5-e457-414b-a1b5-53ab88c2acd4
+                  - generic [ref=f35e290]: Teams
+                  - generic [ref=f35e294]: ", (opens new window)"
+                - generic:
+                  - img "Teams"
+                - generic:
+                  - button "Teams"
+            - listitem [ref=f35e299]:
+              - link "Goals , (opens new window)" [ref=f35e301] [cursor=pointer]:
+                - /url: https://home.atlassian.com/o/c8497d10-c1fb-47c2-8558-972d1642b3fa/goals?cloudId=c2e5b6e5-e457-414b-a1b5-53ab88c2acd4
+                - generic [ref=f35e303]: Goals
+                - generic [ref=f35e307]: ", (opens new window)"
+          - button "Customize sidebar" [ref=f35e313] [cursor=pointer]
+      - generic [ref=f35e1413]:
+        - slider "Resize panel" [ref=f35e1414]: "320"
+        - text: Resize panel
+    - main [ref=f35e318]:
+      - generic [ref=f35e329]:
+        - generic [ref=f35e331]:
+          - navigation "Work item breadcrumbs" [ref=f35e336]:
+            - list [ref=f35e337]:
+              - listitem [ref=f35e338]:
+                - listitem [ref=f35e339]:
+                  - link "Spaces" [ref=f35e340] [cursor=pointer]:
+                    - /url: /jira/projects
+                - text: /
+              - listitem [ref=f35e342]:
+                - img "Ultriva App" [ref=f35e345]
+                - listitem [ref=f35e346]:
+                  - link "Ultriva App" [ref=f35e347] [cursor=pointer]:
+                    - /url: https://uplandsoftware.atlassian.net/browse/ULT
+                - text: /
+              - listitem [ref=f35e349]:
+                - button "Epic - Add parent" [ref=f35e351] [cursor=pointer]:
+                  - generic [ref=f35e354]: Add parent
+                - text: /
+              - listitem [ref=f35e355]:
+                - button "Bug - Change work type" [ref=f35e357] [cursor=pointer]:
+                  - img "Bug" [ref=f35e359]
+                - generic:
+                  - status
+                - listitem [ref=f35e360]:
+                  - link "ULT-10788" [ref=f35e361] [cursor=pointer]:
+                    - /url: /browse/ULT-10788
+                - generic [ref=f35e364]:
+                  - textbox [aria-hidden] [ref=f35e365]
+                  - button [ref=f35e366] [cursor=pointer]:
+                    - img "Copy link" [ref=f35e368]
+          - generic [ref=f35e375]:
+            - 'button "Supplier reports > Shipment Due Details: horizontal scroll arrows are clipped at bottom-left- Summary, edit"'
+            - 'heading "Supplier reports > Shipment Due Details: horizontal scroll arrows are clipped at bottom-left" [level=1] [ref=f35e377]'
+          - generic [ref=f35e379]:
+            - generic [ref=f35e381]:
+              - button "Add or create work related to this Bug" [ref=f35e383] [cursor=pointer]
+              - button "View app actions" [ref=f35e387] [cursor=pointer]
+            - button "Summarize work item" [ref=f35e392] [cursor=pointer]
+          - generic [ref=f35e397]:
+            - heading "Collapse Key details Key details" [level=2] [ref=f35e398]:
+              - generic [ref=f35e402] [cursor=pointer]:
+                - button "Collapse Key details" [ref=f35e403]
+                - generic [ref=f35e407]: Key details
+            - region "Key details section" [ref=f35e408]:
+              - generic [ref=f35e409]:
+                - generic [ref=f35e412]:
+                  - heading "Description" [level=2] [ref=f35e415]
+                  - generic [ref=f35e421]:
+                    - button "Edit Description, edit"
+                    - paragraph [ref=f35e426]: In the Shipment Due Details report, the horizontal-scroll arrow controls at the bottom-left of the grid appear clipped/overlapping the grid boundary and are difficult to see/use. This is a UI/layout issue visible in the supplied screenshot.
+                - generic [ref=f35e429]:
+                  - generic [ref=f35e430]:
+                    - heading "Environment" [level=2] [ref=f35e431]
+                    - button "More information about" [ref=f35e1417] [cursor=pointer]
+                  - generic [ref=f35e437]:
+                    - button "Environment, edit"
+                    - generic [ref=f35e438]: Add text
+                - generic [ref=f35e441]:
+                  - generic [ref=f35e442]:
+                    - heading "Zendesk Ticket IDs" [level=2] [ref=f35e443]
+                    - button "More information about" [ref=f35e1421] [cursor=pointer]
+                  - generic [ref=f35e449]:
+                    - button "Zendesk Ticket IDs, edit"
+                    - generic [ref=f35e450]: Add text
+                - generic [ref=f35e453]:
+                  - heading "Steps to Reproduce" [level=2] [ref=f35e456]
+                  - generic [ref=f35e461]:
+                    - button "Edit Steps to Reproduce, edit"
+                    - generic [ref=f35e465]:
+                      - paragraph [ref=f35e466]: 1. Open Supplier Reports > Shipment Due Details.
+                      - paragraph [ref=f35e467]: 2. View the bottom-left corner of the results grid.
+                      - paragraph [ref=f35e468]: 3. Observe the horizontal scroll arrow controls around the grid scrollbar.
+                - generic [ref=f35e471]:
+                  - generic [ref=f35e472]:
+                    - heading "Checklist Text" [level=2] [ref=f35e473]
+                    - button "More information about" [ref=f35e1425] [cursor=pointer]
+                  - generic [ref=f35e479]:
+                    - button "Checklist Text, edit"
+                    - generic [ref=f35e480]: Add text
+                - generic [ref=f35e483]:
+                  - generic [ref=f35e484]:
+                    - heading "Checklist Content YAML" [level=2] [ref=f35e485]
+                    - button "More information about" [ref=f35e1429] [cursor=pointer]
+                  - generic [ref=f35e491]:
+                    - button "Checklist Content YAML, edit"
+                    - generic [ref=f35e492]: Add text
+                - generic [ref=f35e495]:
+                  - heading "Workaround" [level=2] [ref=f35e497]
+                  - generic [ref=f35e503]:
+                    - button "Workaround, edit"
+                    - generic [ref=f35e504]: Add text
+          - generic [ref=f35e505]:
+            - generic [ref=f35e508]:
+              - heading "Collapse Subtasks Subtasks Work item actions Configure columns Create subtask" [level=2] [ref=f35e1432]:
+                - generic [ref=f35e510]:
+                  - generic [ref=f35e513] [cursor=pointer]:
+                    - button "Collapse Subtasks" [ref=f35e514]
+                    - generic [ref=f35e518]: Subtasks
+                  - generic [ref=f35e519]:
+                    - button "Work item actions" [ref=f35e521] [cursor=pointer]
+                    - generic [ref=f35e1434]:
+                      - button "Configure columns" [ref=f35e1435] [cursor=pointer]
+                      - generic:
+                        - status
+                    - button "Create subtask" [ref=f35e527] [cursor=pointer]
+              - region "Subtasks section" [ref=f35e531]:
+                - generic [ref=f35e533]:
+                  - progressbar "Child work progress" [ref=f35e535]
+                  - generic [ref=f35e537]:
+                    - generic [ref=f35e538]: "0"
+                    - text: "% Done"
+                - table "Work (column headers with buttons are sortable)" [ref=f35e544]:
+                  - rowgroup [ref=f35e545]:
+                    - row [ref=f35e546]:
+                      - columnheader "Work More actions for Work" [ref=f35e547]:
+                        - generic [ref=f35e548]:
+                          - generic [ref=f35e549]: Work
+                          - generic:
+                            - generic:
+                              - button "More actions for Work"
+                      - columnheader [ref=f35e551]:
+                        - generic [ref=f35e552]:
+                          - generic [aria-hidden] [ref=f35e554]: Priority
+                          - generic:
+                            - generic:
+                              - button "More actions for Priority"
+                      - columnheader [ref=f35e555]:
+                        - generic [ref=f35e556]:
+                          - generic [aria-hidden] [ref=f35e558]: Story Points
+                          - generic:
+                            - generic:
+                              - button "More actions for Story Points"
+                      - columnheader [ref=f35e559]:
+                        - generic [ref=f35e560]:
+                          - generic [aria-hidden] [ref=f35e562]: Assignee
+                          - generic:
+                            - generic:
+                              - button "More actions for Assignee"
+                      - columnheader [ref=f35e563]:
+                        - generic [ref=f35e564]:
+                          - generic [aria-hidden] [ref=f35e566]: Status
+                          - generic:
+                            - generic:
+                              - button "Status • Sort in ascending order"
+                            - generic:
+                              - button "More actions for Status"
+                  - rowgroup [ref=f35e567]:
+                    - row [ref=f35e1494]:
+                      - rowheader [ref=f35e1495]:
+                        - generic [ref=f35e570]:
+                          - img "Action Item" [ref=f35e571]
+                          - generic [ref=f35e572]:
+                            - link "ULT-10789 is not resolved" [ref=f35e574] [cursor=pointer]:
+                              - /url: /browse/ULT-10789
+                              - text: ULT-10789
+                            - button "Copy link" [ref=f35e576] [cursor=pointer]
+                          - generic [ref=f35e580]:
+                            - link "Investigate and fix issue" [ref=f35e582] [cursor=pointer]:
+                              - /url: /browse/ULT-10789
+                            - button [ref=f35e1496] [cursor=pointer]:
+                              - img "Edit Summary" [ref=f35e1498]
+                      - cell "Edit Priority 3- Medium" [ref=f35e1499]:
+                        - button "Edit Priority" [ref=f35e1500]
+                        - generic [ref=f35e586]: 3- Medium
+                      - cell "Edit Story Points Add story points" [ref=f35e1501]:
+                        - button "Edit Story Points" [ref=f35e1502]
+                        - generic [ref=f35e590]: Add story points
+                      - cell "Unassigned- edit Assignee Unassigned Unassigned" [ref=f35e1503]:
+                        - button "Unassigned- edit Assignee" [ref=f35e1504]
+                        - generic [ref=f35e594]:
+                          - img "Unassigned" [ref=f35e595]
+                          - generic [ref=f35e599]: Unassigned
+                      - cell [ref=f35e600]:
+                        - button "Open - Change status" [ref=f35e605] [cursor=pointer]:
+                          - generic [ref=f35e606]: Open
+            - generic [ref=f35e1505]:
+              - heading "Linked work items" [level=2] [ref=f35e1695]
+              - generic [ref=f35e1702]:
+                - generic [ref=f35e1703]: Link similar work items
+                - button "Show 5 results" [ref=f35e1708] [cursor=pointer]
+              - generic [ref=f35e1713]:
+                - generic [ref=f35e1714]:
+                  - generic [ref=f35e1716]:
+                    - status [ref=f35e1718]: option relates to, selected.
+                    - generic [ref=f35e1719]:
+                      - generic [ref=f35e1720]:
+                        - generic [ref=f35e1721]: relates to
+                        - combobox "Select an action for your linked work items" [active] [ref=f35e1723]
+                      - button "toggle select menu" [ref=f35e1726] [cursor=pointer]:
+                        - img "open" [ref=f35e1728]
+                  - generic [ref=f35e1730]:
+                    - status [ref=f35e1732]
+                    - generic [ref=f35e1734]:
+                      - generic [ref=f35e1735]: Type, search or paste URL
+                      - combobox "Linked work items" [ref=f35e1737]
+                - generic [ref=f35e1739]:
+                  - button "Create linked work item" [ref=f35e1741] [cursor=pointer]
+                  - group [ref=f35e1745]:
+                    - button "Link" [disabled] [ref=f35e1747]
+                    - button "Cancel" [ref=f35e1748] [cursor=pointer]
+            - generic [ref=f35e616]:
+              - generic [ref=f35e617]:
+                - heading "Agents" [level=2] [ref=f35e619]
+                - link "Uses AI. Verify results. , (opens new window)" [ref=f35e625] [cursor=pointer]:
+                  - /url: https://www.atlassian.com/trust/atlassian-intelligence
+                  - text: Uses AI. Verify results.
+                  - generic [ref=f35e626]: ", (opens new window)"
+              - generic [ref=f35e627]:
+                - button "Start work" [ref=f35e632] [cursor=pointer]
+                - generic:
+                  - status
+          - generic [ref=f35e638]:
+            - heading "Activity" [level=2] [ref=f35e640]
+            - generic [ref=f35e641]:
+              - tablist "Show" [ref=f35e645]:
+                - tab "All" [ref=f35e646] [cursor=pointer]
+                - tab "Comments" [selected] [ref=f35e648]
+                - tab "History" [ref=f35e650] [cursor=pointer]
+                - tab "Work log" [ref=f35e652] [cursor=pointer]
+                - tab "Freshdesk Jira Integration" [ref=f35e654] [cursor=pointer]
+                - tab "Approvals" [ref=f35e656] [cursor=pointer]
+              - button "Newest first" [disabled] [ref=f35e660]
+            - tabpanel "Comments" [ref=f35e664]:
+              - generic [ref=f35e668]:
+                - img "Profile image of Vijayakumar Seelam" [ref=f35e670]
+                - generic [ref=f35e673]:
+                  - generic [ref=f35e679]:
+                    - button "Add a comment…" [ref=f35e680]
+                    - group "Quick comments" [ref=f35e682]:
+                      - group [ref=f35e683]:
+                        - button "Who is working on this...?" [ref=f35e684] [cursor=pointer]
+                        - button "Status update..." [ref=f35e686] [cursor=pointer]
+                        - button "Thanks..." [ref=f35e688] [cursor=pointer]
+                  - generic [ref=f35e690]:
+                    - strong [ref=f35e691]: "Pro tip:"
+                    - text: press
+                    - generic [ref=f35e692]: M
+                    - text: to comment
+        - generic [ref=f35e695]:
+          - generic [ref=f35e697]:
+            - slider "Resize work item view side panel" [ref=f35e698]: "0.65"
+            - text: Resize work item view side panel
+          - generic [ref=f35e701] [cursor=pointer]
+        - generic [ref=f35e704]:
+          - group "Action items" [ref=f35e706]:
+            - generic [ref=f35e707]:
+              - 'button "Watch options: You are watching this issue, 1 person watching" [ref=f35e711] [cursor=pointer]':
+                - generic [ref=f35e714]: "1"
+              - generic [ref=f35e718]:
+                - button "Share" [ref=f35e719] [cursor=pointer]
+                - generic:
+                  - status
+              - button "Actions" [ref=f35e724] [cursor=pointer]
+              - generic:
+                - status
+          - generic [ref=f35e728]:
+            - generic [ref=f35e731]:
+              - button "Open - Change status" [ref=f35e739] [cursor=pointer]:
+                - generic [ref=f35e740]: Open
+              - button "Agents" [ref=f35e743] [cursor=pointer]
+              - generic:
+                - status
+              - generic [ref=f35e747]:
+                - button "Open in coding tool" [ref=f35e748] [cursor=pointer]
+                - generic:
+                  - status
+              - button "Automation" [ref=f35e754] [cursor=pointer]
+              - button "Improve Bug" [ref=f35e760] [cursor=pointer]
+            - generic [ref=f35e765]:
+              - generic [ref=f35e766]:
+                - button [ref=f35e773] [cursor=pointer]:
+                  - generic [ref=f35e777]:
+                    - heading "Your pinned fields" [level=2] [ref=f35e778]
+                    - generic [aria-hidden] [ref=f35e779]: Labels
+                - generic [ref=f35e782]:
+                  - button [expanded] [ref=f35e786] [cursor=pointer]:
+                    - heading "Details" [level=2] [ref=f35e791]
+                  - generic [ref=f35e794]:
+                    - generic [ref=f35e798]:
+                      - generic [ref=f35e800]:
+                        - generic [ref=f35e801]: Sprint
+                        - generic [ref=f35e802]:
+                          - button "More information about Sprint" [ref=f35e1445] [cursor=pointer]
+                          - button "Sprint Pin to top" [ref=f35e808] [cursor=pointer]
+                      - generic [ref=f35e811]:
+                        - button "Edit Sprint" [ref=f35e812]
+                        - generic [ref=f35e813]: Add sprint
+                    - generic [ref=f35e818]:
+                      - generic [ref=f35e820]:
+                        - generic [ref=f35e821]: Story Points
+                        - generic [ref=f35e822]:
+                          - button "More information about Story Points" [ref=f35e1448] [cursor=pointer]
+                          - button "Story Points Pin to top" [ref=f35e828] [cursor=pointer]
+                      - generic [ref=f35e831]:
+                        - button "Edit Story Points" [ref=f35e832]
+                        - generic [ref=f35e833]: Add story points
+                    - generic [ref=f35e836]:
+                      - generic [ref=f35e838]:
+                        - generic [ref=f35e839]: Fix versions
+                        - button "Fix versions Pin to top" [ref=f35e841] [cursor=pointer]
+                      - generic [ref=f35e848]:
+                        - button "Fix versions, None selected, edit"
+                        - generic [ref=f35e849]: None
+                    - generic [ref=f35e853]:
+                      - generic [ref=f35e855]:
+                        - generic [ref=f35e856]: Assignee
+                        - button "Assignee Pin to top" [ref=f35e859] [cursor=pointer]
+                      - generic [ref=f35e862]:
+                        - button "Unassigned- edit Assignee" [ref=f35e863]
+                        - generic [ref=f35e865]:
+                          - img "Unassigned" [ref=f35e866]
+                          - generic [ref=f35e870]: Unassigned
+                        - button "Assign to me" [ref=f35e872] [cursor=pointer]
+                    - generic [ref=f35e875]:
+                      - generic [ref=f35e877]:
+                        - generic [ref=f35e878]: Reporter
+                        - button "Reporter Pin to top" [ref=f35e881] [cursor=pointer]
+                      - generic [ref=f35e884]:
+                        - button [disabled] [aria-hidden] [ref=f35e885]
+                        - generic [ref=f35e890]:
+                          - img "Vijayakumar Seelam" [ref=f35e891]
+                          - generic [ref=f35e894]: Vijayakumar Seelam
+                    - generic [ref=f35e898]:
+                      - generic [ref=f35e900]:
+                        - generic [ref=f35e901]: Original estimate
+                        - button "Original estimate Pin to top" [ref=f35e904] [cursor=pointer]
+                      - generic [ref=f35e907]:
+                        - button "Edit Time tracking" [ref=f35e908]
+                        - generic [ref=f35e909]: Add estimate
+                    - generic [ref=f35e912]:
+                      - generic [ref=f35e914]:
+                        - generic [ref=f35e915]: Priority
+                        - button "Priority Pin to top" [ref=f35e918] [cursor=pointer]
+                      - generic [ref=f35e921]:
+                        - button "Edit Priority" [ref=f35e922]
+                        - generic [ref=f35e923]: 3- Medium
+                    - generic [ref=f35e927]:
+                      - generic [ref=f35e929]:
+                        - generic [ref=f35e930]: Bug Root Cause
+                        - button "Bug Root Cause Pin to top" [ref=f35e933] [cursor=pointer]
+                      - generic [ref=f35e936]:
+                        - button "Edit Bug Root Cause" [ref=f35e937]
+                        - generic [ref=f35e938]: Add option
+                    - generic [ref=f35e941]:
+                      - generic [ref=f35e943]:
+                        - generic [ref=f35e944]: Introduced In Version
+                        - button "More information about Introduced In Version" [ref=f35e1452] [cursor=pointer]
+                        - button "Introduced In Version Pin to top" [ref=f35e946] [cursor=pointer]
+                      - generic [ref=f35e953]:
+                        - button "Introduced In Version, None selected, edit"
+                        - generic [ref=f35e954]: None
+                    - generic [ref=f35e958]:
+                      - generic [ref=f35e960]:
+                        - generic [ref=f35e961]: Billable Project
+                        - button "More information about Billable Project" [ref=f35e1456] [cursor=pointer]
+                        - button "Billable Project Pin to top" [ref=f35e963] [cursor=pointer]
+                      - generic [ref=f35e970]:
+                        - button "Billable Project, Add options selected, edit"
+                        - generic [ref=f35e971]: Add options
+                    - generic [ref=f35e976]:
+                      - generic [ref=f35e978]:
+                        - generic [ref=f35e979]: Customer
+                        - generic [ref=f35e980]:
+                          - button "More information about Customer" [ref=f35e1459] [cursor=pointer]
+                          - button "Customer Pin to top" [ref=f35e986] [cursor=pointer]
+                      - generic [ref=f35e989]:
+                        - button "Edit Customer" [ref=f35e990]
+                        - generic [ref=f35e991]: Add text
+                    - generic [ref=f35e995]:
+                      - generic [ref=f35e997]:
+                        - generic [ref=f35e998]: Zendesk Ticket Count
+                        - generic [ref=f35e999]:
+                          - button "More information about Zendesk Ticket Count" [ref=f35e1462] [cursor=pointer]
+                          - button "Zendesk Ticket Count Pin to top" [ref=f35e1005] [cursor=pointer]
+                      - generic [ref=f35e1008]:
+                        - button "Edit Zendesk Ticket Count" [ref=f35e1009]
+                        - generic [ref=f35e1010]: Add number
+                    - generic [ref=f35e1013]:
+                      - generic [ref=f35e1015]:
+                        - generic [ref=f35e1016]: Product Line
+                        - button "Product Line Pin to top" [ref=f35e1019] [cursor=pointer]
+                      - generic [ref=f35e1022]:
+                        - button "Edit Product Line" [ref=f35e1023]
+                        - generic "Ultriva" [ref=f35e1024]
+                    - generic [ref=f35e1030]:
+                      - generic [ref=f35e1032]:
+                        - generic [ref=f35e1033]: ARR Impact
+                        - generic [ref=f35e1034]:
+                          - button "More information about ARR Impact" [ref=f35e1465] [cursor=pointer]
+                          - button "ARR Impact Pin to top" [ref=f35e1040] [cursor=pointer]
+                      - generic [ref=f35e1043]:
+                        - button [disabled] [aria-hidden] [ref=f35e1044]
+                        - generic [ref=f35e1045]: Add text
+                    - generic [ref=f35e1049]:
+                      - generic [ref=f35e1051]:
+                        - generic [ref=f35e1052]: Aggregate ARR Impact
+                        - generic [ref=f35e1053]:
+                          - button "More information about Aggregate ARR Impact" [ref=f35e1468] [cursor=pointer]
+                          - button "Aggregate ARR Impact Pin to top" [ref=f35e1059] [cursor=pointer]
+                      - generic [ref=f35e1062]:
+                        - button "Edit Aggregate ARR Impact" [ref=f35e1063]
+                        - generic [ref=f35e1064]: Add number
+                    - generic [ref=f35e1068]:
+                      - generic [ref=f35e1070]:
+                        - generic [ref=f35e1071]: Expected Delivery Date
+                        - button "Expected Delivery Date Pin to top" [ref=f35e1074] [cursor=pointer]
+                      - generic [ref=f35e1077]:
+                        - button "Edit Expected Delivery Date" [ref=f35e1078]
+                        - generic [ref=f35e1079]: Add date
+                    - generic [ref=f35e1083]:
+                      - generic [ref=f35e1085]:
+                        - generic [ref=f35e1086]: "Build #"
+                        - 'button "Build # Pin to top" [ref=f35e1089] [cursor=pointer]'
+                      - generic [ref=f35e1092]:
+                        - 'button "Edit Build #" [ref=f35e1093]'
+                        - generic [ref=f35e1094]: Add text
+                    - generic [ref=f35e1097]:
+                      - generic [ref=f35e1099]:
+                        - generic [ref=f35e1100]: Discovered By
+                        - button "Discovered By Pin to top" [ref=f35e1103] [cursor=pointer]
+                      - generic [ref=f35e1106]:
+                        - button "Edit Discovered By" [ref=f35e1107]
+                        - generic "QA" [ref=f35e1108]
+                    - generic [ref=f35e1114]:
+                      - generic [ref=f35e1116]:
+                        - generic [ref=f35e1117]: Checklist Completed
+                        - generic [ref=f35e1118]:
+                          - button "More information about Checklist Completed" [ref=f35e1471] [cursor=pointer]
+                          - button "Checklist Completed Pin to top" [ref=f35e1124] [cursor=pointer]
+                      - generic [ref=f35e1127]:
+                        - button "Edit Checklist Completed" [ref=f35e1128]
+                        - generic [ref=f35e1129]: Add text
+                    - generic [ref=f35e1132]:
+                      - generic [ref=f35e1134]:
+                        - generic [ref=f35e1135]: Test Plan
+                        - button "Test Plan Pin to top" [ref=f35e1138] [cursor=pointer]
+                      - generic [ref=f35e1141]:
+                        - button "Edit Test Plan" [ref=f35e1142]
+                        - generic [ref=f35e1143]: Add URL
+                    - generic [ref=f35e1146]:
+                      - generic [ref=f35e1148]:
+                        - generic [ref=f35e1149]: Epic/Theme
+                        - generic [ref=f35e1150]:
+                          - button "More information about Epic/Theme" [ref=f35e1474] [cursor=pointer]
+                          - button "Epic/Theme Pin to top" [ref=f35e1156] [cursor=pointer]
+                      - generic [ref=f35e1159]:
+                        - button "Edit Epic/Theme" [ref=f35e1160]
+                        - generic [ref=f35e1161]: Add labels
+                    - generic [ref=f35e1165]:
+                      - generic [ref=f35e1167]:
+                        - generic [ref=f35e1168]: Score
+                        - generic [ref=f35e1169]:
+                          - button "More information about Score" [ref=f35e1477] [cursor=pointer]
+                          - button "Score Pin to top" [ref=f35e1175] [cursor=pointer]
+                      - generic [ref=f35e1178]:
+                        - button "Edit Score" [ref=f35e1179]
+                        - generic [ref=f35e1180]: Add number
+                    - generic [ref=f35e1183]:
+                      - generic [ref=f35e1185]:
+                        - generic [ref=f35e1186]: Product Owner
+                        - generic [ref=f35e1187]:
+                          - button "More information about Product Owner" [ref=f35e1480] [cursor=pointer]
+                          - button "Product Owner Pin to top" [ref=f35e1193] [cursor=pointer]
+                      - generic [ref=f35e1196]:
+                        - button "None- edit Product Owner" [ref=f35e1197]
+                        - generic [ref=f35e1198]: Add user
+                    - generic [ref=f35e1201]:
+                      - generic [ref=f35e1203]:
+                        - generic [ref=f35e1204]: Atlassian Project
+                        - generic [ref=f35e1205]:
+                          - button "More information about Atlassian Project" [ref=f35e1483] [cursor=pointer]
+                          - button "Atlassian Project Pin to top" [ref=f35e1211] [cursor=pointer]
+                      - generic [ref=f35e1214]:
+                        - button "Edit Atlassian Project" [ref=f35e1216]
+                        - generic [ref=f35e1217]: Add project
+                    - generic [ref=f35e1220]:
+                      - generic [ref=f35e1222]:
+                        - generic [ref=f35e1223]: T-Shirt Size
+                        - generic [ref=f35e1224]:
+                          - button "More information about T-Shirt Size" [ref=f35e1486] [cursor=pointer]
+                          - button "T-Shirt Size Pin to top" [ref=f35e1230] [cursor=pointer]
+                      - generic [ref=f35e1233]:
+                        - button "Edit T-Shirt Size" [ref=f35e1234]
+                        - generic "M" [ref=f35e1235]
+                    - generic [ref=f35e1240]:
+                      - generic [ref=f35e1242]:
+                        - generic [ref=f35e1243]: Team
+                        - button "Team Pin to top" [ref=f35e1245] [cursor=pointer]
+                      - generic [ref=f35e1251]:
+                        - button "Edit, edit"
+                        - generic [ref=f35e1252]: Add team
+                    - generic [ref=f35e1256]:
+                      - generic [ref=f35e1257]: "TestRail: Cases"
+                      - generic [ref=f35e1260]: "Open TestRail: Cases"
+                    - generic [ref=f35e1266]:
+                      - generic [ref=f35e1267]: "TestRail: Runs"
+                      - generic [ref=f35e1270]: "Open TestRail: Runs"
+              - button [ref=f35e1280] [cursor=pointer]:
+                - heading "Development" [level=2] [ref=f35e1285]
+              - generic [ref=f35e1287]:
+                - button [expanded] [ref=f35e1291] [cursor=pointer]:
+                  - heading "More fields" [level=2] [ref=f35e1296]
+                - generic [ref=f35e1298]:
+                  - generic [ref=f35e1302]:
+                    - generic [ref=f35e1304]:
+                      - generic [ref=f35e1305]: Time tracking
+                      - button "Time tracking Pin to top" [ref=f35e1307] [cursor=pointer]
+                    - generic [ref=f35e1314]:
+                      - button "No time logged- edit Time tracking, edit"
+                      - generic [ref=f35e1315]: No time logged
+                  - generic [ref=f35e1323]:
+                    - generic [ref=f35e1325]:
+                      - generic [ref=f35e1326]: Parent
+                      - button "More information about" [ref=f35e1489] [cursor=pointer]
+                      - button "Parent Pin to top" [ref=f35e1332] [cursor=pointer]
+                    - generic [ref=f35e1335]:
+                      - button "Edit Parent" [ref=f35e1336]
+                      - generic [ref=f35e1337]: Add parent
+                  - generic [ref=f35e1341]:
+                    - generic [ref=f35e1343]:
+                      - generic [ref=f35e1344]: Due date
+                      - button "Due date Pin to top" [ref=f35e1347] [cursor=pointer]
+                    - generic [ref=f35e1350]:
+                      - button "Edit Due date" [ref=f35e1351]
+                      - generic [ref=f35e1352]: Add due date
+            - generic [ref=f35e1354]:
+              - button [ref=f35e1360] [cursor=pointer]:
+                - generic [ref=f35e1364]:
+                  - heading "Automation" [level=2] [ref=f35e1365]
+                  - generic [ref=f35e1367]: Rule executions
+              - button [ref=f35e1379] [cursor=pointer]:
+                - generic [ref=f35e1383]:
+                  - heading "Freshdesk Jira Integration" [level=2] [ref=f35e1384]
+                  - generic [ref=f35e1386]: Custom UI
+            - generic [ref=f35e1390]:
+              - generic [ref=f35e1392]:
+                - text: Created
+                - button "19 seconds ago" [ref=f35e1492] [cursor=pointer]
+              - generic [ref=f35e1395]:
+                - text: Updated
+                - button "18 seconds ago" [ref=f35e1493] [cursor=pointer]
+  - button "Open Rovo Chat" [ref=f35e1402] [cursor=pointer]

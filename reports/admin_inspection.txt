@@ -1,0 +1,100 @@
+Written to reports/admin_inspection.txt
+
+====================================================================
+  User_List
+  URL: https://engineering.ultrivalms.com/QALS1011/User/List
+====================================================================
+  Buttons: ['Views', 'Filters']
+  Columns: []
+  Rows: 148
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch', 'User_FindTextbox']
+
+====================================================================
+  Supplier_List
+  URL: https://engineering.ultrivalms.com/QALS1011/Supplier/List
+====================================================================
+  Buttons: ['Views', 'Filters']
+  Columns: []
+  Rows: 210
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch', 'Supplier_FindTextbox']
+
+====================================================================
+  Customer_List
+  URL: https://engineering.ultrivalms.com/QALS1011/Customer/List
+====================================================================
+  Buttons: ['Views', 'Filters']
+  Columns: []
+  Rows: 132
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch', 'Customer_FindTextbox']
+
+====================================================================
+  KanbanItem_List
+  URL: https://engineering.ultrivalms.com/QALS1011/KanbanItem/List
+====================================================================
+  Buttons: ['Views', 'Filters']
+  Columns: []
+  Rows: 142
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch', 'MISC$FAM', 'MISC$MY', 'MISC$RYG', 'MISC$SName']
+
+====================================================================
+  Shift_List
+  URL: https://engineering.ultrivalms.com/QALS1011/Shift/List
+====================================================================
+  Buttons: ['Views', 'Filters']
+  Columns: []
+  Rows: 128
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch']
+
+====================================================================
+  Workcenter_List
+  URL: https://engineering.ultrivalms.com/QALS1011/Workcenter/List
+====================================================================
+  Buttons: ['Views', 'Filters']
+  Columns: []
+  Rows: 150
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch', 'Workcenter_FindTextbox']
+
+====================================================================
+  Warehouse_List
+  URL: https://engineering.ultrivalms.com/QALS1011/Warehouse/List
+====================================================================
+  Buttons: ['Views', 'Filters']
+  Columns: []
+  Rows: 133
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch', 'Warehouse_FindTextbox']
+
+====================================================================
+  Entity_List
+  URL: https://engineering.ultrivalms.com/QALS1011/Entity/List
+====================================================================
+  Buttons: []
+  Columns: []
+  Rows: 137
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch', 'Family_FindTextbox', 'validate']
+
+====================================================================
+  Calendar_List
+  URL: https://engineering.ultrivalms.com/QALS1011/Calendar/List
+====================================================================
+  Buttons: []
+  Columns: []
+  Rows: 131
+  Row links: ['https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus', "javascript:delfav('EID2467QALRW');", 'https://engineering.ultrivalms.com/QALS1011/Scan/Accept']
+  Filters: ['txtTbSearch']
+
+=== USER FORM: https://engineering.ultrivalms.com/QALS1011/Scan/CardStatus ===
+  [text        ] name=txtTbSearch                    label='                         ' value=''
+  [checkbox    ] name=search_All                     label='                         ' value='All'
+  [checkbox    ] name=search_Item                    label='                         ' value='Item'
+  [checkbox    ] name=search_Card                    label='                         ' value='Card'
+  [checkbox    ] name=search_Supplier                label='                         ' value='Supplier'
+  [checkbox    ] name=search_User                    label='                         ' value='User'
+  [text        ] name=CardId                         label='                         ' value=''

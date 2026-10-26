@@ -1,0 +1,30 @@
+
+======================================================================
+  EXTERNAL SUPPLIER — FULL TEST REPORT
+======================================================================
+  Date   : 2026-04-18 18:27:48
+  URL    : https://engineering.ultrivalms.com/QALS1011
+  User   : buyeruser
+
+  SUPPLIER
+  --------
+  Name   : sup160426   Code: sup160426
+  GID    : BSU235ZQALDB
+  Address: 79708 Main Street, San Jose, CA 95101
+  Updated: 85266 Updated Boulevard, Updated City, NY 85266
+
+  SUPPLIER USER
+  -------------
+  Name   : SupUser Test1442
+  User ID: SupUsr1442
+  Email  : supuser1442@testsupplier.example.com
+  Account: Supplier Administrators
+  Phone  : 55514420000
+
+  RESULTS
+  -------
+  [PASS] Add Supplier   — created with mandatory fields
+  [PASS] Edit Supplier  — address & details updated
+  [PASS] View Supplier  — data sections verified
+  [PASS] Add Sup User   — user created and saved
+======================================================================

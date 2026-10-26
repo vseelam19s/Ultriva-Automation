@@ -1,0 +1,18 @@
+======================================================================
+  REMOVE SUPPLIER — TEST REPORT
+======================================================================
+  Date             : 2026-04-27 16:45:45
+  URL              : https://engineering.ultrivalms.com/QALS1011
+  User             : buyeruser
+  Entity / BU      : Supplier
+  Entity GID       : BSU22ZAQALQG
+  Supplier Removed : Sup021122
+  Code             : AC7913
+
+  STEPS
+  -----
+  [PASS] Select supplier checkbox   — row ticked in Assigned List
+  [PASS] Click Remove               — confirmation dialog opened
+  [PASS] Click Yes                  — removal submitted
+  [PASS] Verify removal             — success confirmed
+======================================================================

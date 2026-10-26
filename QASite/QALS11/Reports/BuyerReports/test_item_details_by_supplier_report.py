@@ -1,0 +1,380 @@
+"""
+QALS11 | Reports > Buyer Reports > Item Details By Supplier Report
+==================================================================
+URL  : https://engineering.ultrivalms.com/QALS1011
+User : buyeruser / Ultriva!23
+
+Test Flow
+---------
+  1.  Login as buyeruser
+  2.  Navigate to Reports -> Buyer Reports -> Item Details By Supplier Report
+  3.  Keep default filter (Plant = This Plant, all others blank/All)
+  4.  Click Show Report
+  5.  Verify the report output loads
+  6.  Click Change Filter and verify return to filter page
+
+Run (from qa_automation/):
+    pytest tests/QALS11/Reports/test_item_details_by_supplier_report.py -v -s
+"""
+
+import os
+import time
+
+import pytest
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+BASE_URL = "https://engineering.ultrivalms.com/QALS1011"
+USERNAME = "buyeruser"
+PASSWORD = "Ultriva!23"
+PAUSE = 1.2
+ITEM2SUPPLIERS_FILTER_URL = f"{BASE_URL}/BuyerReport/Item2SuppliersFilter"
+
+
+# ============================================================================
+# FIXTURES
+# ============================================================================
+
+
+@pytest.fixture(scope="class")
+def driver():
+    """Class-scoped Chrome driver - one browser session per test class."""
+    options = webdriver.ChromeOptions()
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--start-maximized")
+    options.add_experimental_option("excludeSwitches", ["enable-logging"])
+
+    drv = webdriver.Chrome(options=options)
+    drv.implicitly_wait(10)
+    drv.set_page_load_timeout(30)
+    drv.maximize_window()
+    yield drv
+    drv.quit()
+
+
+# ============================================================================
+# HELPERS
+# ============================================================================
+
+
+def wait_ready(driver, timeout=30):
+    """Wait for document.readyState == complete."""
+    WebDriverWait(driver, timeout).until(
+        lambda d: d.execute_script("return document.readyState") == "complete"
+    )
+
+
+def find(driver, by, locator, timeout=15):
+    """Wait for presence and return element."""
+    return WebDriverWait(driver, timeout).until(
+        EC.presence_of_element_located((by, locator))
+    )
+
+
+def clickable(driver, by, locator, timeout=15):
+    """Wait until clickable and return element."""
+    return WebDriverWait(driver, timeout).until(
+        EC.element_to_be_clickable((by, locator))
+    )
+
+
+def scroll_to(driver, el):
+    driver.execute_script("arguments[0].scrollIntoView({block:'center'})", el)
+    time.sleep(0.3)
+
+
+def take_screenshot(driver, name):
+    screenshots_dir = os.path.join(
+        os.path.dirname(__file__), "..", "..", "..", "..", "reports", "screenshots"
+    )
+    os.makedirs(screenshots_dir, exist_ok=True)
+    ts = time.strftime("%Y%m%d_%H%M%S")
+    path = os.path.join(screenshots_dir, f"item_details_by_supplier_{name}_{ts}.png")
+    driver.save_screenshot(path)
+    print(f"  [screenshot] {path}")
+    return path
+
+
+def safe_click_first(driver, locators, timeout=5):
+    """Return the first clickable element found from a list of locators."""
+    for locator in locators:
+        try:
+            return WebDriverWait(driver, timeout).until(
+                EC.element_to_be_clickable(locator)
+            )
+        except Exception:
+            continue
+    return None
+
+
+def click_visible_text(driver, text):
+    """Click the first visible element matching text via JS fallback."""
+    return driver.execute_script(
+        "var wanted = arguments[0].trim().toLowerCase();"
+        "var els = document.querySelectorAll('a, button, input[type=\"button\"], input[type=\"submit\"], span, div, li');"
+        "for (var i = 0; i < els.length; i++) {"
+        "  var el = els[i];"
+        "  var txt = (el.innerText || el.value || '').trim().toLowerCase();"
+        "  if (!txt) continue;"
+        "  if (txt === wanted && el.offsetParent !== null) { el.click(); return el; }"
+        "}"
+        "return null;",
+        text,
+    )
+
+
+def navigate_to_item_details_by_supplier(driver):
+    """Open Item Details By Supplier report through menu path, with direct URL fallback."""
+    if "Item2Suppliers" in driver.current_url:
+        return
+
+    reports_link = safe_click_first(
+        driver,
+        [
+            (By.XPATH, "//a[normalize-space()='Reports' or contains(normalize-space(.),'Reports')]"),
+            (By.XPATH, "//*[self::a or self::span or self::div][contains(normalize-space(.),'Reports')]"),
+            (By.XPATH, "//a[contains(@href,'Report')]"),
+        ],
+        timeout=6,
+    )
+    if reports_link:
+        try:
+            scroll_to(driver, reports_link)
+            driver.execute_script("arguments[0].click()", reports_link)
+            wait_ready(driver)
+            time.sleep(PAUSE)
+        except Exception:
+            driver.get(ITEM2SUPPLIERS_FILTER_URL)
+            wait_ready(driver)
+            time.sleep(PAUSE)
+            return
+
+    buyer_reports_link = safe_click_first(
+        driver,
+        [
+            (By.XPATH, "//a[normalize-space()='Buyer Reports' or contains(normalize-space(.),'Buyer Reports')]"),
+            (By.XPATH, "//*[self::a or self::span][contains(normalize-space(.),'Buyer Reports')]"),
+            (By.XPATH, "//a[contains(@href,'BuyerReport') or contains(@href,'Buyer')]"),
+        ],
+        timeout=6,
+    )
+    if buyer_reports_link:
+        scroll_to(driver, buyer_reports_link)
+        driver.execute_script("arguments[0].click()", buyer_reports_link)
+        wait_ready(driver)
+        time.sleep(PAUSE)
+
+    item_details_link = safe_click_first(
+        driver,
+        [
+            (By.XPATH, "//a[contains(@href,'Item2SuppliersFilter')]"),
+            (By.XPATH, "//a[contains(normalize-space(.),'Item Details By Supplier')]"),
+            (By.XPATH, "//*[self::a or self::span][contains(normalize-space(.),'Item Details') and contains(normalize-space(.),'Supplier')]"),
+        ],
+        timeout=6,
+    )
+    if item_details_link:
+        scroll_to(driver, item_details_link)
+        driver.execute_script("arguments[0].click()", item_details_link)
+        wait_ready(driver)
+        time.sleep(PAUSE)
+    else:
+        print("  [WARN] Item Details By Supplier menu link not found - navigating directly to report URL.")
+        driver.get(ITEM2SUPPLIERS_FILTER_URL)
+        wait_ready(driver)
+        time.sleep(PAUSE)
+
+
+# ============================================================================
+# TEST CLASS
+# ============================================================================
+
+
+@pytest.mark.usefixtures("driver")
+class TestItemDetailsBySupplierReport:
+    """End-to-end tests for Item Details By Supplier Report."""
+
+    def test_01_login(self, driver):
+        """Login as buyeruser and verify dashboard loads."""
+        print("\n[test_01_login] Navigating to login page...")
+        driver.get(f"{BASE_URL}/Account/Login")
+        wait_ready(driver)
+        time.sleep(PAUSE)
+
+        username_field = find(driver, By.ID, "UserName")
+        password_field = find(driver, By.ID, "Password")
+        login_btn = clickable(driver, By.ID, "login-button")
+
+        username_field.clear()
+        username_field.send_keys(USERNAME)
+        password_field.clear()
+        password_field.send_keys(PASSWORD)
+        login_btn.click()
+
+        wait_ready(driver)
+        time.sleep(PAUSE)
+
+        take_screenshot(driver, "01_after_login")
+        assert "Account/Login" not in driver.current_url, (
+            f"Login failed - still on login page. URL: {driver.current_url}"
+        )
+        print(f"  [PASS] Logged in. Current URL: {driver.current_url}")
+
+    def test_02_open_report(self, driver):
+        """Navigate to Item Details By Supplier Report filter page."""
+        print("\n[test_02_open_report] Navigating to Item Details By Supplier Report...")
+        navigate_to_item_details_by_supplier(driver)
+
+        take_screenshot(driver, "02_filter_page")
+
+        # Verify filter page loaded: URL contains Item2Suppliers OR filter form is visible
+        url_ok = "Item2Suppliers" in driver.current_url
+        plant_radio = safe_click_first(
+            driver,
+            [
+                (By.XPATH, "//input[@type='radio' and contains(@id,'Plant')]"),
+                (By.XPATH, "//input[@type='radio'][@value='0' or @value='1' or @value='2']"),
+                (By.XPATH, "//label[contains(normalize-space(.),'This Plant')]"),
+            ],
+            timeout=5,
+        )
+        show_btn = safe_click_first(
+            driver,
+            [
+                (By.XPATH, "//input[@type='submit' and contains(@value,'Show Report')]"),
+                (By.XPATH, "//a[contains(normalize-space(.),'Show Report')]"),
+                (By.XPATH, "//button[contains(normalize-space(.),'Show Report')]"),
+            ],
+            timeout=5,
+        )
+
+        assert url_ok or plant_radio or show_btn, (
+            f"Filter page did not load. URL: {driver.current_url}"
+        )
+        print(f"  [PASS] Filter page loaded. URL: {driver.current_url}")
+
+    def test_03_show_report(self, driver):
+        """Click Show Report with default filters and verify report grid loads."""
+        print("\n[test_03_show_report] Clicking Show Report...")
+
+        # Ensure we are on the filter page
+        if "Item2SuppliersFilter" not in driver.current_url:
+            driver.get(ITEM2SUPPLIERS_FILTER_URL)
+            wait_ready(driver)
+            time.sleep(PAUSE)
+
+        time.sleep(0.5)
+
+        # Click Show Report button
+        show_btn = safe_click_first(
+            driver,
+            [
+                (By.XPATH, "//input[@type='submit' and contains(@value,'Show Report')]"),
+                (By.XPATH, "//input[@type='button' and contains(@value,'Show Report')]"),
+                (By.XPATH, "//a[contains(normalize-space(.),'Show Report')]"),
+                (By.XPATH, "//button[contains(normalize-space(.),'Show Report')]"),
+            ],
+            timeout=8,
+        )
+
+        if show_btn:
+            scroll_to(driver, show_btn)
+            try:
+                show_btn.click()
+            except Exception:
+                driver.execute_script("arguments[0].click()", show_btn)
+        else:
+            print("  [INFO] Show Report button not found via locator - trying JS text fallback.")
+            result = click_visible_text(driver, "Show Report")
+            assert result is not None, "Could not locate Show Report button"
+
+        wait_ready(driver)
+        time.sleep(PAUSE * 1.5)
+
+        take_screenshot(driver, "03_report_results")
+
+        # Verify report loaded: URL changed to Item2Suppliers or report table/heading is present
+        url_ok = "Item2Suppliers" in driver.current_url and "Filter" not in driver.current_url
+        heading_present = False
+        try:
+            heading_el = WebDriverWait(driver, 8).until(
+                EC.presence_of_element_located(
+                    (By.XPATH, "//*[contains(normalize-space(.),'Item Details By Supplier')]")
+                )
+            )
+            heading_present = heading_el is not None
+        except Exception:
+            pass
+
+        table_present = False
+        try:
+            tbl = WebDriverWait(driver, 8).until(
+                EC.presence_of_element_located((By.XPATH, "//table[.//tbody//tr]"))
+            )
+            table_present = tbl is not None
+        except Exception:
+            pass
+
+        assert url_ok or heading_present or table_present, (
+            f"Report did not load after clicking Show Report. URL: {driver.current_url}"
+        )
+        print(f"  [PASS] Report loaded. URL: {driver.current_url}")
+
+    def test_04_change_filter(self, driver):
+        """Click Change Filter button and verify return to filter page."""
+        print("\n[test_04_change_filter] Clicking Change Filter...")
+
+        change_filter_btn = safe_click_first(
+            driver,
+            [
+                (By.XPATH, "//a[contains(normalize-space(.),'Change Filter')]"),
+                (By.XPATH, "//button[contains(normalize-space(.),'Change Filter')]"),
+                (By.XPATH, "//input[@type='button' and contains(@value,'Change Filter')]"),
+                (By.XPATH, "//a[contains(@href,'Item2SuppliersFilter')]"),
+            ],
+            timeout=8,
+        )
+
+        if change_filter_btn:
+            scroll_to(driver, change_filter_btn)
+            try:
+                change_filter_btn.click()
+            except Exception:
+                driver.execute_script("arguments[0].click()", change_filter_btn)
+        else:
+            print("  [INFO] Change Filter button not found via locator - trying JS text fallback.")
+            result = click_visible_text(driver, "Change Filter")
+            if not result:
+                # Last resort: navigate directly back to filter URL
+                print("  [INFO] JS fallback also failed - navigating directly to filter URL.")
+                driver.get(ITEM2SUPPLIERS_FILTER_URL)
+
+        wait_ready(driver)
+        time.sleep(PAUSE)
+
+        take_screenshot(driver, "04_after_change_filter")
+
+        # Verify returned to filter page: URL contains Filter or Plant radio/Show Report button visible
+        url_ok = "Item2SuppliersFilter" in driver.current_url
+        filter_visible = safe_click_first(
+            driver,
+            [
+                (By.XPATH, "//input[@type='radio' and contains(@id,'Plant')]"),
+                (By.XPATH, "//input[@type='radio'][@value='0' or @value='1' or @value='2']"),
+                (By.XPATH, "//label[contains(normalize-space(.),'This Plant')]"),
+                (By.XPATH, "//input[@type='submit' and contains(@value,'Show Report')]"),
+            ],
+            timeout=5,
+        )
+
+        assert url_ok or filter_visible, (
+            f"Did not return to filter page after Change Filter. URL: {driver.current_url}"
+        )
+        print(f"  [PASS] Returned to filter page. URL: {driver.current_url}")

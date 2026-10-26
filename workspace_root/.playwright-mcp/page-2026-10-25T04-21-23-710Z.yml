@@ -1,0 +1,2651 @@
+- generic [ref=f21e1]:
+  - generic [ref=f21e2]:
+    - generic:
+      - generic: "Skip to:"
+      - list:
+        - listitem:
+          - link "Top Bar":
+            - /url: "#jira-page-layout-top-nav"
+        - listitem:
+          - link "Sidebar":
+            - /url: "#jira-page-layout-side-nav"
+        - listitem:
+          - link "Main Content":
+            - /url: "#jira-page-layout-main"
+    - generic [ref=f21e3]:
+      - banner [ref=f21e4]:
+        - generic [ref=f21e5]:
+          - button "Collapse sidebar" [ref=f21e6] [cursor=pointer]
+          - button "Switch sites or apps" [ref=f21e3571] [cursor=pointer]
+          - link "Go to your Jira homepage" [ref=f21e27] [cursor=pointer]:
+            - /url: /jira
+            - img "Jira homepage" [ref=f21e29]
+        - generic [ref=f21e30]:
+          - button [ref=f21e31] [cursor=pointer]:
+            - search [ref=f21e32]:
+              - combobox "Search" [ref=f21e35]
+              - generic [ref=f21e36]: Press enter to navigate to advanced search with your text query
+              - button "Open app connections" [ref=f21e38]:
+                - generic: Connect apps
+          - button "Create" [ref=f21e41] [cursor=pointer]
+        - navigation "Actions" [ref=f21e45]:
+          - list [ref=f21e46]:
+            - listitem [ref=f21e47]:
+              - button "Ask Rovo" [ref=f21e49] [cursor=pointer]
+            - listitem [ref=f21e58]:
+              - generic [ref=f21e60]:
+                - button "3 Notifications" [ref=f21e61] [cursor=pointer]
+                - generic [aria-hidden]:
+                  - generic: "3"
+            - listitem [ref=f21e67]:
+              - button "Help" [ref=f21e68] [cursor=pointer]
+            - listitem [ref=f21e71]:
+              - button "Settings" [ref=f21e73] [cursor=pointer]
+            - listitem [ref=f21e76]:
+              - button "vseelam@uplandsoftware.com" [ref=f21e77] [cursor=pointer]
+      - navigation "Sidebar" [ref=f21e82]:
+        - generic [ref=f21e85]:
+          - list [ref=f21e86]:
+            - generic [ref=f21e88]:
+              - listitem [ref=f21e90]:
+                - link "For you" [ref=f21e92] [cursor=pointer]:
+                  - /url: /jira/for-you
+              - listitem [ref=f21e98]:
+                - button "Recent" [ref=f21e100] [cursor=pointer]
+              - listitem [ref=f21e105]:
+                - button "Starred" [ref=f21e107] [cursor=pointer]
+              - listitem [ref=f21e112]:
+                - button "Apps" [ref=f21e116] [cursor=pointer]
+              - listitem [ref=f21e121]:
+                - button "Roadmaps" [ref=f21e125] [cursor=pointer]
+              - listitem [ref=f21e130]:
+                - button "Plans" [ref=f21e134] [cursor=pointer]
+              - listitem [ref=f21e139]:
+                - generic [ref=f21e140]:
+                  - generic [ref=f21e142]:
+                    - button "Spaces" [expanded] [ref=f21e143] [cursor=pointer]
+                    - button "More actions for spaces" [ref=f21e149] [cursor=pointer]
+                  - list [ref=f21e153]:
+                    - listitem [ref=f21e154]:
+                      - group [ref=f21e155]:
+                        - paragraph [ref=f21e156]: Recent
+                        - list [ref=f21e157]:
+                          - listitem [ref=f21e158]:
+                            - generic [ref=f21e159]:
+                              - generic [ref=f21e161]:
+                                - link "Ultriva App" [ref=f21e162] [cursor=pointer]:
+                                  - /url: /browse/ULT
+                                - button "Ultriva App" [expanded] [ref=f21e169] [cursor=pointer]
+                                - generic [ref=f21e173]:
+                                  - button "Create board" [ref=f21e175] [cursor=pointer]
+                                  - button "More actions for Ultriva App" [ref=f21e179] [cursor=pointer]
+                              - list [ref=f21e183]:
+                                - listitem [ref=f21e184]:
+                                  - group [ref=f21e185]:
+                                    - paragraph [ref=f21e186]: Recent
+                                    - list [ref=f21e187]:
+                                      - listitem [ref=f21e189]:
+                                        - generic [ref=f21e190]:
+                                          - link "Nandu" [ref=f21e191] [cursor=pointer]:
+                                            - /url: /jira/software/c/projects/ULT/boards/208
+                                          - generic:
+                                            - button "Board actions for Nandu"
+                                      - listitem [ref=f21e201]:
+                                        - generic [ref=f21e202]:
+                                          - link "Open Sprint" [ref=f21e203] [cursor=pointer]:
+                                            - /url: /jira/software/c/projects/ULT/boards/218
+                                          - generic:
+                                            - button "Board actions for Open Sprint"
+                                      - listitem [ref=f21e213]:
+                                        - generic [ref=f21e214]:
+                                          - link "Ultriva - LeanSuite" [ref=f21e215] [cursor=pointer]:
+                                            - /url: /jira/software/c/projects/ULT/boards/199
+                                          - generic:
+                                            - button "Board actions for Ultriva - LeanSuite"
+                                      - listitem [ref=f21e225]:
+                                        - generic [ref=f21e226]:
+                                          - link "Ultriva_PS_Board" [ref=f21e227] [cursor=pointer]:
+                                            - /url: /jira/software/c/projects/ULT/boards/280
+                                          - generic:
+                                            - button "Board actions for Ultriva_PS_Board"
+                    - listitem [ref=f21e236]:
+                      - group [ref=f21e237]:
+                        - list [ref=f21e238]:
+                          - listitem [ref=f21e239]:
+                            - button "More spaces" [ref=f21e241] [cursor=pointer]
+              - listitem [ref=f21e246]:
+                - button "Filters" [ref=f21e250] [cursor=pointer]
+              - listitem [ref=f21e255]:
+                - generic [ref=f21e258]:
+                  - button "Dashboards" [ref=f21e259] [cursor=pointer]
+                  - button "Create dashboard" [ref=f21e264] [cursor=pointer]
+          - generic [ref=f21e269]:
+            - list [ref=f21e274]:
+              - listitem [ref=f21e276]:
+                - link "Confluence , (opens new window)" [ref=f21e278] [cursor=pointer]:
+                  - /url: https://uplandsoftware.atlassian.net/wiki
+                  - generic [ref=f21e280]: Confluence
+                  - generic [ref=f21e284]: ", (opens new window)"
+              - listitem [ref=f21e286]:
+                - generic [ref=f21e287]:
+                  - link "Teams , (opens new window)" [ref=f21e288] [cursor=pointer]:
+                    - /url: https://home.atlassian.com/o/c8497d10-c1fb-47c2-8558-972d1642b3fa/people/?cloudId=c2e5b6e5-e457-414b-a1b5-53ab88c2acd4
+                    - generic [ref=f21e290]: Teams
+                    - generic [ref=f21e294]: ", (opens new window)"
+                  - generic:
+                    - img "Teams"
+                  - generic:
+                    - button "Teams"
+              - listitem [ref=f21e299]:
+                - link "Goals , (opens new window)" [ref=f21e301] [cursor=pointer]:
+                  - /url: https://home.atlassian.com/o/c8497d10-c1fb-47c2-8558-972d1642b3fa/goals?cloudId=c2e5b6e5-e457-414b-a1b5-53ab88c2acd4
+                  - generic [ref=f21e303]: Goals
+                  - generic [ref=f21e307]: ", (opens new window)"
+            - button "Customize sidebar" [ref=f21e313] [cursor=pointer]
+        - generic [ref=f21e3573]:
+          - slider "Resize panel" [ref=f21e3574]: "320"
+          - text: Resize panel
+      - main [ref=f21e318]:
+        - generic [ref=f21e329]:
+          - generic [ref=f21e331]:
+            - navigation "Work item breadcrumbs" [ref=f21e336]:
+              - list [ref=f21e337]:
+                - listitem [ref=f21e338]:
+                  - listitem [ref=f21e339]:
+                    - link "Spaces" [ref=f21e340] [cursor=pointer]:
+                      - /url: /jira/projects
+                  - text: /
+                - listitem [ref=f21e342]:
+                  - img "Ultriva App" [ref=f21e345]
+                  - listitem [ref=f21e346]:
+                    - link "Ultriva App" [ref=f21e347] [cursor=pointer]:
+                      - /url: https://uplandsoftware.atlassian.net/browse/ULT
+                  - text: /
+                - listitem [ref=f21e349]:
+                  - button "Epic - Change work type" [ref=f21e351] [cursor=pointer]:
+                    - img "Epic" [ref=f21e353]
+                  - generic:
+                    - status
+                  - listitem [ref=f21e354]:
+                    - link "ULT-10655" [ref=f21e355] [cursor=pointer]:
+                      - /url: /browse/ULT-10655
+                  - generic [ref=f21e358]:
+                    - textbox [aria-hidden] [ref=f21e359]
+                    - button [ref=f21e360] [cursor=pointer]:
+                      - img "Copy link" [ref=f21e362]
+            - generic [ref=f21e363]:
+              - button "Dark teal selected, edit epic color" [ref=f21e366] [cursor=pointer]
+              - generic [ref=f21e374]:
+                - button "AG Grid 35 migration- Summary, edit"
+                - heading "AG Grid 35 migration" [level=1] [ref=f21e376]
+            - generic [ref=f21e378]:
+              - generic [ref=f21e380]:
+                - button "Add or create work related to this Epic" [ref=f21e382] [cursor=pointer]
+                - button "View app actions" [ref=f21e386] [cursor=pointer]
+              - button "Summarize work item" [ref=f21e391] [cursor=pointer]
+            - generic [ref=f21e396]:
+              - heading "Collapse Key details Key details" [level=2] [ref=f21e397]:
+                - generic [ref=f21e401] [cursor=pointer]:
+                  - button "Collapse Key details" [ref=f21e402]
+                  - generic [ref=f21e406]: Key details
+              - region "Key details section" [ref=f21e407]:
+                - generic [ref=f21e410]:
+                  - heading "Description" [level=2] [ref=f21e413]
+                  - generic [ref=f21e419]:
+                    - button "Edit Description, edit"
+                    - generic [ref=f21e423]:
+                      - paragraph [ref=f21e424]: Migrate the LeanSuite list/grid pages from the legacy grid to AG Grid 35 Enterprise.
+                      - paragraph [ref=f21e425]:
+                        - strong [ref=f21e426]: "Scope:"
+                        - text: "488 pages in scope. A further 169 pages were inventoried and ruled out as not applicable (dead code, partials that ride inside a migrated host page, print-only views). Tracker: AG Grid migration tracker workbook maintained by Dani, snapshot 2026-10-19 (data last updated 2026-10-13)."
+                      - paragraph [ref=f21e427]:
+                        - strong [ref=f21e428]: "Status at creation:"
+                        - text: "479 of 488 pages migrated (98.2%). Work started around August 2026 (first migration recorded 2026-08-05, last 2026-09-23 in the tracker). QA is being done on the POC instance, deliberately not yet on the official QA server: 231 pages have a recorded pass from the automated harness, 3 failed, 116 could not be exercised by the harness, 129 have no QA recorded. Nothing here has passed the official QA stage."
+                      - paragraph [ref=f21e429]: This issue was created on 2026-10-19 to reflect work already in flight. It is not backdated and has no work logged before that date.
+                      - paragraph [ref=f21e430]:
+                        - strong [ref=f21e431]: "Out of scope:"
+                        - text: the 169 not-applicable pages; changing legacy behaviour (known legacy bugs are ported as-is and noted on the page).
+                      - paragraph [ref=f21e432]:
+                        - strong [ref=f21e433]: "Child items:"
+                        - text: one story per page category, plus stories for QA failures, the 9 remaining pages, manual POC QA, and promotion to the official QA server.
+                - generic [ref=f21e436]:
+                  - generic [ref=f21e437]:
+                    - heading "Environment" [level=2] [ref=f21e438]
+                    - button "More information about" [ref=f21e3577] [cursor=pointer]
+                  - generic [ref=f21e444]:
+                    - button "Environment, edit"
+                    - generic [ref=f21e445]: Add text
+                - generic [ref=f21e448]:
+                  - generic [ref=f21e450]:
+                    - heading "Acceptance Criteria" [level=2] [ref=f21e451]
+                    - button "More information about Acceptance Criteria" [ref=f21e3582] [cursor=pointer]
+                  - generic [ref=f21e456]:
+                    - button "Add Acceptance Criteria, edit"
+                    - generic [ref=f21e457]: Add text
+                - generic [ref=f21e460]:
+                  - heading "Release Notes" [level=2] [ref=f21e463]
+                  - generic [ref=f21e468]:
+                    - button "Add Release Notes, edit"
+                    - generic [ref=f21e469]: Add text
+                - generic [ref=f21e472]:
+                  - generic [ref=f21e473]:
+                    - heading "Zendesk Ticket IDs" [level=2] [ref=f21e474]
+                    - button "More information about" [ref=f21e3586] [cursor=pointer]
+                  - generic [ref=f21e480]:
+                    - button "Zendesk Ticket IDs, edit"
+                    - generic [ref=f21e481]: Add text
+                - generic [ref=f21e484]:
+                  - generic [ref=f21e485]:
+                    - heading "Checklist Text" [level=2] [ref=f21e486]
+                    - button "More information about" [ref=f21e3590] [cursor=pointer]
+                  - generic [ref=f21e492]:
+                    - button "Checklist Text, edit"
+                    - generic [ref=f21e493]: Add text
+                - generic [ref=f21e496]:
+                  - generic [ref=f21e497]:
+                    - heading "Checklist Content YAML" [level=2] [ref=f21e498]
+                    - button "More information about" [ref=f21e3594] [cursor=pointer]
+                  - generic [ref=f21e504]:
+                    - button "Checklist Content YAML, edit"
+                    - generic [ref=f21e505]: Add text
+            - generic [ref=f21e506]:
+              - generic [ref=f21e509]:
+                - heading "Collapse Child work items Child work items Work item actions Configure columns Create child" [level=2] [ref=f21e3565]:
+                  - generic [ref=f21e511]:
+                    - generic [ref=f21e514] [cursor=pointer]:
+                      - button "Collapse Child work items" [ref=f21e515]
+                      - generic [ref=f21e519]: Child work items
+                    - generic [ref=f21e520]:
+                      - button "Work item actions" [ref=f21e522] [cursor=pointer]
+                      - generic [ref=f21e3597]:
+                        - button "Configure columns" [ref=f21e3598] [cursor=pointer]
+                        - generic:
+                          - status
+                      - button "Create child" [ref=f21e528] [cursor=pointer]
+                - region "Child work items section" [ref=f21e532]:
+                  - generic [ref=f21e534]:
+                    - progressbar "Child work progress" [ref=f21e536]
+                    - generic [ref=f21e540]:
+                      - generic [ref=f21e541]: "58"
+                      - text: "% Done"
+                  - table "Work (column headers with buttons are sortable)" [ref=f21e547]:
+                    - rowgroup [ref=f21e548]:
+                      - row [ref=f21e549]:
+                        - columnheader "Work More actions for Work" [ref=f21e550]:
+                          - generic [ref=f21e551]:
+                            - generic [ref=f21e552]: Work
+                            - generic:
+                              - generic:
+                                - button "More actions for Work"
+                        - columnheader [ref=f21e554]:
+                          - generic [ref=f21e555]:
+                            - generic [aria-hidden] [ref=f21e557]: Priority
+                            - generic:
+                              - generic:
+                                - button "More actions for Priority"
+                        - columnheader [ref=f21e558]:
+                          - generic [ref=f21e559]:
+                            - generic [aria-hidden] [ref=f21e561]: Story Points
+                            - generic:
+                              - generic:
+                                - button "More actions for Story Points"
+                        - columnheader [ref=f21e562]:
+                          - generic [ref=f21e563]:
+                            - generic [aria-hidden] [ref=f21e565]: Assignee
+                            - generic:
+                              - generic:
+                                - button "More actions for Assignee"
+                        - columnheader [ref=f21e566]:
+                          - generic [ref=f21e567]:
+                            - generic [aria-hidden] [ref=f21e569]: Status
+                            - generic:
+                              - generic:
+                                - button "Status • Sort in ascending order"
+                              - generic:
+                                - button "More actions for Status"
+                    - rowgroup [ref=f21e570]:
+                      - row [ref=f21e3606]:
+                        - rowheader [ref=f21e3607]:
+                          - generic [ref=f21e573]:
+                            - img "Story" [ref=f21e574]
+                            - generic [ref=f21e575]:
+                              - link "ULT-10656 is resolved" [ref=f21e577] [cursor=pointer]:
+                                - /url: /browse/ULT-10656
+                                - text: ULT-10656
+                              - button "Copy link" [ref=f21e579] [cursor=pointer]
+                            - generic [ref=f21e583]:
+                              - 'link "AG Grid 35: Action Card List pages" [ref=f21e585] [cursor=pointer]':
+                                - /url: /browse/ULT-10656
+                              - button [ref=f21e3608] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3610]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3611]:
+                          - button "Edit Priority" [ref=f21e3612]
+                          - generic [ref=f21e589]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3613]:
+                          - button "Edit Story Points" [ref=f21e3614]
+                          - generic [ref=f21e593]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3615]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3616]
+                          - generic [ref=f21e600]:
+                            - img "Daniel Tenorio" [ref=f21e601]
+                            - generic [ref=f21e604]: Daniel Tenorio
+                        - cell [ref=f21e605]:
+                          - button "Closed - Change status" [ref=f21e610] [cursor=pointer]:
+                            - generic [ref=f21e611]: Closed
+                      - row [ref=f21e3617]:
+                        - rowheader [ref=f21e3618]:
+                          - generic [ref=f21e616]:
+                            - img "Story" [ref=f21e617]
+                            - generic [ref=f21e618]:
+                              - link "ULT-10657 is not resolved" [ref=f21e620] [cursor=pointer]:
+                                - /url: /browse/ULT-10657
+                                - text: ULT-10657
+                              - button "Copy link" [ref=f21e622] [cursor=pointer]
+                            - generic [ref=f21e626]:
+                              - 'link "AG Grid 35: Action Item List pages" [ref=f21e628] [cursor=pointer]':
+                                - /url: /browse/ULT-10657
+                              - button [ref=f21e3619] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3621]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3622]:
+                          - button "Edit Priority" [ref=f21e3623]
+                          - generic [ref=f21e632]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3624]:
+                          - button "Edit Story Points" [ref=f21e3625]
+                          - generic [ref=f21e636]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3626]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3627]
+                          - generic [ref=f21e643]:
+                            - img "Daniel Tenorio" [ref=f21e644]
+                            - generic [ref=f21e647]: Daniel Tenorio
+                        - cell [ref=f21e648]:
+                          - button "Open - Change status" [ref=f21e653] [cursor=pointer]:
+                            - generic [ref=f21e654]: Open
+                      - row [ref=f21e3628]:
+                        - rowheader [ref=f21e3629]:
+                          - generic [ref=f21e659]:
+                            - img "Story" [ref=f21e660]
+                            - generic [ref=f21e661]:
+                              - link "ULT-10658 is resolved" [ref=f21e663] [cursor=pointer]:
+                                - /url: /browse/ULT-10658
+                                - text: ULT-10658
+                              - button "Copy link" [ref=f21e665] [cursor=pointer]
+                            - generic [ref=f21e669]:
+                              - 'link "AG Grid 35: Action Results List pages" [ref=f21e671] [cursor=pointer]':
+                                - /url: /browse/ULT-10658
+                              - button [ref=f21e3630] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3632]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3633]:
+                          - button "Edit Priority" [ref=f21e3634]
+                          - generic [ref=f21e675]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3635]:
+                          - button "Edit Story Points" [ref=f21e3636]
+                          - generic [ref=f21e679]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3637]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3638]
+                          - generic [ref=f21e686]:
+                            - img "Daniel Tenorio" [ref=f21e687]
+                            - generic [ref=f21e690]: Daniel Tenorio
+                        - cell [ref=f21e691]:
+                          - button "Closed - Change status" [ref=f21e696] [cursor=pointer]:
+                            - generic [ref=f21e697]: Closed
+                      - row [ref=f21e3639]:
+                        - rowheader [ref=f21e3640]:
+                          - generic [ref=f21e702]:
+                            - img "Story" [ref=f21e703]
+                            - generic [ref=f21e704]:
+                              - link "ULT-10659 is resolved" [ref=f21e706] [cursor=pointer]:
+                                - /url: /browse/ULT-10659
+                                - text: ULT-10659
+                              - button "Copy link" [ref=f21e708] [cursor=pointer]
+                            - generic [ref=f21e712]:
+                              - 'link "AG Grid 35: Assignment Grid pages" [ref=f21e714] [cursor=pointer]':
+                                - /url: /browse/ULT-10659
+                              - button [ref=f21e3641] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3643]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3644]:
+                          - button "Edit Priority" [ref=f21e3645]
+                          - generic [ref=f21e718]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3646]:
+                          - button "Edit Story Points" [ref=f21e3647]
+                          - generic [ref=f21e722]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3648]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3649]
+                          - generic [ref=f21e729]:
+                            - img "Daniel Tenorio" [ref=f21e730]
+                            - generic [ref=f21e733]: Daniel Tenorio
+                        - cell [ref=f21e734]:
+                          - button "Closed - Change status" [ref=f21e739] [cursor=pointer]:
+                            - generic [ref=f21e740]: Closed
+                      - row [ref=f21e3650]:
+                        - rowheader [ref=f21e3651]:
+                          - generic [ref=f21e745]:
+                            - img "Story" [ref=f21e746]
+                            - generic [ref=f21e747]:
+                              - link "ULT-10660 is resolved" [ref=f21e749] [cursor=pointer]:
+                                - /url: /browse/ULT-10660
+                                - text: ULT-10660
+                              - button "Copy link" [ref=f21e751] [cursor=pointer]
+                            - generic [ref=f21e755]:
+                              - 'link "AG Grid 35: Detail Grid pages" [ref=f21e757] [cursor=pointer]':
+                                - /url: /browse/ULT-10660
+                              - button [ref=f21e3652] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3654]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3655]:
+                          - button "Edit Priority" [ref=f21e3656]
+                          - generic [ref=f21e761]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3657]:
+                          - button "Edit Story Points" [ref=f21e3658]
+                          - generic [ref=f21e765]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3659]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3660]
+                          - generic [ref=f21e772]:
+                            - img "Daniel Tenorio" [ref=f21e773]
+                            - generic [ref=f21e776]: Daniel Tenorio
+                        - cell [ref=f21e777]:
+                          - button "Closed - Change status" [ref=f21e782] [cursor=pointer]:
+                            - generic [ref=f21e783]: Closed
+                      - row [ref=f21e3661]:
+                        - rowheader [ref=f21e3662]:
+                          - generic [ref=f21e788]:
+                            - img "Story" [ref=f21e789]
+                            - generic [ref=f21e790]:
+                              - link "ULT-10661 is resolved" [ref=f21e792] [cursor=pointer]:
+                                - /url: /browse/ULT-10661
+                                - text: ULT-10661
+                              - button "Copy link" [ref=f21e794] [cursor=pointer]
+                            - generic [ref=f21e798]:
+                              - 'link "AG Grid 35: Master List pages" [ref=f21e800] [cursor=pointer]':
+                                - /url: /browse/ULT-10661
+                              - button [ref=f21e3663] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3665]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3666]:
+                          - button "Edit Priority" [ref=f21e3667]
+                          - generic [ref=f21e804]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3668]:
+                          - button "Edit Story Points" [ref=f21e3669]
+                          - generic [ref=f21e808]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3670]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3671]
+                          - generic [ref=f21e815]:
+                            - img "Daniel Tenorio" [ref=f21e816]
+                            - generic [ref=f21e819]: Daniel Tenorio
+                        - cell [ref=f21e820]:
+                          - button "Closed - Change status" [ref=f21e825] [cursor=pointer]:
+                            - generic [ref=f21e826]: Closed
+                      - row [ref=f21e3672]:
+                        - rowheader [ref=f21e3673]:
+                          - generic [ref=f21e831]:
+                            - img "Story" [ref=f21e832]
+                            - generic [ref=f21e833]:
+                              - link "ULT-10662 is not resolved" [ref=f21e835] [cursor=pointer]:
+                                - /url: /browse/ULT-10662
+                                - text: ULT-10662
+                              - button "Copy link" [ref=f21e837] [cursor=pointer]
+                            - generic [ref=f21e841]:
+                              - 'link "AG Grid 35: Other List Grid pages" [ref=f21e843] [cursor=pointer]':
+                                - /url: /browse/ULT-10662
+                              - button [ref=f21e3674] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3676]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3677]:
+                          - button "Edit Priority" [ref=f21e3678]
+                          - generic [ref=f21e847]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3679]:
+                          - button "Edit Story Points" [ref=f21e3680]
+                          - generic [ref=f21e851]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3681]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3682]
+                          - generic [ref=f21e858]:
+                            - img "Daniel Tenorio" [ref=f21e859]
+                            - generic [ref=f21e862]: Daniel Tenorio
+                        - cell [ref=f21e863]:
+                          - button "Open - Change status" [ref=f21e868] [cursor=pointer]:
+                            - generic [ref=f21e869]: Open
+                      - row [ref=f21e3683]:
+                        - rowheader [ref=f21e3684]:
+                          - generic [ref=f21e874]:
+                            - img "Story" [ref=f21e875]
+                            - generic [ref=f21e876]:
+                              - link "ULT-10663 is resolved" [ref=f21e878] [cursor=pointer]:
+                                - /url: /browse/ULT-10663
+                                - text: ULT-10663
+                              - button "Copy link" [ref=f21e880] [cursor=pointer]
+                            - generic [ref=f21e884]:
+                              - 'link "AG Grid 35: Report/Analytics Grid pages" [ref=f21e886] [cursor=pointer]':
+                                - /url: /browse/ULT-10663
+                              - button [ref=f21e3685] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3687]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3688]:
+                          - button "Edit Priority" [ref=f21e3689]
+                          - generic [ref=f21e890]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3690]:
+                          - button "Edit Story Points" [ref=f21e3691]
+                          - generic [ref=f21e894]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3692]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3693]
+                          - generic [ref=f21e901]:
+                            - img "Daniel Tenorio" [ref=f21e902]
+                            - generic [ref=f21e905]: Daniel Tenorio
+                        - cell [ref=f21e906]:
+                          - button "Closed - Change status" [ref=f21e911] [cursor=pointer]:
+                            - generic [ref=f21e912]: Closed
+                      - row [ref=f21e3694]:
+                        - rowheader [ref=f21e3695]:
+                          - generic [ref=f21e917]:
+                            - img "Story" [ref=f21e918]
+                            - generic [ref=f21e919]:
+                              - link "ULT-10664 is resolved" [ref=f21e921] [cursor=pointer]:
+                                - /url: /browse/ULT-10664
+                                - text: ULT-10664
+                              - button "Copy link" [ref=f21e923] [cursor=pointer]
+                            - generic [ref=f21e927]:
+                              - 'link "AG Grid 35: Results Grid pages" [ref=f21e929] [cursor=pointer]':
+                                - /url: /browse/ULT-10664
+                              - button [ref=f21e3696] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3698]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3699]:
+                          - button "Edit Priority" [ref=f21e3700]
+                          - generic [ref=f21e933]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3701]:
+                          - button "Edit Story Points" [ref=f21e3702]
+                          - generic [ref=f21e937]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3703]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3704]
+                          - generic [ref=f21e944]:
+                            - img "Daniel Tenorio" [ref=f21e945]
+                            - generic [ref=f21e948]: Daniel Tenorio
+                        - cell [ref=f21e949]:
+                          - button "Closed - Change status" [ref=f21e954] [cursor=pointer]:
+                            - generic [ref=f21e955]: Closed
+                      - row [ref=f21e3705]:
+                        - rowheader [ref=f21e3706]:
+                          - generic [ref=f21e960]:
+                            - img "Story" [ref=f21e961]
+                            - generic [ref=f21e962]:
+                              - link "ULT-10665 is resolved" [ref=f21e964] [cursor=pointer]:
+                                - /url: /browse/ULT-10665
+                                - text: ULT-10665
+                              - button "Copy link" [ref=f21e966] [cursor=pointer]
+                            - generic [ref=f21e970]:
+                              - 'link "AG Grid 35: Wizard Step Grid pages" [ref=f21e972] [cursor=pointer]':
+                                - /url: /browse/ULT-10665
+                              - button [ref=f21e3707] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3709]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3710]:
+                          - button "Edit Priority" [ref=f21e3711]
+                          - generic [ref=f21e976]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3712]:
+                          - button "Edit Story Points" [ref=f21e3713]
+                          - generic [ref=f21e980]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3714]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3715]
+                          - generic [ref=f21e987]:
+                            - img "Daniel Tenorio" [ref=f21e988]
+                            - generic [ref=f21e991]: Daniel Tenorio
+                        - cell [ref=f21e992]:
+                          - button "Closed - Change status" [ref=f21e997] [cursor=pointer]:
+                            - generic [ref=f21e998]: Closed
+                      - row [ref=f21e3716]:
+                        - rowheader [ref=f21e3717]:
+                          - generic [ref=f21e1003]:
+                            - img "Story" [ref=f21e1004]
+                            - generic [ref=f21e1005]:
+                              - link "ULT-10666 is not resolved" [ref=f21e1007] [cursor=pointer]:
+                                - /url: /browse/ULT-10666
+                                - text: ULT-10666
+                              - button "Copy link" [ref=f21e1009] [cursor=pointer]
+                            - generic [ref=f21e1013]:
+                              - 'link "AG Grid 35: multi-render-site pages" [ref=f21e1015] [cursor=pointer]':
+                                - /url: /browse/ULT-10666
+                              - button [ref=f21e3718] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3720]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3721]:
+                          - button "Edit Priority" [ref=f21e3722]
+                          - generic [ref=f21e1019]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3723]:
+                          - button "Edit Story Points" [ref=f21e3724]
+                          - generic [ref=f21e1023]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3725]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3726]
+                          - generic [ref=f21e1030]:
+                            - img "Daniel Tenorio" [ref=f21e1031]
+                            - generic [ref=f21e1034]: Daniel Tenorio
+                        - cell [ref=f21e1035]:
+                          - button "Open - Change status" [ref=f21e1040] [cursor=pointer]:
+                            - generic [ref=f21e1041]: Open
+                      - row [ref=f21e3727]:
+                        - rowheader [ref=f21e3728]:
+                          - generic [ref=f21e1046]:
+                            - img "Story" [ref=f21e1047]
+                            - generic [ref=f21e1048]:
+                              - link "ULT-10667 is not resolved" [ref=f21e1050] [cursor=pointer]:
+                                - /url: /browse/ULT-10667
+                                - text: ULT-10667
+                              - button "Copy link" [ref=f21e1052] [cursor=pointer]
+                            - generic [ref=f21e1056]:
+                              - 'link "AG Grid 35: fix 3 QA failures" [ref=f21e1058] [cursor=pointer]':
+                                - /url: /browse/ULT-10667
+                              - button [ref=f21e3729] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3731]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3732]:
+                          - button "Edit Priority" [ref=f21e3733]
+                          - generic [ref=f21e1062]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3734]:
+                          - button "Edit Story Points" [ref=f21e3735]
+                          - generic [ref=f21e1066]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3736]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3737]
+                          - generic [ref=f21e1073]:
+                            - img "Daniel Tenorio" [ref=f21e1074]
+                            - generic [ref=f21e1077]: Daniel Tenorio
+                        - cell [ref=f21e1078]:
+                          - button "Open - Change status" [ref=f21e1083] [cursor=pointer]:
+                            - generic [ref=f21e1084]: Open
+                      - row [ref=f21e3738]:
+                        - rowheader [ref=f21e3739]:
+                          - generic [ref=f21e1089]:
+                            - img "Story" [ref=f21e1090]
+                            - generic [ref=f21e1091]:
+                              - link "ULT-10668 is not resolved" [ref=f21e1093] [cursor=pointer]:
+                                - /url: /browse/ULT-10668
+                                - text: ULT-10668
+                              - button "Copy link" [ref=f21e1095] [cursor=pointer]
+                            - generic [ref=f21e1099]:
+                              - 'link "AG Grid 35: decide and resolve the 9 remaining pages" [ref=f21e1101] [cursor=pointer]':
+                                - /url: /browse/ULT-10668
+                              - button [ref=f21e3740] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3742]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3743]:
+                          - button "Edit Priority" [ref=f21e3744]
+                          - generic [ref=f21e1105]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3745]:
+                          - button "Edit Story Points" [ref=f21e3746]
+                          - generic [ref=f21e1109]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3747]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3748]
+                          - generic [ref=f21e1116]:
+                            - img "Daniel Tenorio" [ref=f21e1117]
+                            - generic [ref=f21e1120]: Daniel Tenorio
+                        - cell [ref=f21e1121]:
+                          - button "Open - Change status" [ref=f21e1126] [cursor=pointer]:
+                            - generic [ref=f21e1127]: Open
+                      - row [ref=f21e3749]:
+                        - rowheader [ref=f21e3750]:
+                          - generic [ref=f21e1132]:
+                            - img "Story" [ref=f21e1133]
+                            - generic [ref=f21e1134]:
+                              - link "ULT-10669 is not resolved" [ref=f21e1136] [cursor=pointer]:
+                                - /url: /browse/ULT-10669
+                                - text: ULT-10669
+                              - button "Copy link" [ref=f21e1138] [cursor=pointer]
+                            - generic [ref=f21e1142]:
+                              - 'link "AG Grid 35: manual QA of migrated pages on POC (Vijay)" [ref=f21e1144] [cursor=pointer]':
+                                - /url: /browse/ULT-10669
+                              - button [ref=f21e3751] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3753]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3754]:
+                          - button "Edit Priority" [ref=f21e3755]
+                          - generic [ref=f21e1148]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3756]:
+                          - button "Edit Story Points" [ref=f21e3757]
+                          - generic [ref=f21e1152]: Add story points
+                        - cell "Vijayakumar Seelam- edit Assignee Vijayakumar Seelam Vijayakumar Seelam" [ref=f21e3758]:
+                          - button "Vijayakumar Seelam- edit Assignee" [ref=f21e3759]
+                          - generic [ref=f21e1159]:
+                            - img "Vijayakumar Seelam" [ref=f21e1160]
+                            - generic [ref=f21e1163]: Vijayakumar Seelam
+                        - cell [ref=f21e1164]:
+                          - button "In Progress - Change status" [ref=f21e1169] [cursor=pointer]:
+                            - generic [ref=f21e1170]: In Progress
+                      - row [ref=f21e3760]:
+                        - rowheader [ref=f21e3761]:
+                          - generic [ref=f21e1175]:
+                            - img "Story" [ref=f21e1176]
+                            - generic [ref=f21e1177]:
+                              - link "ULT-10670 is not resolved" [ref=f21e1179] [cursor=pointer]:
+                                - /url: /browse/ULT-10670
+                                - text: ULT-10670
+                              - button "Copy link" [ref=f21e1181] [cursor=pointer]
+                            - generic [ref=f21e1185]:
+                              - 'link "AG Grid 35: promote migrated pages to the official QA server" [ref=f21e1187] [cursor=pointer]':
+                                - /url: /browse/ULT-10670
+                              - button [ref=f21e3762] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3764]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3765]:
+                          - button "Edit Priority" [ref=f21e3766]
+                          - generic [ref=f21e1191]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3767]:
+                          - button "Edit Story Points" [ref=f21e3768]
+                          - generic [ref=f21e1195]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3769]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3770]
+                          - generic [ref=f21e1202]:
+                            - img "Daniel Tenorio" [ref=f21e1203]
+                            - generic [ref=f21e1206]: Daniel Tenorio
+                        - cell [ref=f21e1207]:
+                          - button "Open - Change status" [ref=f21e1212] [cursor=pointer]:
+                            - generic [ref=f21e1213]: Open
+                      - row [ref=f21e3771]:
+                        - rowheader [ref=f21e3772]:
+                          - generic [ref=f21e1218]:
+                            - img "Story" [ref=f21e1219]
+                            - generic [ref=f21e1220]:
+                              - link "ULT-10671 is not resolved" [ref=f21e1222] [cursor=pointer]:
+                                - /url: /browse/ULT-10671
+                                - text: ULT-10671
+                              - button "Copy link" [ref=f21e1224] [cursor=pointer]
+                            - generic [ref=f21e1228]:
+                              - 'link "AG Grid 35: re-verify the 116 harness-blocked pages" [ref=f21e1230] [cursor=pointer]':
+                                - /url: /browse/ULT-10671
+                              - button [ref=f21e3773] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3775]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3776]:
+                          - button "Edit Priority" [ref=f21e3777]
+                          - generic [ref=f21e1234]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3778]:
+                          - button "Edit Story Points" [ref=f21e3779]
+                          - generic [ref=f21e1238]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3780]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3781]
+                          - generic [ref=f21e1245]:
+                            - img "Daniel Tenorio" [ref=f21e1246]
+                            - generic [ref=f21e1249]: Daniel Tenorio
+                        - cell [ref=f21e1250]:
+                          - button "Open - Change status" [ref=f21e1255] [cursor=pointer]:
+                            - generic [ref=f21e1256]: Open
+                      - row [ref=f21e3782]:
+                        - rowheader [ref=f21e3783]:
+                          - generic [ref=f21e1261]:
+                            - img "Bug" [ref=f21e1262]
+                            - generic [ref=f21e1263]:
+                              - link "ULT-10672 is resolved" [ref=f21e1265] [cursor=pointer]:
+                                - /url: /browse/ULT-10672
+                                - text: ULT-10672
+                              - button "Copy link" [ref=f21e1267] [cursor=pointer]
+                            - generic [ref=f21e1271]:
+                              - 'link "User Groups list: export to Excel/CSV shows a .gif error instead of the yes/no prompt" [ref=f21e1273] [cursor=pointer]':
+                                - /url: /browse/ULT-10672
+                              - button [ref=f21e3784] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3786]
+                        - cell "Edit Priority 2- High" [ref=f21e3787]:
+                          - button "Edit Priority" [ref=f21e3788]
+                          - generic [ref=f21e1277]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3789]:
+                          - button "Edit Story Points" [ref=f21e3790]
+                          - generic [ref=f21e1281]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3791]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3792]
+                          - generic [ref=f21e1288]:
+                            - img "Daniel Tenorio" [ref=f21e1289]
+                            - generic [ref=f21e1292]: Daniel Tenorio
+                        - cell [ref=f21e1293]:
+                          - button "QA Approved - Change status" [ref=f21e1298] [cursor=pointer]:
+                            - generic [ref=f21e1299]: QA Approved
+                      - row [ref=f21e3793]:
+                        - rowheader [ref=f21e3794]:
+                          - generic [ref=f21e1304]:
+                            - img "Bug" [ref=f21e1305]
+                            - generic [ref=f21e1306]:
+                              - link "ULT-10674 is resolved" [ref=f21e1308] [cursor=pointer]:
+                                - /url: /browse/ULT-10674
+                                - text: ULT-10674
+                              - button "Copy link" [ref=f21e1310] [cursor=pointer]
+                            - generic [ref=f21e1314]:
+                              - link "Print after applying a filter prints all data, not the filtered data (Excel export is correct); seen on any page" [ref=f21e1316] [cursor=pointer]:
+                                - /url: /browse/ULT-10674
+                              - button [ref=f21e3795] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3797]
+                        - cell "Edit Priority 2- High" [ref=f21e3798]:
+                          - button "Edit Priority" [ref=f21e3799]
+                          - generic [ref=f21e1320]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3800]:
+                          - button "Edit Story Points" [ref=f21e3801]
+                          - generic [ref=f21e1324]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3802]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3803]
+                          - generic [ref=f21e1331]:
+                            - img "Daniel Tenorio" [ref=f21e1332]
+                            - generic [ref=f21e1335]: Daniel Tenorio
+                        - cell [ref=f21e1336]:
+                          - button "QA Approved - Change status" [ref=f21e1341] [cursor=pointer]:
+                            - generic [ref=f21e1342]: QA Approved
+                      - row [ref=f21e3804]:
+                        - rowheader [ref=f21e3805]:
+                          - generic [ref=f21e1347]:
+                            - img "Bug" [ref=f21e1348]
+                            - generic [ref=f21e1349]:
+                              - link "ULT-10676 is resolved" [ref=f21e1351] [cursor=pointer]:
+                                - /url: /browse/ULT-10676
+                                - text: ULT-10676
+                              - button "Copy link" [ref=f21e1353] [cursor=pointer]
+                            - generic [ref=f21e1357]:
+                              - 'link "Suppliers > Assign suppliers: Assign with no code entered shows no alert message" [ref=f21e1359] [cursor=pointer]':
+                                - /url: /browse/ULT-10676
+                              - button [ref=f21e3806] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3808]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3809]:
+                          - button "Edit Priority" [ref=f21e3810]
+                          - generic [ref=f21e1363]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3811]:
+                          - button "Edit Story Points" [ref=f21e3812]
+                          - generic [ref=f21e1367]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3813]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3814]
+                          - generic [ref=f21e1374]:
+                            - img "Daniel Tenorio" [ref=f21e1375]
+                            - generic [ref=f21e1378]: Daniel Tenorio
+                        - cell [ref=f21e1379]:
+                          - button "QA Approved - Change status" [ref=f21e1384] [cursor=pointer]:
+                            - generic [ref=f21e1385]: QA Approved
+                      - row [ref=f21e3815]:
+                        - rowheader [ref=f21e3816]:
+                          - generic [ref=f21e1390]:
+                            - img "Bug" [ref=f21e1391]
+                            - generic [ref=f21e1392]:
+                              - link "ULT-10678 is resolved" [ref=f21e1394] [cursor=pointer]:
+                                - /url: /browse/ULT-10678
+                                - text: ULT-10678
+                              - button "Copy link" [ref=f21e1396] [cursor=pointer]
+                            - generic [ref=f21e1400]:
+                              - 'link "Supplier > Shipping rules list: Print and export links are not shown" [ref=f21e1402] [cursor=pointer]':
+                                - /url: /browse/ULT-10678
+                              - button [ref=f21e3817] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3819]
+                        - cell "Edit Priority 2- High" [ref=f21e3820]:
+                          - button "Edit Priority" [ref=f21e3821]
+                          - generic [ref=f21e1406]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3822]:
+                          - button "Edit Story Points" [ref=f21e3823]
+                          - generic [ref=f21e1410]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3824]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3825]
+                          - generic [ref=f21e1417]:
+                            - img "Daniel Tenorio" [ref=f21e1418]
+                            - generic [ref=f21e1421]: Daniel Tenorio
+                        - cell [ref=f21e1422]:
+                          - button "QA Approved - Change status" [ref=f21e1427] [cursor=pointer]:
+                            - generic [ref=f21e1428]: QA Approved
+                      - row [ref=f21e3826]:
+                        - rowheader [ref=f21e3827]:
+                          - generic [ref=f21e1433]:
+                            - img "Bug" [ref=f21e1434]
+                            - generic [ref=f21e1435]:
+                              - link "ULT-10680 is resolved" [ref=f21e1437] [cursor=pointer]:
+                                - /url: /browse/ULT-10680
+                                - text: ULT-10680
+                              - button "Copy link" [ref=f21e1439] [cursor=pointer]
+                            - generic [ref=f21e1443]:
+                              - 'link "Supplier > More options > Shipping rules: Back button intermittently fails" [ref=f21e1445] [cursor=pointer]':
+                                - /url: /browse/ULT-10680
+                              - button [ref=f21e3828] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3830]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3831]:
+                          - button "Edit Priority" [ref=f21e3832]
+                          - generic [ref=f21e1449]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3833]:
+                          - button "Edit Story Points" [ref=f21e3834]
+                          - generic [ref=f21e1453]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3835]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3836]
+                          - generic [ref=f21e1460]:
+                            - img "Daniel Tenorio" [ref=f21e1461]
+                            - generic [ref=f21e1464]: Daniel Tenorio
+                        - cell [ref=f21e1465]:
+                          - button "QA Approved - Change status" [ref=f21e1470] [cursor=pointer]:
+                            - generic [ref=f21e1471]: QA Approved
+                      - row [ref=f21e3837]:
+                        - rowheader [ref=f21e3838]:
+                          - generic [ref=f21e1476]:
+                            - img "Bug" [ref=f21e1477]
+                            - generic [ref=f21e1478]:
+                              - link "ULT-10682 is resolved" [ref=f21e1480] [cursor=pointer]:
+                                - /url: /browse/ULT-10682
+                                - text: ULT-10682
+                              - button "Copy link" [ref=f21e1482] [cursor=pointer]
+                            - generic [ref=f21e1486]:
+                              - 'link "Supplier Metrics > Open orders > Required ship date: date picker offers a clock time the filter does not need" [ref=f21e1488] [cursor=pointer]':
+                                - /url: /browse/ULT-10682
+                              - button [ref=f21e3839] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3841]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3842]:
+                          - button "Edit Priority" [ref=f21e3843]
+                          - generic [ref=f21e1492]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3844]:
+                          - button "Edit Story Points" [ref=f21e3845]
+                          - generic [ref=f21e1496]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3846]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3847]
+                          - generic [ref=f21e1503]:
+                            - img "Daniel Tenorio" [ref=f21e1504]
+                            - generic [ref=f21e1507]: Daniel Tenorio
+                        - cell [ref=f21e1508]:
+                          - button "QA Approved - Change status" [ref=f21e1513] [cursor=pointer]:
+                            - generic [ref=f21e1514]: QA Approved
+                      - row [ref=f21e3848]:
+                        - rowheader [ref=f21e3849]:
+                          - generic [ref=f21e1519]:
+                            - img "Bug" [ref=f21e1520]
+                            - generic [ref=f21e1521]:
+                              - link "ULT-10684 is resolved" [ref=f21e1523] [cursor=pointer]:
+                                - /url: /browse/ULT-10684
+                                - text: ULT-10684
+                              - button "Copy link" [ref=f21e1525] [cursor=pointer]
+                            - generic [ref=f21e1529]:
+                              - 'link "Work center > Assigned workcenters list: labels not available to filter by" [ref=f21e1531] [cursor=pointer]':
+                                - /url: /browse/ULT-10684
+                              - button [ref=f21e3850] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3852]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3853]:
+                          - button "Edit Priority" [ref=f21e3854]
+                          - generic [ref=f21e1535]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3855]:
+                          - button "Edit Story Points" [ref=f21e3856]
+                          - generic [ref=f21e1539]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3857]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3858]
+                          - generic [ref=f21e1546]:
+                            - img "Daniel Tenorio" [ref=f21e1547]
+                            - generic [ref=f21e1550]: Daniel Tenorio
+                        - cell [ref=f21e1551]:
+                          - button "QA Approved - Change status" [ref=f21e1556] [cursor=pointer]:
+                            - generic [ref=f21e1557]: QA Approved
+                      - row [ref=f21e3859]:
+                        - rowheader [ref=f21e3860]:
+                          - generic [ref=f21e1562]:
+                            - img "Bug" [ref=f21e1563]
+                            - generic [ref=f21e1564]:
+                              - link "ULT-10686 is resolved" [ref=f21e1566] [cursor=pointer]:
+                                - /url: /browse/ULT-10686
+                                - text: ULT-10686
+                              - button "Copy link" [ref=f21e1568] [cursor=pointer]
+                            - generic [ref=f21e1572]:
+                              - 'link "Workcenters > Attachments list: preview opens but has no close icon" [ref=f21e1574] [cursor=pointer]':
+                                - /url: /browse/ULT-10686
+                              - button [ref=f21e3861] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3863]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3864]:
+                          - button "Edit Priority" [ref=f21e3865]
+                          - generic [ref=f21e1578]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3866]:
+                          - button "Edit Story Points" [ref=f21e3867]
+                          - generic [ref=f21e1582]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3868]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3869]
+                          - generic [ref=f21e1589]:
+                            - img "Daniel Tenorio" [ref=f21e1590]
+                            - generic [ref=f21e1593]: Daniel Tenorio
+                        - cell [ref=f21e1594]:
+                          - button "QA Approved - Change status" [ref=f21e1599] [cursor=pointer]:
+                            - generic [ref=f21e1600]: QA Approved
+                      - row [ref=f21e3870]:
+                        - rowheader [ref=f21e3871]:
+                          - generic [ref=f21e1605]:
+                            - img "Bug" [ref=f21e1606]
+                            - generic [ref=f21e1607]:
+                              - link "ULT-10688 is resolved" [ref=f21e1609] [cursor=pointer]:
+                                - /url: /browse/ULT-10688
+                                - text: ULT-10688
+                              - button "Copy link" [ref=f21e1611] [cursor=pointer]
+                            - generic [ref=f21e1615]:
+                              - link "Entities menu items not clickable (UI issue)" [ref=f21e1617] [cursor=pointer]:
+                                - /url: /browse/ULT-10688
+                              - button [ref=f21e3872] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3874]
+                        - cell "Edit Priority 2- High" [ref=f21e3875]:
+                          - button "Edit Priority" [ref=f21e3876]
+                          - generic [ref=f21e1621]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3877]:
+                          - button "Edit Story Points" [ref=f21e3878]
+                          - generic [ref=f21e1625]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3879]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3880]
+                          - generic [ref=f21e1632]:
+                            - img "Daniel Tenorio" [ref=f21e1633]
+                            - generic [ref=f21e1636]: Daniel Tenorio
+                        - cell [ref=f21e1637]:
+                          - button "QA Approved - Change status" [ref=f21e1642] [cursor=pointer]:
+                            - generic [ref=f21e1643]: QA Approved
+                      - row [ref=f21e3881]:
+                        - rowheader [ref=f21e3882]:
+                          - generic [ref=f21e1648]:
+                            - img "Bug" [ref=f21e1649]
+                            - generic [ref=f21e1650]:
+                              - link "ULT-10690 is resolved" [ref=f21e1652] [cursor=pointer]:
+                                - /url: /browse/ULT-10690
+                                - text: ULT-10690
+                              - button "Copy link" [ref=f21e1654] [cursor=pointer]
+                            - generic [ref=f21e1658]:
+                              - 'link "Shifts: filter formula not working properly" [ref=f21e1660] [cursor=pointer]':
+                                - /url: /browse/ULT-10690
+                              - button [ref=f21e3883] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3885]
+                        - cell "Edit Priority 2- High" [ref=f21e3886]:
+                          - button "Edit Priority" [ref=f21e3887]
+                          - generic [ref=f21e1664]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3888]:
+                          - button "Edit Story Points" [ref=f21e3889]
+                          - generic [ref=f21e1668]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3890]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3891]
+                          - generic [ref=f21e1675]:
+                            - img "Daniel Tenorio" [ref=f21e1676]
+                            - generic [ref=f21e1679]: Daniel Tenorio
+                        - cell [ref=f21e1680]:
+                          - button "QA Approved - Change status" [ref=f21e1685] [cursor=pointer]:
+                            - generic [ref=f21e1686]: QA Approved
+                      - row [ref=f21e3892]:
+                        - rowheader [ref=f21e3893]:
+                          - generic [ref=f21e1691]:
+                            - img "Bug" [ref=f21e1692]
+                            - generic [ref=f21e1693]:
+                              - link "ULT-10692 is resolved" [ref=f21e1695] [cursor=pointer]:
+                                - /url: /browse/ULT-10692
+                                - text: ULT-10692
+                              - button "Copy link" [ref=f21e1697] [cursor=pointer]
+                            - generic [ref=f21e1701]:
+                              - 'link "Find release ID > From date > Print: prints the same page in a new window instead of the data" [ref=f21e1703] [cursor=pointer]':
+                                - /url: /browse/ULT-10692
+                              - button [ref=f21e3894] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3896]
+                        - cell "Edit Priority 2- High" [ref=f21e3897]:
+                          - button "Edit Priority" [ref=f21e3898]
+                          - generic [ref=f21e1707]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3899]:
+                          - button "Edit Story Points" [ref=f21e3900]
+                          - generic [ref=f21e1711]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3901]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3902]
+                          - generic [ref=f21e1718]:
+                            - img "Daniel Tenorio" [ref=f21e1719]
+                            - generic [ref=f21e1722]: Daniel Tenorio
+                        - cell [ref=f21e1723]:
+                          - button "QA Approved - Change status" [ref=f21e1728] [cursor=pointer]:
+                            - generic [ref=f21e1729]: QA Approved
+                      - row [ref=f21e3903]:
+                        - rowheader [ref=f21e3904]:
+                          - generic [ref=f21e1734]:
+                            - img "Bug" [ref=f21e1735]
+                            - generic [ref=f21e1736]:
+                              - link "ULT-10694 is resolved" [ref=f21e1738] [cursor=pointer]:
+                                - /url: /browse/ULT-10694
+                                - text: ULT-10694
+                              - button "Copy link" [ref=f21e1740] [cursor=pointer]
+                            - generic [ref=f21e1744]:
+                              - 'link "Item > Associate supplier: \"Please select a record\" shown even with a supplier selected" [ref=f21e1746] [cursor=pointer]':
+                                - /url: /browse/ULT-10694
+                              - button [ref=f21e3905] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3907]
+                        - cell "Edit Priority 2- High" [ref=f21e3908]:
+                          - button "Edit Priority" [ref=f21e3909]
+                          - generic [ref=f21e1750]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3910]:
+                          - button "Edit Story Points" [ref=f21e3911]
+                          - generic [ref=f21e1754]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3912]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3913]
+                          - generic [ref=f21e1761]:
+                            - img "Daniel Tenorio" [ref=f21e1762]
+                            - generic [ref=f21e1765]: Daniel Tenorio
+                        - cell [ref=f21e1766]:
+                          - button "QA Approved - Change status" [ref=f21e1771] [cursor=pointer]:
+                            - generic [ref=f21e1772]: QA Approved
+                      - row [ref=f21e3914]:
+                        - rowheader [ref=f21e3915]:
+                          - generic [ref=f21e1777]:
+                            - img "Bug" [ref=f21e1778]
+                            - generic [ref=f21e1779]:
+                              - link "ULT-10696 is resolved" [ref=f21e1781] [cursor=pointer]:
+                                - /url: /browse/ULT-10696
+                                - text: ULT-10696
+                              - button "Copy link" [ref=f21e1783] [cursor=pointer]
+                            - generic [ref=f21e1787]:
+                              - 'link "Create new item and adjust loop size: system error" [ref=f21e1789] [cursor=pointer]':
+                                - /url: /browse/ULT-10696
+                              - button [ref=f21e3916] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3918]
+                        - cell "Edit Priority 2- High" [ref=f21e3919]:
+                          - button "Edit Priority" [ref=f21e3920]
+                          - generic [ref=f21e1793]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3921]:
+                          - button "Edit Story Points" [ref=f21e3922]
+                          - generic [ref=f21e1797]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3923]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3924]
+                          - generic [ref=f21e1804]:
+                            - img "Daniel Tenorio" [ref=f21e1805]
+                            - generic [ref=f21e1808]: Daniel Tenorio
+                        - cell [ref=f21e1809]:
+                          - button "QA Approved - Change status" [ref=f21e1814] [cursor=pointer]:
+                            - generic [ref=f21e1815]: QA Approved
+                      - row [ref=f21e3925]:
+                        - rowheader [ref=f21e3926]:
+                          - generic [ref=f21e1820]:
+                            - img "Bug" [ref=f21e1821]
+                            - generic [ref=f21e1822]:
+                              - link "ULT-10698 is resolved" [ref=f21e1824] [cursor=pointer]:
+                                - /url: /browse/ULT-10698
+                                - text: ULT-10698
+                              - button "Copy link" [ref=f21e1826] [cursor=pointer]
+                            - generic [ref=f21e1830]:
+                              - 'link "View item details: layout wrong and tabs not clickable" [ref=f21e1832] [cursor=pointer]':
+                                - /url: /browse/ULT-10698
+                              - button [ref=f21e3927] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3929]
+                        - cell "Edit Priority 2- High" [ref=f21e3930]:
+                          - button "Edit Priority" [ref=f21e3931]
+                          - generic [ref=f21e1836]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3932]:
+                          - button "Edit Story Points" [ref=f21e3933]
+                          - generic [ref=f21e1840]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3934]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3935]
+                          - generic [ref=f21e1847]:
+                            - img "Daniel Tenorio" [ref=f21e1848]
+                            - generic [ref=f21e1851]: Daniel Tenorio
+                        - cell [ref=f21e1852]:
+                          - button "QA Approved - Change status" [ref=f21e1857] [cursor=pointer]:
+                            - generic [ref=f21e1858]: QA Approved
+                      - row [ref=f21e3936]:
+                        - rowheader [ref=f21e3937]:
+                          - generic [ref=f21e1863]:
+                            - img "Bug" [ref=f21e1864]
+                            - generic [ref=f21e1865]:
+                              - link "ULT-10700 is resolved" [ref=f21e1867] [cursor=pointer]:
+                                - /url: /browse/ULT-10700
+                                - text: ULT-10700
+                              - button "Copy link" [ref=f21e1869] [cursor=pointer]
+                            - generic [ref=f21e1873]:
+                              - 'link "Item > More options > BOM: operation name shown twice, text boxes oversized" [ref=f21e1875] [cursor=pointer]':
+                                - /url: /browse/ULT-10700
+                              - button [ref=f21e3938] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3940]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3941]:
+                          - button "Edit Priority" [ref=f21e3942]
+                          - generic [ref=f21e1879]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3943]:
+                          - button "Edit Story Points" [ref=f21e3944]
+                          - generic [ref=f21e1883]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3945]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3946]
+                          - generic [ref=f21e1890]:
+                            - img "Daniel Tenorio" [ref=f21e1891]
+                            - generic [ref=f21e1894]: Daniel Tenorio
+                        - cell [ref=f21e1895]:
+                          - button "QA Approved - Change status" [ref=f21e1900] [cursor=pointer]:
+                            - generic [ref=f21e1901]: QA Approved
+                      - row [ref=f21e3947]:
+                        - rowheader [ref=f21e3948]:
+                          - generic [ref=f21e1906]:
+                            - img "Bug" [ref=f21e1907]
+                            - generic [ref=f21e1908]:
+                              - link "ULT-10702 is resolved" [ref=f21e1910] [cursor=pointer]:
+                                - /url: /browse/ULT-10702
+                                - text: ULT-10702
+                              - button "Copy link" [ref=f21e1912] [cursor=pointer]
+                            - generic [ref=f21e1916]:
+                              - 'link "Save BOM: alert message displays incorrectly (UI)" [ref=f21e1918] [cursor=pointer]':
+                                - /url: /browse/ULT-10702
+                              - button [ref=f21e3949] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3951]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3952]:
+                          - button "Edit Priority" [ref=f21e3953]
+                          - generic [ref=f21e1922]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3954]:
+                          - button "Edit Story Points" [ref=f21e3955]
+                          - generic [ref=f21e1926]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3956]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3957]
+                          - generic [ref=f21e1933]:
+                            - img "Daniel Tenorio" [ref=f21e1934]
+                            - generic [ref=f21e1937]: Daniel Tenorio
+                        - cell [ref=f21e1938]:
+                          - button "QA Approved - Change status" [ref=f21e1943] [cursor=pointer]:
+                            - generic [ref=f21e1944]: QA Approved
+                      - row [ref=f21e3958]:
+                        - rowheader [ref=f21e3959]:
+                          - generic [ref=f21e1949]:
+                            - img "Bug" [ref=f21e1950]
+                            - generic [ref=f21e1951]:
+                              - link "ULT-10704 is resolved" [ref=f21e1953] [cursor=pointer]:
+                                - /url: /browse/ULT-10704
+                                - text: ULT-10704
+                              - button "Copy link" [ref=f21e1955] [cursor=pointer]
+                            - generic [ref=f21e1959]:
+                              - 'link "Entities: not all entities shown, no vertical scroll bar" [ref=f21e1961] [cursor=pointer]':
+                                - /url: /browse/ULT-10704
+                              - button [ref=f21e3960] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3962]
+                        - cell "Edit Priority 2- High" [ref=f21e3963]:
+                          - button "Edit Priority" [ref=f21e3964]
+                          - generic [ref=f21e1965]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3965]:
+                          - button "Edit Story Points" [ref=f21e3966]
+                          - generic [ref=f21e1969]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3967]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3968]
+                          - generic [ref=f21e1976]:
+                            - img "Daniel Tenorio" [ref=f21e1977]
+                            - generic [ref=f21e1980]: Daniel Tenorio
+                        - cell [ref=f21e1981]:
+                          - button "QA Approved - Change status" [ref=f21e1986] [cursor=pointer]:
+                            - generic [ref=f21e1987]: QA Approved
+                      - row [ref=f21e3969]:
+                        - rowheader [ref=f21e3970]:
+                          - generic [ref=f21e1992]:
+                            - img "Bug" [ref=f21e1993]
+                            - generic [ref=f21e1994]:
+                              - link "ULT-10706 is resolved" [ref=f21e1996] [cursor=pointer]:
+                                - /url: /browse/ULT-10706
+                                - text: ULT-10706
+                              - button "Copy link" [ref=f21e1998] [cursor=pointer]
+                            - generic [ref=f21e2002]:
+                              - 'link "Entities: search filter from one entity carries over to the next entity selected" [ref=f21e2004] [cursor=pointer]':
+                                - /url: /browse/ULT-10706
+                              - button [ref=f21e3971] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3973]
+                        - cell "Edit Priority 3- Medium" [ref=f21e3974]:
+                          - button "Edit Priority" [ref=f21e3975]
+                          - generic [ref=f21e2008]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e3976]:
+                          - button "Edit Story Points" [ref=f21e3977]
+                          - generic [ref=f21e2012]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3978]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3979]
+                          - generic [ref=f21e2019]:
+                            - img "Daniel Tenorio" [ref=f21e2020]
+                            - generic [ref=f21e2023]: Daniel Tenorio
+                        - cell [ref=f21e2024]:
+                          - button "QA Approved - Change status" [ref=f21e2029] [cursor=pointer]:
+                            - generic [ref=f21e2030]: QA Approved
+                      - row [ref=f21e3980]:
+                        - rowheader [ref=f21e3981]:
+                          - generic [ref=f21e2035]:
+                            - img "Bug" [ref=f21e2036]
+                            - generic [ref=f21e2037]:
+                              - link "ULT-10708 is resolved" [ref=f21e2039] [cursor=pointer]:
+                                - /url: /browse/ULT-10708
+                                - text: ULT-10708
+                              - button "Copy link" [ref=f21e2041] [cursor=pointer]
+                            - generic [ref=f21e2045]:
+                              - 'link "Routes list: filtering by \"1\" returns no filtered data" [ref=f21e2047] [cursor=pointer]':
+                                - /url: /browse/ULT-10708
+                              - button [ref=f21e3982] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3984]
+                        - cell "Edit Priority 2- High" [ref=f21e3985]:
+                          - button "Edit Priority" [ref=f21e3986]
+                          - generic [ref=f21e2051]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3987]:
+                          - button "Edit Story Points" [ref=f21e3988]
+                          - generic [ref=f21e2055]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e3989]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3990]
+                          - generic [ref=f21e2062]:
+                            - img "Daniel Tenorio" [ref=f21e2063]
+                            - generic [ref=f21e2066]: Daniel Tenorio
+                        - cell [ref=f21e2067]:
+                          - button "QA Approved - Change status" [ref=f21e2072] [cursor=pointer]:
+                            - generic [ref=f21e2073]: QA Approved
+                      - row [ref=f21e3991]:
+                        - rowheader [ref=f21e3992]:
+                          - generic [ref=f21e2078]:
+                            - img "Bug" [ref=f21e2079]
+                            - generic [ref=f21e2080]:
+                              - link "ULT-10710 is resolved" [ref=f21e2082] [cursor=pointer]:
+                                - /url: /browse/ULT-10710
+                                - text: ULT-10710
+                              - button "Copy link" [ref=f21e2084] [cursor=pointer]
+                            - generic [ref=f21e2088]:
+                              - 'link "Entities > Operations list (and Machine > assigned operations): setup and tear-down time filter via Search all columns not working" [ref=f21e2090] [cursor=pointer]':
+                                - /url: /browse/ULT-10710
+                              - button [ref=f21e3993] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e3995]
+                        - cell "Edit Priority 2- High" [ref=f21e3996]:
+                          - button "Edit Priority" [ref=f21e3997]
+                          - generic [ref=f21e2094]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e3998]:
+                          - button "Edit Story Points" [ref=f21e3999]
+                          - generic [ref=f21e2098]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4000]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4001]
+                          - generic [ref=f21e2105]:
+                            - img "Daniel Tenorio" [ref=f21e2106]
+                            - generic [ref=f21e2109]: Daniel Tenorio
+                        - cell [ref=f21e2110]:
+                          - button "QA Approved - Change status" [ref=f21e2115] [cursor=pointer]:
+                            - generic [ref=f21e2116]: QA Approved
+                      - row [ref=f21e4002]:
+                        - rowheader [ref=f21e4003]:
+                          - generic [ref=f21e2121]:
+                            - img "Bug" [ref=f21e2122]
+                            - generic [ref=f21e2123]:
+                              - link "ULT-10712 is resolved" [ref=f21e2125] [cursor=pointer]:
+                                - /url: /browse/ULT-10712
+                                - text: ULT-10712
+                              - button "Copy link" [ref=f21e2127] [cursor=pointer]
+                            - generic [ref=f21e2131]:
+                              - 'link "Machines list: alignment breaks after entering text in Search all columns" [ref=f21e2133] [cursor=pointer]':
+                                - /url: /browse/ULT-10712
+                              - button [ref=f21e4004] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4006]
+                        - cell "Edit Priority 3- Medium" [ref=f21e4007]:
+                          - button "Edit Priority" [ref=f21e4008]
+                          - generic [ref=f21e2137]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e4009]:
+                          - button "Edit Story Points" [ref=f21e4010]
+                          - generic [ref=f21e2141]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4011]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4012]
+                          - generic [ref=f21e2148]:
+                            - img "Daniel Tenorio" [ref=f21e2149]
+                            - generic [ref=f21e2152]: Daniel Tenorio
+                        - cell [ref=f21e2153]:
+                          - button "QA Approved - Change status" [ref=f21e2158] [cursor=pointer]:
+                            - generic [ref=f21e2159]: QA Approved
+                      - row [ref=f21e4013]:
+                        - rowheader [ref=f21e4014]:
+                          - generic [ref=f21e2164]:
+                            - img "Bug" [ref=f21e2165]
+                            - generic [ref=f21e2166]:
+                              - link "ULT-10714 is resolved" [ref=f21e2168] [cursor=pointer]:
+                                - /url: /browse/ULT-10714
+                                - text: ULT-10714
+                              - button "Copy link" [ref=f21e2170] [cursor=pointer]
+                            - generic [ref=f21e2174]:
+                              - 'link "Kanban Label list: sorting not working properly" [ref=f21e2176] [cursor=pointer]':
+                                - /url: /browse/ULT-10714
+                              - button [ref=f21e4015] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4017]
+                        - cell "Edit Priority 2- High" [ref=f21e4018]:
+                          - button "Edit Priority" [ref=f21e4019]
+                          - generic [ref=f21e2180]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4020]:
+                          - button "Edit Story Points" [ref=f21e4021]
+                          - generic [ref=f21e2184]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4022]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4023]
+                          - generic [ref=f21e2191]:
+                            - img "Daniel Tenorio" [ref=f21e2192]
+                            - generic [ref=f21e2195]: Daniel Tenorio
+                        - cell [ref=f21e2196]:
+                          - button "QA Approved - Change status" [ref=f21e2201] [cursor=pointer]:
+                            - generic [ref=f21e2202]: QA Approved
+                      - row [ref=f21e4024]:
+                        - rowheader [ref=f21e4025]:
+                          - generic [ref=f21e2207]:
+                            - img "Bug" [ref=f21e2208]
+                            - generic [ref=f21e2209]:
+                              - link "ULT-10716 is resolved" [ref=f21e2211] [cursor=pointer]:
+                                - /url: /browse/ULT-10716
+                                - text: ULT-10716
+                              - button "Copy link" [ref=f21e2213] [cursor=pointer]
+                            - generic [ref=f21e2217]:
+                              - link "Sorting not working properly on all pages (cross-cutting)" [ref=f21e2219] [cursor=pointer]:
+                                - /url: /browse/ULT-10716
+                              - button [ref=f21e4026] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4028]
+                        - cell "Edit Priority 2- High" [ref=f21e4029]:
+                          - button "Edit Priority" [ref=f21e4030]
+                          - generic [ref=f21e2223]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4031]:
+                          - button "Edit Story Points" [ref=f21e4032]
+                          - generic [ref=f21e2227]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4033]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4034]
+                          - generic [ref=f21e2234]:
+                            - img "Daniel Tenorio" [ref=f21e2235]
+                            - generic [ref=f21e2238]: Daniel Tenorio
+                        - cell [ref=f21e2239]:
+                          - button "QA Approved - Change status" [ref=f21e2244] [cursor=pointer]:
+                            - generic [ref=f21e2245]: QA Approved
+                      - row [ref=f21e4035]:
+                        - rowheader [ref=f21e4036]:
+                          - generic [ref=f21e2250]:
+                            - img "Bug" [ref=f21e2251]
+                            - generic [ref=f21e2252]:
+                              - link "ULT-10718 is not resolved" [ref=f21e2254] [cursor=pointer]:
+                                - /url: /browse/ULT-10718
+                                - text: ULT-10718
+                              - button "Copy link" [ref=f21e2256] [cursor=pointer]
+                            - generic [ref=f21e2260]:
+                              - 'link "FIFO compliance details report: Print and export links missing" [ref=f21e2262] [cursor=pointer]':
+                                - /url: /browse/ULT-10718
+                              - button [ref=f21e4037] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4039]
+                        - cell "Edit Priority 2- High" [ref=f21e4040]:
+                          - button "Edit Priority" [ref=f21e4041]
+                          - generic [ref=f21e2266]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4042]:
+                          - button "Edit Story Points" [ref=f21e4043]
+                          - generic [ref=f21e2270]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4044]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4045]
+                          - generic [ref=f21e2277]:
+                            - img "Daniel Tenorio" [ref=f21e2278]
+                            - generic [ref=f21e2281]: Daniel Tenorio
+                        - cell [ref=f21e2282]:
+                          - button "Open - Change status" [ref=f21e2287] [cursor=pointer]:
+                            - generic [ref=f21e2288]: Open
+                      - row [ref=f21e4046]:
+                        - rowheader [ref=f21e4047]:
+                          - generic [ref=f21e2293]:
+                            - img "Bug" [ref=f21e2294]
+                            - generic [ref=f21e2295]:
+                              - link "ULT-10720 is not resolved" [ref=f21e2297] [cursor=pointer]:
+                                - /url: /browse/ULT-10720
+                                - text: ULT-10720
+                              - button "Copy link" [ref=f21e2299] [cursor=pointer]
+                            - generic [ref=f21e2303]:
+                              - 'link "Reschedule notes history report: Print and export links missing" [ref=f21e2305] [cursor=pointer]':
+                                - /url: /browse/ULT-10720
+                              - button [ref=f21e4048] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4050]
+                        - cell "Edit Priority 2- High" [ref=f21e4051]:
+                          - button "Edit Priority" [ref=f21e4052]
+                          - generic [ref=f21e2309]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4053]:
+                          - button "Edit Story Points" [ref=f21e4054]
+                          - generic [ref=f21e2313]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4055]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4056]
+                          - generic [ref=f21e2320]:
+                            - img "Daniel Tenorio" [ref=f21e2321]
+                            - generic [ref=f21e2324]: Daniel Tenorio
+                        - cell [ref=f21e2325]:
+                          - button "Open - Change status" [ref=f21e2330] [cursor=pointer]:
+                            - generic [ref=f21e2331]: Open
+                      - row [ref=f21e4057]:
+                        - rowheader [ref=f21e4058]:
+                          - generic [ref=f21e2336]:
+                            - img "Bug" [ref=f21e2337]
+                            - generic [ref=f21e2338]:
+                              - link "ULT-10722 is not resolved" [ref=f21e2340] [cursor=pointer]:
+                                - /url: /browse/ULT-10722
+                                - text: ULT-10722
+                              - button "Copy link" [ref=f21e2342] [cursor=pointer]
+                            - generic [ref=f21e2346]:
+                              - 'link "On Hand Inventory report: Print and Excel export missing" [ref=f21e2348] [cursor=pointer]':
+                                - /url: /browse/ULT-10722
+                              - button [ref=f21e4059] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4061]
+                        - cell "Edit Priority 2- High" [ref=f21e4062]:
+                          - button "Edit Priority" [ref=f21e4063]
+                          - generic [ref=f21e2352]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4064]:
+                          - button "Edit Story Points" [ref=f21e4065]
+                          - generic [ref=f21e2356]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4066]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4067]
+                          - generic [ref=f21e2363]:
+                            - img "Daniel Tenorio" [ref=f21e2364]
+                            - generic [ref=f21e2367]: Daniel Tenorio
+                        - cell [ref=f21e2368]:
+                          - button "Open - Change status" [ref=f21e2373] [cursor=pointer]:
+                            - generic [ref=f21e2374]: Open
+                      - row [ref=f21e4068]:
+                        - rowheader [ref=f21e4069]:
+                          - generic [ref=f21e2379]:
+                            - img "Bug" [ref=f21e2380]
+                            - generic [ref=f21e2381]:
+                              - link "ULT-10724 is not resolved" [ref=f21e2383] [cursor=pointer]:
+                                - /url: /browse/ULT-10724
+                                - text: ULT-10724
+                              - button "Copy link" [ref=f21e2385] [cursor=pointer]
+                            - generic [ref=f21e2389]:
+                              - 'link "Supplier status report: extra column header names (UI)" [ref=f21e2391] [cursor=pointer]':
+                                - /url: /browse/ULT-10724
+                              - button [ref=f21e4070] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4072]
+                        - cell "Edit Priority 3- Medium" [ref=f21e4073]:
+                          - button "Edit Priority" [ref=f21e4074]
+                          - generic [ref=f21e2395]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e4075]:
+                          - button "Edit Story Points" [ref=f21e4076]
+                          - generic [ref=f21e2399]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4077]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4078]
+                          - generic [ref=f21e2406]:
+                            - img "Daniel Tenorio" [ref=f21e2407]
+                            - generic [ref=f21e2410]: Daniel Tenorio
+                        - cell [ref=f21e2411]:
+                          - button "Open - Change status" [ref=f21e2416] [cursor=pointer]:
+                            - generic [ref=f21e2417]: Open
+                      - row [ref=f21e4079]:
+                        - rowheader [ref=f21e4080]:
+                          - generic [ref=f21e2422]:
+                            - img "Bug" [ref=f21e2423]
+                            - generic [ref=f21e2424]:
+                              - link "ULT-10726 is not resolved" [ref=f21e2426] [cursor=pointer]:
+                                - /url: /browse/ULT-10726
+                                - text: ULT-10726
+                              - button "Copy link" [ref=f21e2428] [cursor=pointer]
+                            - generic [ref=f21e2432]:
+                              - 'link "Consolidated Demand report: UI design wrong after clicking an item" [ref=f21e2434] [cursor=pointer]':
+                                - /url: /browse/ULT-10726
+                              - button [ref=f21e4081] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4083]
+                        - cell "Edit Priority 3- Medium" [ref=f21e4084]:
+                          - button "Edit Priority" [ref=f21e4085]
+                          - generic [ref=f21e2438]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e4086]:
+                          - button "Edit Story Points" [ref=f21e4087]
+                          - generic [ref=f21e2442]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4088]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4089]
+                          - generic [ref=f21e2449]:
+                            - img "Daniel Tenorio" [ref=f21e2450]
+                            - generic [ref=f21e2453]: Daniel Tenorio
+                        - cell [ref=f21e2454]:
+                          - button "Open - Change status" [ref=f21e2459] [cursor=pointer]:
+                            - generic [ref=f21e2460]: Open
+                      - row [ref=f21e4090]:
+                        - rowheader [ref=f21e4091]:
+                          - generic [ref=f21e2465]:
+                            - img "Bug" [ref=f21e2466]
+                            - generic [ref=f21e2467]:
+                              - link "ULT-10728 is not resolved" [ref=f21e2469] [cursor=pointer]:
+                                - /url: /browse/ULT-10728
+                                - text: ULT-10728
+                              - button "Copy link" [ref=f21e2471] [cursor=pointer]
+                            - generic [ref=f21e2475]:
+                              - 'link "Supplier performance report: UI design wrong" [ref=f21e2477] [cursor=pointer]':
+                                - /url: /browse/ULT-10728
+                              - button [ref=f21e4092] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4094]
+                        - cell "Edit Priority 3- Medium" [ref=f21e4095]:
+                          - button "Edit Priority" [ref=f21e4096]
+                          - generic [ref=f21e2481]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e4097]:
+                          - button "Edit Story Points" [ref=f21e4098]
+                          - generic [ref=f21e2485]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4099]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4100]
+                          - generic [ref=f21e2492]:
+                            - img "Daniel Tenorio" [ref=f21e2493]
+                            - generic [ref=f21e2496]: Daniel Tenorio
+                        - cell [ref=f21e2497]:
+                          - button "Open - Change status" [ref=f21e2502] [cursor=pointer]:
+                            - generic [ref=f21e2503]: Open
+                      - row [ref=f21e4101]:
+                        - rowheader [ref=f21e4102]:
+                          - generic [ref=f21e2508]:
+                            - img "Bug" [ref=f21e2509]
+                            - generic [ref=f21e2510]:
+                              - link "ULT-10730 is not resolved" [ref=f21e2512] [cursor=pointer]:
+                                - /url: /browse/ULT-10730
+                                - text: ULT-10730
+                              - button "Copy link" [ref=f21e2514] [cursor=pointer]
+                            - generic [ref=f21e2518]:
+                              - 'link "Supplier reports > Cycle time report: UI issue" [ref=f21e2520] [cursor=pointer]':
+                                - /url: /browse/ULT-10730
+                              - button [ref=f21e4103] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4105]
+                        - cell "Edit Priority 3- Medium" [ref=f21e4106]:
+                          - button "Edit Priority" [ref=f21e4107]
+                          - generic [ref=f21e2524]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e4108]:
+                          - button "Edit Story Points" [ref=f21e4109]
+                          - generic [ref=f21e2528]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4110]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4111]
+                          - generic [ref=f21e2535]:
+                            - img "Daniel Tenorio" [ref=f21e2536]
+                            - generic [ref=f21e2539]: Daniel Tenorio
+                        - cell [ref=f21e2540]:
+                          - button "Open - Change status" [ref=f21e2545] [cursor=pointer]:
+                            - generic [ref=f21e2546]: Open
+                      - row [ref=f21e4112]:
+                        - rowheader [ref=f21e4113]:
+                          - generic [ref=f21e2551]:
+                            - img "Bug" [ref=f21e2552]
+                            - generic [ref=f21e2553]:
+                              - link "ULT-10732 is not resolved" [ref=f21e2555] [cursor=pointer]:
+                                - /url: /browse/ULT-10732
+                                - text: ULT-10732
+                              - button "Copy link" [ref=f21e2557] [cursor=pointer]
+                            - generic [ref=f21e2561]:
+                              - 'link "Supplier Item List: Unit Description column cannot be sorted (header click and column menu)" [ref=f21e2563] [cursor=pointer]':
+                                - /url: /browse/ULT-10732
+                              - button [ref=f21e4114] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4116]
+                        - cell "Edit Priority 2- High" [ref=f21e4117]:
+                          - button "Edit Priority" [ref=f21e4118]
+                          - generic [ref=f21e2567]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4119]:
+                          - button "Edit Story Points" [ref=f21e4120]
+                          - generic [ref=f21e2571]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4121]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4122]
+                          - generic [ref=f21e2578]:
+                            - img "Daniel Tenorio" [ref=f21e2579]
+                            - generic [ref=f21e2582]: Daniel Tenorio
+                        - cell [ref=f21e2583]:
+                          - button "Open - Change status" [ref=f21e2588] [cursor=pointer]:
+                            - generic [ref=f21e2589]: Open
+                      - row [ref=f21e4123]:
+                        - rowheader [ref=f21e4124]:
+                          - generic [ref=f21e2594]:
+                            - img "Bug" [ref=f21e2595]
+                            - generic [ref=f21e2596]:
+                              - link "ULT-10734 is not resolved" [ref=f21e2598] [cursor=pointer]:
+                                - /url: /browse/ULT-10734
+                                - text: ULT-10734
+                              - button "Copy link" [ref=f21e2600] [cursor=pointer]
+                            - generic [ref=f21e2604]:
+                              - 'link "Supplier Item List: Search all columns does not match the displayed Qty On Card value (e.g. 45.0000)" [ref=f21e2606] [cursor=pointer]':
+                                - /url: /browse/ULT-10734
+                              - button [ref=f21e4125] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4127]
+                        - cell "Edit Priority 2- High" [ref=f21e4128]:
+                          - button "Edit Priority" [ref=f21e4129]
+                          - generic [ref=f21e2610]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4130]:
+                          - button "Edit Story Points" [ref=f21e4131]
+                          - generic [ref=f21e2614]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4132]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4133]
+                          - generic [ref=f21e2621]:
+                            - img "Daniel Tenorio" [ref=f21e2622]
+                            - generic [ref=f21e2625]: Daniel Tenorio
+                        - cell [ref=f21e2626]:
+                          - button "Open - Change status" [ref=f21e2631] [cursor=pointer]:
+                            - generic [ref=f21e2632]: Open
+                      - row [ref=f21e4134]:
+                        - rowheader [ref=f21e4135]:
+                          - generic [ref=f21e2637]:
+                            - img "Bug" [ref=f21e2638]
+                            - generic [ref=f21e2639]:
+                              - link "ULT-10736 is not resolved" [ref=f21e2641] [cursor=pointer]:
+                                - /url: /browse/ULT-10736
+                                - text: ULT-10736
+                              - button "Copy link" [ref=f21e2643] [cursor=pointer]
+                            - generic [ref=f21e2647]:
+                              - 'link "Supplier Item List: Description set-filter merges values that differ only by case (\"Test\" and \"test\")" [ref=f21e2649] [cursor=pointer]':
+                                - /url: /browse/ULT-10736
+                              - button [ref=f21e4136] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4138]
+                        - cell "Edit Priority 2- High" [ref=f21e4139]:
+                          - button "Edit Priority" [ref=f21e4140]
+                          - generic [ref=f21e2653]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4141]:
+                          - button "Edit Story Points" [ref=f21e4142]
+                          - generic [ref=f21e2657]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4143]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4144]
+                          - generic [ref=f21e2664]:
+                            - img "Daniel Tenorio" [ref=f21e2665]
+                            - generic [ref=f21e2668]: Daniel Tenorio
+                        - cell [ref=f21e2669]:
+                          - button "Open - Change status" [ref=f21e2674] [cursor=pointer]:
+                            - generic [ref=f21e2675]: Open
+                      - row [ref=f21e4145]:
+                        - rowheader [ref=f21e4146]:
+                          - generic [ref=f21e2680]:
+                            - img "Bug" [ref=f21e2681]
+                            - generic [ref=f21e2682]:
+                              - link "ULT-10738 is not resolved" [ref=f21e2684] [cursor=pointer]:
+                                - /url: /browse/ULT-10738
+                                - text: ULT-10738
+                              - button "Copy link" [ref=f21e2686] [cursor=pointer]
+                            - generic [ref=f21e2690]:
+                              - 'link "Supplier Item List: Unit Description set-filter lists blank value with an empty label instead of \"(Blanks)\"" [ref=f21e2692] [cursor=pointer]':
+                                - /url: /browse/ULT-10738
+                              - button [ref=f21e4147] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4149]
+                        - cell "Edit Priority 3- Medium" [ref=f21e4150]:
+                          - button "Edit Priority" [ref=f21e4151]
+                          - generic [ref=f21e2696]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e4152]:
+                          - button "Edit Story Points" [ref=f21e4153]
+                          - generic [ref=f21e2700]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4154]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4155]
+                          - generic [ref=f21e2707]:
+                            - img "Daniel Tenorio" [ref=f21e2708]
+                            - generic [ref=f21e2711]: Daniel Tenorio
+                        - cell [ref=f21e2712]:
+                          - button "Open - Change status" [ref=f21e2717] [cursor=pointer]:
+                            - generic [ref=f21e2718]: Open
+                      - row [ref=f21e4156]:
+                        - rowheader [ref=f21e4157]:
+                          - generic [ref=f21e2723]:
+                            - img "Bug" [ref=f21e2724]
+                            - generic [ref=f21e2725]:
+                              - link "ULT-10740 is not resolved" [ref=f21e2727] [cursor=pointer]:
+                                - /url: /browse/ULT-10740
+                                - text: ULT-10740
+                              - button "Copy link" [ref=f21e2729] [cursor=pointer]
+                            - generic [ref=f21e2733]:
+                              - 'link "Supplier Item List: text columns sorted case-sensitively (lowercase after uppercase)" [ref=f21e2735] [cursor=pointer]':
+                                - /url: /browse/ULT-10740
+                              - button [ref=f21e4158] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4160]
+                        - cell "Edit Priority 3- Medium" [ref=f21e4161]:
+                          - button "Edit Priority" [ref=f21e4162]
+                          - generic [ref=f21e2739]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e4163]:
+                          - button "Edit Story Points" [ref=f21e4164]
+                          - generic [ref=f21e2743]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4165]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4166]
+                          - generic [ref=f21e2750]:
+                            - img "Daniel Tenorio" [ref=f21e2751]
+                            - generic [ref=f21e2754]: Daniel Tenorio
+                        - cell [ref=f21e2755]:
+                          - button "Open - Change status" [ref=f21e2760] [cursor=pointer]:
+                            - generic [ref=f21e2761]: Open
+                      - row [ref=f21e4167]:
+                        - rowheader [ref=f21e4168]:
+                          - generic [ref=f21e2766]:
+                            - img "Bug" [ref=f21e2767]
+                            - generic [ref=f21e2768]:
+                              - link "ULT-10742 is not resolved" [ref=f21e2770] [cursor=pointer]:
+                                - /url: /browse/ULT-10742
+                                - text: ULT-10742
+                              - button "Copy link" [ref=f21e2772] [cursor=pointer]
+                            - generic [ref=f21e2776]:
+                              - link "Pages still showing the old (non-AG Grid) format on POC" [ref=f21e2778] [cursor=pointer]:
+                                - /url: /browse/ULT-10742
+                              - button [ref=f21e4169] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4171]
+                        - cell "Edit Priority 2- High" [ref=f21e4172]:
+                          - button "Edit Priority" [ref=f21e4173]
+                          - generic [ref=f21e2782]: 2- High
+                        - cell "Edit Story Points Add story points" [ref=f21e4174]:
+                          - button "Edit Story Points" [ref=f21e4175]
+                          - generic [ref=f21e2786]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4176]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4177]
+                          - generic [ref=f21e2793]:
+                            - img "Daniel Tenorio" [ref=f21e2794]
+                            - generic [ref=f21e2797]: Daniel Tenorio
+                        - cell [ref=f21e2798]:
+                          - button "Open - Change status" [ref=f21e2803] [cursor=pointer]:
+                            - generic [ref=f21e2804]: Open
+                      - row [ref=f21e4178]:
+                        - rowheader [ref=f21e4179]:
+                          - generic [ref=f21e2809]:
+                            - img "Bug" [ref=f21e2810]
+                            - generic [ref=f21e2811]:
+                              - link "ULT-10784 is not resolved" [ref=f21e2813] [cursor=pointer]:
+                                - /url: /browse/ULT-10784
+                                - text: ULT-10784
+                              - button "Copy link" [ref=f21e2815] [cursor=pointer]
+                            - generic [ref=f21e2819]:
+                              - 'link "Accounts Receivable > View Invoice Detail: column menu in nested Line Items grid is cut off (full menu not displayed)" [ref=f21e2821] [cursor=pointer]':
+                                - /url: /browse/ULT-10784
+                              - button [ref=f21e4180] [cursor=pointer]:
+                                - img "Edit Summary" [ref=f21e4182]
+                        - cell "Edit Priority 3- Medium" [ref=f21e4183]:
+                          - button "Edit Priority" [ref=f21e4184]
+                          - generic [ref=f21e2825]: 3- Medium
+                        - cell "Edit Story Points Add story points" [ref=f21e4185]:
+                          - button "Edit Story Points" [ref=f21e4186]
+                          - generic [ref=f21e2829]: Add story points
+                        - cell "Daniel Tenorio- edit Assignee Daniel Tenorio Daniel Tenorio" [ref=f21e4187]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e4188]
+                          - generic [ref=f21e2836]:
+                            - img "Daniel Tenorio" [ref=f21e2837]
+                            - generic [ref=f21e2840]: Daniel Tenorio
+                        - cell [ref=f21e2841]:
+                          - button "Open - Change status" [ref=f21e2846] [cursor=pointer]:
+                            - generic [ref=f21e2847]: Open
+              - generic [ref=f21e2851]:
+                - heading "Linked work items" [level=2] [ref=f21e2853]
+                - button "Add linked work item" [ref=f21e2855] [cursor=pointer]
+              - generic [ref=f21e2857]:
+                - generic [ref=f21e2858]:
+                  - heading "Agents" [level=2] [ref=f21e2860]
+                  - link "Uses AI. Verify results. , (opens new window)" [ref=f21e2866] [cursor=pointer]:
+                    - /url: https://www.atlassian.com/trust/atlassian-intelligence
+                    - text: Uses AI. Verify results.
+                    - generic [ref=f21e2867]: ", (opens new window)"
+                - generic [ref=f21e2868]:
+                  - button "Start work" [ref=f21e2873] [cursor=pointer]
+                  - generic:
+                    - status
+            - generic [ref=f21e2879]:
+              - heading "Activity" [level=2] [ref=f21e2881]
+              - generic [ref=f21e2882]:
+                - tablist "Show" [ref=f21e2886]:
+                  - tab "All" [ref=f21e2887] [cursor=pointer]
+                  - tab "Comments" [selected] [ref=f21e2889]
+                  - tab "History" [ref=f21e2891] [cursor=pointer]
+                  - tab "Work log" [ref=f21e2893] [cursor=pointer]
+                  - tab "Freshdesk Jira Integration" [ref=f21e2895] [cursor=pointer]
+                  - tab "Approvals" [ref=f21e2897] [cursor=pointer]
+                - button "Newest first" [disabled] [ref=f21e2901]
+              - tabpanel "Comments" [ref=f21e2905]:
+                - generic [ref=f21e2909]:
+                  - img "Profile image of Vijayakumar Seelam" [ref=f21e2911]
+                  - generic [ref=f21e2914]:
+                    - generic [ref=f21e2920]:
+                      - button "Add a comment…" [ref=f21e2921]
+                      - group "Quick comments" [ref=f21e2923]:
+                        - group [ref=f21e2924]:
+                          - button "Status update..." [ref=f21e2925] [cursor=pointer]
+                          - button "Thanks..." [ref=f21e2927] [cursor=pointer]
+                          - button "Agree..." [ref=f21e2929] [cursor=pointer]
+                    - generic [ref=f21e2931]:
+                      - strong [ref=f21e2932]: "Pro tip:"
+                      - text: press
+                      - generic [ref=f21e2933]: M
+                      - text: to comment
+          - generic [ref=f21e2936]:
+            - generic [ref=f21e2938]:
+              - slider "Resize work item view side panel" [ref=f21e2939]: "0.65"
+              - text: Resize work item view side panel
+            - generic [ref=f21e2942] [cursor=pointer]
+          - generic [ref=f21e2945]:
+            - group "Action items" [ref=f21e2947]:
+              - generic [ref=f21e2948]:
+                - 'button "Watch options: You are not watching this issue, 1 person watching" [ref=f21e2952] [cursor=pointer]':
+                  - generic [ref=f21e2955]: "1"
+                - generic [ref=f21e2959]:
+                  - button "Share" [ref=f21e2960] [cursor=pointer]
+                  - generic:
+                    - status
+                - button "Actions" [ref=f21e2965] [cursor=pointer]
+                - generic:
+                  - status
+            - generic [ref=f21e2969]:
+              - generic [ref=f21e2972]:
+                - button "Open - Change status" [ref=f21e2980] [cursor=pointer]:
+                  - generic [ref=f21e2981]: Open
+                - button "Agents" [ref=f21e2984] [cursor=pointer]
+                - generic:
+                  - status
+                - generic [ref=f21e2988]:
+                  - button "Open in coding tool" [ref=f21e2989] [cursor=pointer]
+                  - generic:
+                    - status
+                - button "Automation" [ref=f21e2995] [cursor=pointer]
+                - button "Improve Epic" [ref=f21e3001] [cursor=pointer]
+              - generic [ref=f21e3006]:
+                - generic [ref=f21e3007]:
+                  - button [ref=f21e3014] [cursor=pointer]:
+                    - generic [ref=f21e3018]:
+                      - heading "Your pinned fields" [level=2] [ref=f21e3019]
+                      - generic [aria-hidden] [ref=f21e3020]: Labels
+                  - generic [ref=f21e3023]:
+                    - button [expanded] [ref=f21e3027] [cursor=pointer]:
+                      - heading "Details" [level=2] [ref=f21e3032]
+                    - generic [ref=f21e3035]:
+                      - generic [ref=f21e3039]:
+                        - generic [ref=f21e3041]:
+                          - generic [ref=f21e3042]: Assignee
+                          - button "Assignee Pin to top" [ref=f21e3045] [cursor=pointer]
+                        - generic [ref=f21e3048]:
+                          - button "Daniel Tenorio- edit Assignee" [ref=f21e3049]
+                          - generic [ref=f21e3054]:
+                            - img "Daniel Tenorio" [ref=f21e3055]
+                            - generic [ref=f21e3058]: Daniel Tenorio
+                          - button "Assign to me" [ref=f21e3060] [cursor=pointer]
+                      - generic [ref=f21e3063]:
+                        - generic [ref=f21e3065]:
+                          - generic [ref=f21e3066]: Reporter
+                          - button "Reporter Pin to top" [ref=f21e3069] [cursor=pointer]
+                        - generic [ref=f21e3072]:
+                          - button [disabled] [aria-hidden] [ref=f21e3073]
+                          - generic [ref=f21e3078]:
+                            - img "Butch Dority" [ref=f21e3079]
+                            - generic [ref=f21e3082]: Butch Dority
+                      - generic [ref=f21e3086]:
+                        - generic [ref=f21e3088]:
+                          - generic [ref=f21e3089]: Due date
+                          - button "Due date Pin to top" [ref=f21e3092] [cursor=pointer]
+                        - generic [ref=f21e3095]:
+                          - button "Edit Due date" [ref=f21e3096]
+                          - generic [ref=f21e3097]: Add due date
+                      - generic [ref=f21e3101]:
+                        - generic [ref=f21e3103]:
+                          - generic [ref=f21e3104]: Customer
+                          - generic [ref=f21e3105]:
+                            - button "More information about Customer" [ref=f21e4191] [cursor=pointer]
+                            - button "Customer Pin to top" [ref=f21e3111] [cursor=pointer]
+                        - generic [ref=f21e3114]:
+                          - button "Edit Customer" [ref=f21e3115]
+                          - generic [ref=f21e3116]: Add text
+                      - generic [ref=f21e3119]:
+                        - generic [ref=f21e3121]:
+                          - generic [ref=f21e3122]: Product Line
+                          - button "Product Line Pin to top" [ref=f21e3125] [cursor=pointer]
+                        - generic [ref=f21e3128]:
+                          - button "Edit Product Line" [ref=f21e3129]
+                          - generic "Ultriva" [ref=f21e3130]
+                      - generic [ref=f21e3136]:
+                        - generic [ref=f21e3138]:
+                          - generic [ref=f21e3139]: Expected Delivery Date
+                          - button "Expected Delivery Date Pin to top" [ref=f21e3142] [cursor=pointer]
+                        - generic [ref=f21e3145]:
+                          - button "Edit Expected Delivery Date" [ref=f21e3146]
+                          - generic [ref=f21e3147]: Add date
+                      - generic [ref=f21e3151]:
+                        - generic [ref=f21e3153]:
+                          - generic [ref=f21e3154]: Business Value
+                          - generic [ref=f21e3155]:
+                            - button "More information about Business Value" [ref=f21e4194] [cursor=pointer]
+                            - button "Business Value Pin to top" [ref=f21e3161] [cursor=pointer]
+                        - generic [ref=f21e3164]:
+                          - button "Edit Business Value" [ref=f21e3165]
+                          - generic [ref=f21e3166]: Add number
+                      - generic [ref=f21e3169]:
+                        - generic [ref=f21e3171]:
+                          - generic [ref=f21e3172]: Billable Project
+                          - button "More information about Billable Project" [ref=f21e4198] [cursor=pointer]
+                          - button "Billable Project Pin to top" [ref=f21e3174] [cursor=pointer]
+                        - generic [ref=f21e3181]:
+                          - button "Billable Project, Add options selected, edit"
+                          - generic [ref=f21e3182]: Add options
+                      - generic [ref=f21e3186]:
+                        - generic [ref=f21e3188]:
+                          - generic [ref=f21e3189]: Epic/Theme
+                          - generic [ref=f21e3190]:
+                            - button "More information about Epic/Theme" [ref=f21e4201] [cursor=pointer]
+                            - button "Epic/Theme Pin to top" [ref=f21e3196] [cursor=pointer]
+                        - generic [ref=f21e3199]:
+                          - button "Edit Epic/Theme" [ref=f21e3200]
+                          - generic [ref=f21e3201]: Add labels
+                      - generic [ref=f21e3205]:
+                        - generic [ref=f21e3207]:
+                          - generic [ref=f21e3208]: ARR Impact
+                          - generic [ref=f21e3209]:
+                            - button "More information about ARR Impact" [ref=f21e4204] [cursor=pointer]
+                            - button "ARR Impact Pin to top" [ref=f21e3215] [cursor=pointer]
+                        - generic [ref=f21e3218]:
+                          - button [disabled] [aria-hidden] [ref=f21e3219]
+                          - generic [ref=f21e3220]: Add text
+                      - generic [ref=f21e3224]:
+                        - generic [ref=f21e3226]:
+                          - generic [ref=f21e3227]: Aggregate ARR Impact
+                          - generic [ref=f21e3228]:
+                            - button "More information about Aggregate ARR Impact" [ref=f21e4207] [cursor=pointer]
+                            - button "Aggregate ARR Impact Pin to top" [ref=f21e3234] [cursor=pointer]
+                        - generic [ref=f21e3237]:
+                          - button "Edit Aggregate ARR Impact" [ref=f21e3238]
+                          - generic [ref=f21e3239]: Add number
+                      - generic [ref=f21e3243]:
+                        - generic [ref=f21e3245]:
+                          - generic [ref=f21e3246]: Zendesk Ticket Count
+                          - generic [ref=f21e3247]:
+                            - button "More information about Zendesk Ticket Count" [ref=f21e4210] [cursor=pointer]
+                            - button "Zendesk Ticket Count Pin to top" [ref=f21e3253] [cursor=pointer]
+                        - generic [ref=f21e3256]:
+                          - button "Edit Zendesk Ticket Count" [ref=f21e3257]
+                          - generic [ref=f21e3258]: Add number
+                      - generic [ref=f21e3262]:
+                        - generic [ref=f21e3264]:
+                          - generic [ref=f21e3265]: Start date
+                          - generic [ref=f21e3266]:
+                            - button "More information about Start date" [ref=f21e4213] [cursor=pointer]
+                            - button "Start date Pin to top" [ref=f21e3272] [cursor=pointer]
+                        - generic [ref=f21e3275]:
+                          - button "Edit Start date" [ref=f21e3276]
+                          - generic [ref=f21e3277]: Add date
+                      - generic [ref=f21e3281]:
+                        - generic [ref=f21e3283]:
+                          - generic [ref=f21e3284]: Checklist Completed
+                          - generic [ref=f21e3285]:
+                            - button "More information about Checklist Completed" [ref=f21e4216] [cursor=pointer]
+                            - button "Checklist Completed Pin to top" [ref=f21e3291] [cursor=pointer]
+                        - generic [ref=f21e3294]:
+                          - button "Edit Checklist Completed" [ref=f21e3295]
+                          - generic [ref=f21e3296]: Add text
+                      - generic [ref=f21e3300]:
+                        - generic [ref=f21e3302]:
+                          - generic [ref=f21e3303]: "Build #"
+                          - 'button "Build # Pin to top" [ref=f21e3306] [cursor=pointer]'
+                        - generic [ref=f21e3309]:
+                          - 'button "Edit Build #" [ref=f21e3310]'
+                          - generic [ref=f21e3311]: Add text
+                      - generic [ref=f21e3315]:
+                        - generic [ref=f21e3317]:
+                          - generic [ref=f21e3318]: Goals
+                          - generic [ref=f21e3319]:
+                            - button "More information about Goals" [ref=f21e4219] [cursor=pointer]
+                            - button "Goals Pin to top" [ref=f21e3325] [cursor=pointer]
+                        - generic [ref=f21e3331]:
+                          - button "Edit, edit"
+                          - generic [ref=f21e3332]: Add goals
+                      - generic [ref=f21e3339]:
+                        - generic [ref=f21e3341]:
+                          - generic [ref=f21e3342]: Score
+                          - generic [ref=f21e3343]:
+                            - button "More information about Score" [ref=f21e4222] [cursor=pointer]
+                            - button "Score Pin to top" [ref=f21e3349] [cursor=pointer]
+                        - generic [ref=f21e3352]:
+                          - button "Edit Score" [ref=f21e3353]
+                          - generic [ref=f21e3354]: Add number
+                      - generic [ref=f21e3357]:
+                        - generic [ref=f21e3359]:
+                          - generic [ref=f21e3360]: Effort
+                          - generic [ref=f21e3361]:
+                            - button "More information about Effort" [ref=f21e4225] [cursor=pointer]
+                            - button "Effort Pin to top" [ref=f21e3367] [cursor=pointer]
+                        - generic [ref=f21e3370]:
+                          - button "Edit Effort" [ref=f21e3371]
+                          - generic [ref=f21e3372]: Add option
+                      - generic [ref=f21e3375]:
+                        - generic [ref=f21e3377]:
+                          - generic [ref=f21e3378]: Product Owner
+                          - generic [ref=f21e3379]:
+                            - button "More information about Product Owner" [ref=f21e4228] [cursor=pointer]
+                            - button "Product Owner Pin to top" [ref=f21e3385] [cursor=pointer]
+                        - generic [ref=f21e3388]:
+                          - button "None- edit Product Owner" [ref=f21e3389]
+                          - generic [ref=f21e3390]: Add user
+                      - generic [ref=f21e3393]:
+                        - generic [ref=f21e3395]:
+                          - generic [ref=f21e3396]: Atlassian Project
+                          - generic [ref=f21e3397]:
+                            - button "More information about Atlassian Project" [ref=f21e4231] [cursor=pointer]
+                            - button "Atlassian Project Pin to top" [ref=f21e3403] [cursor=pointer]
+                        - generic [ref=f21e3406]:
+                          - button "Edit Atlassian Project" [ref=f21e3408]
+                          - generic [ref=f21e3409]: Add project
+                      - generic [ref=f21e3412]:
+                        - generic [ref=f21e3414]:
+                          - generic [ref=f21e3415]: Fix versions
+                          - button "Fix versions Pin to top" [ref=f21e3417] [cursor=pointer]
+                        - generic [ref=f21e3424]:
+                          - button "Fix versions, edit"
+                          - group [ref=f21e3427]:
+                            - link "11.0" [ref=f21e3429] [cursor=pointer]:
+                              - /url: /projects/ULT/versions/80403/tab/release-report-all-issues
+                      - generic [ref=f21e3433]:
+                        - generic [ref=f21e3435]:
+                          - generic [ref=f21e3436]: Priority
+                          - button "Priority Pin to top" [ref=f21e3439] [cursor=pointer]
+                        - generic [ref=f21e3442]:
+                          - button "Edit Priority" [ref=f21e3443]
+                          - generic [ref=f21e3444]: 3- Medium
+                      - generic [ref=f21e3448]:
+                        - generic [ref=f21e3450]:
+                          - generic [ref=f21e3451]: Epic Status
+                          - generic [ref=f21e3452]:
+                            - button "More information about Epic Status" [ref=f21e4234] [cursor=pointer]
+                            - button "Epic Status Pin to top" [ref=f21e3458] [cursor=pointer]
+                        - generic [ref=f21e3461]:
+                          - button "Edit Epic Status" [ref=f21e3462]
+                          - text: To Do
+                      - generic [ref=f21e3465]:
+                        - generic [ref=f21e3466]: "TestRail: Cases"
+                        - generic [ref=f21e3469]: "Open TestRail: Cases"
+                      - generic [ref=f21e3475]:
+                        - generic [ref=f21e3476]: "TestRail: Runs"
+                        - generic [ref=f21e3479]: "Open TestRail: Runs"
+                - button [ref=f21e3489] [cursor=pointer]:
+                  - heading "Development" [level=2] [ref=f21e3494]
+                - button [ref=f21e3500] [cursor=pointer]:
+                  - generic [ref=f21e3504]:
+                    - heading "More fields" [level=2] [ref=f21e3505]
+                    - generic [aria-hidden] [ref=f21e3506]: Story Points, Original estimate, Time tracking, Components, Sprint, Team, Affects versions, Epic Name
+              - generic [ref=f21e3508]:
+                - button [ref=f21e3514] [cursor=pointer]:
+                  - generic [ref=f21e3518]:
+                    - heading "Automation" [level=2] [ref=f21e3519]
+                    - generic [ref=f21e3521]: Rule executions
+                - button [ref=f21e3533] [cursor=pointer]:
+                  - generic [ref=f21e3537]:
+                    - heading "Freshdesk Jira Integration" [level=2] [ref=f21e3538]
+                    - generic [ref=f21e3540]: Custom UI
+              - generic [ref=f21e3544]:
+                - generic [ref=f21e3546]:
+                  - text: Created
+                  - button "1 week ago" [ref=f21e3547] [cursor=pointer]
+                - generic [ref=f21e3549]:
+                  - text: Updated
+                  - button "1 week ago" [ref=f21e3550] [cursor=pointer]
+    - button "Open Rovo Chat" [ref=f21e3556] [cursor=pointer]
+  - dialog [ref=f21e5925]:
+    - generic [ref=f21e5928]:
+      - heading "Create Bug" [level=1] [ref=f21e5929]
+      - list [ref=f21e5932]:
+        - listitem [ref=f21e5933]:
+          - button "Minimize" [ref=f21e5934] [cursor=pointer]
+        - listitem [ref=f21e5938]:
+          - button "Exit full screen" [ref=f21e5939] [cursor=pointer]
+        - listitem [ref=f21e5943]:
+          - button "More actions for this Bug" [ref=f21e5944] [cursor=pointer]
+        - listitem [ref=f21e5947]:
+          - button "Close" [ref=f21e7178] [cursor=pointer]
+    - region "Scrollable content" [ref=f21e5952]:
+      - generic [ref=f21e5959]:
+        - generic [ref=f21e5960]: Required fields are marked with an asterisk *
+        - generic [ref=f21e5963]:
+          - generic [ref=f21e5964]: Space*
+          - generic [ref=f21e5965]:
+            - status [ref=f21e5967]
+            - generic [ref=f21e5968]:
+              - generic [ref=f21e5969]:
+                - generic [ref=f21e5970]: Ultriva App (ULT)
+                - combobox "Space" [ref=f21e5979]
+              - button "toggle select menu" [ref=f21e5985] [cursor=pointer]:
+                - img "open" [ref=f21e5987]
+        - generic [ref=f21e7182]:
+          - generic [ref=f21e7183]: Work type*
+          - generic [ref=f21e7185]:
+            - status [ref=f21e7187]
+            - generic [ref=f21e7188]:
+              - generic [ref=f21e7189]:
+                - generic [ref=f21e7190]: Bug
+                - combobox "Work type" [ref=f21e7199]
+              - button "toggle select menu" [ref=f21e7202] [cursor=pointer]:
+                - img "open" [ref=f21e7204]
+          - link "Learn about work types , (opens new window)" [ref=f21e7209] [cursor=pointer]:
+            - /url: /secure/ShowConstantsHelp.jspa?decorator=popup#IssueTypes
+            - text: Learn about work types
+            - generic [ref=f21e7213]: ", (opens new window)"
+        - generic [ref=f21e6022]:
+          - generic [ref=f21e6023]: Status
+          - button "Open - Change status" [ref=f21e6225] [cursor=pointer]:
+            - generic [ref=f21e6226]: Open
+          - generic [ref=f21e6026]: This is the initial status upon creation
+        - generic [ref=f21e6029]:
+          - generic [ref=f21e6030]:
+            - generic [ref=f21e6031]:
+              - generic [ref=f21e6032]: Summary*
+              - textbox "Summary" [ref=f21e6033]: "Supplier reports > Shipment Due Details: card ID filter returns a non-matching row"
+            - generic [ref=f21e7127]:
+              - generic [ref=f21e7129]:
+                - status [ref=f21e7131]:
+                  - heading "Similar work items" [level=3] [ref=f21e7132]
+                - generic [ref=f21e7134]: BETA
+              - button "5 suggestions available 5" [ref=f21e7139] [cursor=pointer]:
+                - generic [ref=f21e7141]:
+                  - generic [ref=f21e7142]: 5 suggestions available
+                  - generic [ref=f21e7143]: "5"
+          - generic [ref=f21e6035]:
+            - generic [ref=f21e6036]: Attachment
+            - generic [ref=f21e6038]:
+              - generic [ref=f21e6040]: Drop files to attach or
+              - button "Browse attachment" [ref=f21e6042] [cursor=pointer]:
+                - generic [ref=f21e6043]: Browse
+          - generic [ref=f21e6045]:
+            - generic [ref=f21e6046]: Linked work items
+            - generic [ref=f21e6048]:
+              - generic [ref=f21e6050]:
+                - status [ref=f21e6052]
+                - generic [ref=f21e6053]:
+                  - generic [ref=f21e6054]:
+                    - generic [ref=f21e6055]: Parent of
+                    - combobox "Linked work items" [ref=f21e6057]
+                  - button "toggle select menu" [ref=f21e6060] [cursor=pointer]:
+                    - img "open" [ref=f21e6062]
+              - generic [ref=f21e6065]:
+                - status [ref=f21e6067]
+                - generic [ref=f21e6068]:
+                  - generic [ref=f21e6069]:
+                    - generic [ref=f21e6070]: Type, search or paste URL
+                    - combobox "Type, search or paste URL to link work items" [ref=f21e6072]
+                  - button "toggle select menu" [ref=f21e6075] [cursor=pointer]:
+                    - img "open" [ref=f21e6077]
+          - generic [ref=f21e6079]:
+            - generic [ref=f21e6080]: Flagged
+            - generic [ref=f21e6083]:
+              - checkbox "Impediment" [ref=f21e6084]
+              - generic [ref=f21e6085]: Impediment
+            - paragraph [ref=f21e6092]: Allows to flag issues with impediments.
+          - generic [ref=f21e6094]:
+            - generic [ref=f21e6095]: Environment
+            - textbox "Environment" [ref=f21e6097]:
+              - /placeholder: ""
+            - paragraph [ref=f21e6104]: For example operating system, software platform and/or hardware specifications (include as appropriate for the work item).
+          - generic [ref=f21e6106]:
+            - generic [ref=f21e6107]: Zendesk Ticket IDs
+            - textbox "Zendesk Ticket IDs" [ref=f21e6109]:
+              - /placeholder: ""
+            - paragraph [ref=f21e6116]: Holds list of Zendesk IDs of tickets related to JIRA issue in a comma-separated string.
+          - generic [ref=f21e6118]:
+            - generic [ref=f21e6119]: Checklist Text
+            - textbox "Checklist Text" [ref=f21e6121]:
+              - /placeholder: ""
+            - paragraph [ref=f21e6128]: Do not delete. Custom field with Checklist content in text format. Automatically created and managed by Issue Checklist Free.
+          - generic [ref=f21e6130]:
+            - generic [ref=f21e6131]: Checklist Content YAML
+            - textbox "Checklist Content YAML" [ref=f21e6133]:
+              - /placeholder: ""
+            - paragraph [ref=f21e6140]: Do not delete. Custom field with Checklist content in YAML format. Automatically created and managed by Issue Checklist Free.
+          - generic [ref=f21e6142]:
+            - generic [ref=f21e6143]: Aggregate ARR Impact
+            - spinbutton "Aggregate ARR Impact" [ref=f21e6144]
+            - paragraph [ref=f21e6151]: Aggregate ARR Impact coming from Zendesk
+          - generic [ref=f21e6153]:
+            - generic [ref=f21e6154]: Bug Root Cause
+            - generic [ref=f21e6156]:
+              - status [ref=f21e6158]
+              - generic [ref=f21e6159]:
+                - combobox "Bug Root Cause" [ref=f21e6162]
+                - button "toggle select menu" [ref=f21e6165] [cursor=pointer]:
+                  - img "open" [ref=f21e6167]
+          - generic [ref=f21e6169]:
+            - generic [ref=f21e6170]: Zendesk Ticket Count
+            - spinbutton "Zendesk Ticket Count" [ref=f21e6171]
+            - paragraph [ref=f21e6178]: Number of Zendesk tickets linked to JIRA issue
+          - generic [ref=f21e6230]:
+            - generic [ref=f21e6231]: Introduced In Version
+            - generic [ref=f21e6232]:
+              - generic [ref=f21e6233]:
+                - status [ref=f21e6235]
+                - generic [ref=f21e6236]:
+                  - combobox "Introduced In Version" [ref=f21e6239]
+                  - button "toggle select menu" [ref=f21e6242] [cursor=pointer]:
+                    - img "open" [ref=f21e6244]
+              - paragraph [ref=f21e6251]: This field indicates in which version a Bug was introduced in.
+          - generic [ref=f21e6253]:
+            - generic [ref=f21e6254]: Billable Project
+            - generic [ref=f21e6256]:
+              - status [ref=f21e6258]
+              - generic [ref=f21e6259]:
+                - combobox "Billable Project" [ref=f21e6262]
+                - button "toggle select menu" [ref=f21e6265] [cursor=pointer]:
+                  - img "open" [ref=f21e6267]
+            - paragraph [ref=f21e6274]: Lets you enter the billable project from our list.
+          - generic [ref=f21e6276]:
+            - generic [ref=f21e6277]: Product Line*
+            - generic [ref=f21e6279]:
+              - status [ref=f21e6281]
+              - generic [ref=f21e6282]:
+                - generic [ref=f21e6283]:
+                  - generic [ref=f21e6284]: Ultriva
+                  - combobox "Product Line" [ref=f21e6286]
+                - generic [ref=f21e6287]:
+                  - button "clear" [ref=f21e6289] [cursor=pointer]
+                  - button "toggle select menu" [ref=f21e6292] [cursor=pointer]:
+                    - img "open" [ref=f21e6294]
+          - generic [ref=f21e6296]:
+            - generic [ref=f21e6297]: Expected Delivery Date
+            - generic [ref=f21e6298]:
+              - generic [ref=f21e6299]:
+                - status [ref=f21e6301]
+                - generic [ref=f21e6303]:
+                  - generic [ref=f21e6304]: Select date
+                  - combobox "Expected Delivery Date" [ref=f21e6306]
+              - button "Expected Delivery Date, Open calendar" [ref=f21e6308] [cursor=pointer]
+          - generic [ref=f21e6313]:
+            - generic [ref=f21e6314]: Due date
+            - generic [ref=f21e6315]:
+              - generic [ref=f21e6316]:
+                - status [ref=f21e6318]
+                - generic [ref=f21e6320]:
+                  - generic [ref=f21e6321]: Select date
+                  - combobox "Due date" [ref=f21e6323]
+              - button "Due date, Open calendar" [ref=f21e6325] [cursor=pointer]
+          - generic [ref=f21e6330]:
+            - generic [ref=f21e6331]: Checklist Completed
+            - textbox "Checklist Completed" [ref=f21e6332]
+            - paragraph [ref=f21e6339]: Do not delete. Custom field with Checklist completion status. Automatically created and managed by Issue Checklist Free.
+          - generic [ref=f21e6341]:
+            - generic [ref=f21e6342]: "Build #"
+            - 'textbox "Build #" [ref=f21e6343]'
+          - generic [ref=f21e6345]:
+            - generic [ref=f21e6346]: Description
+            - generic [ref=f21e6356]:
+              - toolbar "Editor" [ref=f21e6358]:
+                - generic [ref=f21e6360]:
+                  - generic [ref=f21e6361]:
+                    - generic [ref=f21e6363]:
+                      - button [ref=f21e6365] [cursor=pointer]:
+                        - img "Ask Rovo" [ref=f21e6366]
+                      - button [ref=f21e6375] [cursor=pointer]:
+                        - img "More Rovo options" [ref=f21e6376]
+                    - button "Improve description" [ref=f21e6379] [cursor=pointer]:
+                      - img "Improve description" [ref=f21e6380]
+                      - text: Improve description
+                  - generic [ref=f21e6382]:
+                    - button "normal Text styles" [ref=f21e6384] [cursor=pointer]:
+                      - img "normal Text styles" [ref=f21e6385]
+                    - generic [ref=f21e6386]:
+                      - button [ref=f21e6388] [cursor=pointer]:
+                        - img "Bold Ctrl+B" [ref=f21e6389]
+                      - button "More formatting" [ref=f21e6391] [cursor=pointer]
+                    - generic [ref=f21e6393]:
+                      - button [ref=f21e6395] [cursor=pointer]:
+                        - img "Bulleted list" [ref=f21e6396]
+                      - button "Lists" [ref=f21e6398] [cursor=pointer]:
+                        - img "Lists" [ref=f21e6399]
+                    - button [ref=f21e6401] [cursor=pointer]:
+                      - img "Text color" [ref=f21e6404]
+                  - generic [ref=f21e6405]:
+                    - button [ref=f21e6408] [cursor=pointer]:
+                      - img "Add image, video, or file" [ref=f21e6409]
+                    - button [ref=f21e6412] [cursor=pointer]:
+                      - img "Code snippet" [ref=f21e6413]
+                    - button [ref=f21e6416] [cursor=pointer]:
+                      - img "Emoji" [ref=f21e6417]
+                    - button [ref=f21e6420] [cursor=pointer]:
+                      - img "Insert elements" [ref=f21e6421]
+                  - button [ref=f21e6424] [cursor=pointer]:
+                    - img "Link" [ref=f21e6425]
+                  - generic [ref=f21e6426]:
+                    - button [ref=f21e6428] [cursor=pointer]:
+                      - img "Undo" [ref=f21e6429]
+                    - button [disabled] [ref=f21e6431]:
+                      - img "Redo" [ref=f21e6432]
+                    - button [ref=f21e6434] [cursor=pointer]:
+                      - img "View changes" [ref=f21e6435]
+              - generic [ref=f21e6436]:
+                - status [ref=f21e6437]
+                - textbox "Description area, start typing to enter text." [ref=f21e6438]:
+                  - paragraph [ref=f21e7144]: "In Supplier Reports > Shipment Due Details, filtering by card ID `KCD2UPEQA` still displays a row with card ID `KCD2UPFQALBU` (item `IT010322`). The returned card ID does not match the entered filter."
+          - generic [ref=f21e6441]:
+            - generic [ref=f21e6442]: Steps to Reproduce*
+            - generic [ref=f21e6452]:
+              - toolbar "Editor" [ref=f21e6454]:
+                - generic [ref=f21e6456]:
+                  - generic [ref=f21e6457]:
+                    - generic [ref=f21e6459]:
+                      - button [ref=f21e6461] [cursor=pointer]:
+                        - img "Ask Rovo" [ref=f21e6462]
+                      - button [ref=f21e6471] [cursor=pointer]:
+                        - img "More Rovo options" [ref=f21e6472]
+                    - button "Improve writing" [ref=f21e6475] [cursor=pointer]:
+                      - img "Improve writing" [ref=f21e6476]
+                      - text: Improve writing
+                  - generic [ref=f21e6478]:
+                    - button "normal Text styles" [ref=f21e6480] [cursor=pointer]:
+                      - img "normal Text styles" [ref=f21e6481]
+                    - generic [ref=f21e6482]:
+                      - button [ref=f21e6484] [cursor=pointer]:
+                        - img "Bold Ctrl+B" [ref=f21e6485]
+                      - button "More formatting" [ref=f21e6487] [cursor=pointer]
+                    - generic [ref=f21e6489]:
+                      - button [ref=f21e6491] [cursor=pointer]:
+                        - img "Bulleted list" [ref=f21e6492]
+                      - button "Lists" [ref=f21e6494] [cursor=pointer]:
+                        - img "Lists" [ref=f21e6495]
+                    - button [ref=f21e6497] [cursor=pointer]:
+                      - img "Text color" [ref=f21e6500]
+                  - generic [ref=f21e6501]:
+                    - button [ref=f21e6504] [cursor=pointer]:
+                      - img "Add image, video, or file" [ref=f21e6505]
+                    - button [ref=f21e6508] [cursor=pointer]:
+                      - img "Code snippet" [ref=f21e6509]
+                    - button [ref=f21e6512] [cursor=pointer]:
+                      - img "Emoji" [ref=f21e6513]
+                    - button [ref=f21e6516] [cursor=pointer]:
+                      - img "Insert elements" [ref=f21e6517]
+                  - button [ref=f21e6520] [cursor=pointer]:
+                    - img "Link" [ref=f21e6521]
+                  - generic [ref=f21e6522]:
+                    - button [ref=f21e6524] [cursor=pointer]:
+                      - img "Undo" [ref=f21e6525]
+                    - button [disabled] [ref=f21e6527]:
+                      - img "Redo" [ref=f21e6528]
+                    - button [ref=f21e6530] [cursor=pointer]:
+                      - img "View changes" [ref=f21e6531]
+              - generic [ref=f21e6532]:
+                - status [ref=f21e6533]
+                - textbox "Steps to Reproduce area, start typing to enter text." [ref=f21e6534]:
+                  - paragraph [ref=f21e7145]: 1. Open Supplier Reports > Shipment Due Details.
+                  - paragraph [ref=f21e7146]: "2. Enter `KCD2UPEQA` in the report filter/search field."
+                  - paragraph [ref=f21e7147]: 3. Observe the filtered results.
+          - generic [ref=f21e6537]:
+            - generic [ref=f21e6538]: Acceptance Criteria
+            - generic [ref=f21e6548]:
+              - toolbar "Editor" [ref=f21e6550]:
+                - generic [ref=f21e6552]:
+                  - generic [ref=f21e6553]:
+                    - generic [ref=f21e6555]:
+                      - button [ref=f21e6557] [cursor=pointer]:
+                        - img "Ask Rovo" [ref=f21e6558]
+                      - button [ref=f21e6567] [cursor=pointer]:
+                        - img "More Rovo options" [ref=f21e6568]
+                    - button "Improve writing" [ref=f21e6571] [cursor=pointer]:
+                      - img "Improve writing" [ref=f21e6572]
+                      - text: Improve writing
+                  - generic [ref=f21e6574]:
+                    - button "normal Text styles" [ref=f21e6576] [cursor=pointer]:
+                      - img "normal Text styles" [ref=f21e6577]
+                    - generic [ref=f21e6578]:
+                      - button [ref=f21e6580] [cursor=pointer]:
+                        - img "Bold Ctrl+B" [ref=f21e6581]
+                      - button "More formatting" [ref=f21e6583] [cursor=pointer]
+                    - generic [ref=f21e6585]:
+                      - button [ref=f21e6587] [cursor=pointer]:
+                        - img "Bulleted list" [ref=f21e6588]
+                      - button "Lists" [ref=f21e6590] [cursor=pointer]:
+                        - img "Lists" [ref=f21e6591]
+                    - button [ref=f21e6593] [cursor=pointer]:
+                      - img "Text color" [ref=f21e6596]
+                  - generic [ref=f21e6597]:
+                    - button [ref=f21e6600] [cursor=pointer]:
+                      - img "Add image, video, or file" [ref=f21e6601]
+                    - button [ref=f21e6604] [cursor=pointer]:
+                      - img "Code snippet" [ref=f21e6605]
+                    - button [ref=f21e6608] [cursor=pointer]:
+                      - img "Emoji" [ref=f21e6609]
+                    - button [ref=f21e6612] [cursor=pointer]:
+                      - img "Insert elements" [ref=f21e6613]
+                  - button [ref=f21e6616] [cursor=pointer]:
+                    - img "Link" [ref=f21e6617]
+                  - generic [ref=f21e6618]:
+                    - button [ref=f21e6620] [cursor=pointer]:
+                      - img "Undo" [ref=f21e6621]
+                    - button [disabled] [ref=f21e6623]:
+                      - img "Redo" [ref=f21e6624]
+                    - button [ref=f21e6626] [cursor=pointer]:
+                      - img "View changes" [ref=f21e6627]
+              - generic [ref=f21e6628]:
+                - status [ref=f21e6629]
+                - textbox "Acceptance Criteria area, start typing to enter text." [ref=f21e6630]:
+                  - paragraph [ref=f21e7148]: "Only rows matching the entered filter are displayed. If no card ID matches `KCD2UPEQA`, no row with a different card ID (such as `KCD2UPFQALBU`) is returned."
+            - paragraph [ref=f21e6638]: Used to specify the Acceptance Criteria for a User Story.
+          - generic [ref=f21e6640]:
+            - generic [ref=f21e6641]: Priority*
+            - generic [ref=f21e6643]:
+              - status [ref=f21e6645]
+              - generic [ref=f21e6646]:
+                - generic [ref=f21e6647]:
+                  - generic [ref=f21e6648]: 3- Medium
+                  - combobox "Priority" [ref=f21e6657]
+                - button "toggle select menu" [ref=f21e6660] [cursor=pointer]:
+                  - img "open" [ref=f21e6662]
+            - link "Learn about priority levels , (opens new window)" [ref=f21e6667] [cursor=pointer]:
+              - /url: /secure/ShowConstantsHelp.jspa?decorator=popup#PriorityLevels
+              - text: Learn about priority levels
+              - generic [ref=f21e6671]: ", (opens new window)"
+          - generic [ref=f21e6673]:
+            - generic [ref=f21e6674]: Parent
+            - generic [ref=f21e6675]:
+              - generic [ref=f21e6677]:
+                - status [ref=f21e6679]
+                - generic [ref=f21e6680]:
+                  - generic [ref=f21e6681]:
+                    - generic [ref=f21e6682]: Select parent
+                    - combobox "Select parent" [ref=f21e6684]
+                  - button "toggle select menu" [ref=f21e6687] [cursor=pointer]:
+                    - img "open" [ref=f21e6689]
+              - generic [ref=f21e6690]: Your work type hierarchy determines the work items you can select here.
+          - generic [ref=f21e6694]:
+            - generic [ref=f21e6695]: Assignee
+            - generic [ref=f21e6696]:
+              - generic [ref=f21e6697]:
+                - status [ref=f21e6699]: option Unassigned, selected.
+                - generic [ref=f21e6702]:
+                  - generic [ref=f21e7214]: Unassigned
+                  - combobox "Assignee" [active] [ref=f21e6712]
+              - button "Assign to me" [ref=f21e6714] [cursor=pointer]
+          - generic [ref=f21e6716]:
+            - generic [ref=f21e6717]: Story Points
+            - spinbutton "Story Points" [ref=f21e6718]
+            - paragraph [ref=f21e6725]: Measurement of complexity and/or size of a requirement.
+          - generic [ref=f21e6727]:
+            - generic [ref=f21e6728]: Discovered By*
+            - generic [ref=f21e6730]:
+              - status [ref=f21e6732]
+              - generic [ref=f21e6733]:
+                - combobox "Discovered By" [ref=f21e6736]
+                - button "toggle select menu" [ref=f21e6739] [cursor=pointer]:
+                  - img "open" [ref=f21e6741]
+              - textbox [aria-hidden]
+          - generic [ref=f21e6743]:
+            - generic [ref=f21e6744]: Customer
+            - textbox "Customer" [ref=f21e6745]
+            - paragraph [ref=f21e6752]: Customer or Client that spawned this this issue or applies to this issue.
+          - generic [ref=f21e6754]:
+            - generic [ref=f21e6755]: Components
+            - generic [ref=f21e6757]:
+              - status [ref=f21e6759]
+              - generic [ref=f21e6760]:
+                - generic [ref=f21e6761]:
+                  - generic [ref=f21e6762]: Select Component
+                  - combobox "Components" [ref=f21e6764]
+                - button "toggle select menu" [ref=f21e6767] [cursor=pointer]:
+                  - img "open" [ref=f21e6769]
+          - generic [ref=f21e6771]:
+            - generic [ref=f21e6772]: Labels
+            - generic [ref=f21e6774]:
+              - status [ref=f21e6776]
+              - generic [ref=f21e6777]:
+                - generic [ref=f21e6778]:
+                  - generic [ref=f21e6779]: Select label
+                  - combobox "Labels" [ref=f21e6781]
+                - button "toggle select menu" [ref=f21e6784] [cursor=pointer]:
+                  - img "open" [ref=f21e6786]
+          - generic [ref=f21e6788]:
+            - generic [ref=f21e6789]: Sprint
+            - generic [ref=f21e6790]:
+              - generic [ref=f21e6791]:
+                - status [ref=f21e6793]
+                - generic [ref=f21e6794]:
+                  - generic [ref=f21e6795]:
+                    - generic [ref=f21e6796]: Select sprint
+                    - combobox "Sprint" [ref=f21e6798]
+                  - button "toggle select menu" [ref=f21e6801] [cursor=pointer]:
+                    - img "open" [ref=f21e6803]
+              - paragraph [ref=f21e6810]: Jira Software sprint field
+          - generic [ref=f21e6812]:
+            - generic [ref=f21e6813]: Affects versions*
+            - generic [ref=f21e6815]:
+              - status [ref=f21e6817]
+              - generic [ref=f21e6818]:
+                - combobox "Affects versions" [ref=f21e6821]
+                - button "toggle select menu" [ref=f21e6824] [cursor=pointer]:
+                  - img "open" [ref=f21e6826]
+              - textbox [aria-hidden]
+          - generic [ref=f21e6828]:
+            - generic [ref=f21e6829]: Fix versions
+            - generic [ref=f21e6831]:
+              - status [ref=f21e6833]
+              - generic [ref=f21e6834]:
+                - combobox "Fix versions" [ref=f21e6837]
+                - button "toggle select menu" [ref=f21e6840] [cursor=pointer]:
+                  - img "open" [ref=f21e6842]
+          - generic [ref=f21e6844]:
+            - generic [ref=f21e6845]: Release Notes
+            - generic [ref=f21e6855]:
+              - toolbar "Editor" [ref=f21e6857]:
+                - generic [ref=f21e6859]:
+                  - generic [ref=f21e6860]:
+                    - generic [ref=f21e6862]:
+                      - button [ref=f21e6864] [cursor=pointer]:
+                        - img "Ask Rovo" [ref=f21e6865]
+                      - button [disabled] [ref=f21e6874]:
+                        - img "More Rovo options" [ref=f21e6875]
+                    - button "Improve writing" [disabled] [ref=f21e6878]:
+                      - img "Improve writing" [ref=f21e6879]
+                      - text: Improve writing
+                  - generic [ref=f21e6881]:
+                    - button "normal Text styles" [ref=f21e6883] [cursor=pointer]:
+                      - img "normal Text styles" [ref=f21e6884]
+                    - generic [ref=f21e6885]:
+                      - button [ref=f21e6887] [cursor=pointer]:
+                        - img "Bold Ctrl+B" [ref=f21e6888]
+                      - button "More formatting" [ref=f21e6890] [cursor=pointer]
+                    - generic [ref=f21e6892]:
+                      - button [ref=f21e6894] [cursor=pointer]:
+                        - img "Bulleted list" [ref=f21e6895]
+                      - button "Lists" [ref=f21e6897] [cursor=pointer]:
+                        - img "Lists" [ref=f21e6898]
+                    - button [ref=f21e6900] [cursor=pointer]:
+                      - img "Text color" [ref=f21e6903]
+                  - generic [ref=f21e6904]:
+                    - button [ref=f21e6907] [cursor=pointer]:
+                      - img "Add image, video, or file" [ref=f21e6908]
+                    - button [ref=f21e6911] [cursor=pointer]:
+                      - img "Code snippet" [ref=f21e6912]
+                    - button [ref=f21e6915] [cursor=pointer]:
+                      - img "Emoji" [ref=f21e6916]
+                    - button [ref=f21e6919] [cursor=pointer]:
+                      - img "Insert elements" [ref=f21e6920]
+                  - button [ref=f21e6923] [cursor=pointer]:
+                    - img "Link" [ref=f21e6924]
+                  - generic [ref=f21e6925]:
+                    - button [disabled] [ref=f21e6927]:
+                      - img "Undo" [ref=f21e6928]
+                    - button [disabled] [ref=f21e6930]:
+                      - img "Redo" [ref=f21e6931]
+                    - button [disabled] [ref=f21e6933]:
+                      - img "View changes" [ref=f21e6934]
+              - generic [ref=f21e6935]:
+                - status [ref=f21e6936]
+                - textbox "Release Notes area, start typing to enter text." [ref=f21e6937]:
+                  - paragraph [ref=f21e7173]: Type @ to mention a teammate and notify them about this work item.
+          - generic [ref=f21e6941]:
+            - generic [ref=f21e6942]: Original estimate
+            - textbox "Original estimate" [ref=f21e6943]:
+              - /placeholder: 2w 1d 5h 4m
+            - paragraph [ref=f21e6950]: "An estimate of how much work remains until this issue will be resolved.The format of this is ' *w *d *h *m ' (representing weeks, days, hours and minutes - where * can be any number).Examples: 4d, 5h 30m, 60m and 3w."
+          - generic [ref=f21e6952]:
+            - generic [ref=f21e6953]: Workaround
+            - textbox "Workaround" [ref=f21e6955]:
+              - /placeholder: ""
+          - generic [ref=f21e6957]:
+            - generic [ref=f21e6958]: Test Plan
+            - textbox "Test Plan" [ref=f21e6959]
+          - generic [ref=f21e6961]:
+            - generic [ref=f21e6962]: Epic/Theme
+            - generic [ref=f21e6964]:
+              - status [ref=f21e6966]
+              - generic [ref=f21e6967]:
+                - generic [ref=f21e6968]:
+                  - generic [ref=f21e6969]: Select label
+                  - combobox "Epic/Theme" [ref=f21e6971]
+                - button "toggle select menu" [ref=f21e6974] [cursor=pointer]:
+                  - img "open" [ref=f21e6976]
+            - paragraph [ref=f21e6983]: Field that will help you regroup issues under an Epic or under a theme.
+          - generic [ref=f21e6985]:
+            - generic [ref=f21e6986]: Score
+            - spinbutton "Score" [ref=f21e6987]
+            - paragraph [ref=f21e6994]: A text field to hold a numeric score.
+          - generic [ref=f21e6996]:
+            - generic [ref=f21e6997]: Product Owner
+            - generic [ref=f21e6999]:
+              - status [ref=f21e7001]
+              - combobox [ref=f21e7010]
+            - paragraph [ref=f21e7018]: Person responsible for product ownership for this issue/project
+          - generic [ref=f21e7020]:
+            - generic [ref=f21e7021]: Atlassian Project
+            - generic [ref=f21e7024]:
+              - textbox "Select project" [ref=f21e7026]:
+                - /placeholder: Search projects or paste link
+              - button "Select project" [ref=f21e7027] [cursor=pointer]
+            - paragraph [ref=f21e7034]: Add a project to work items to track progress and share updates more easily.
+          - generic [ref=f21e7036]:
+            - generic [ref=f21e7037]: T-Shirt Size
+            - generic [ref=f21e7039]:
+              - status [ref=f21e7041]
+              - generic [ref=f21e7042]:
+                - generic [ref=f21e7043]:
+                  - generic [ref=f21e7044]: M
+                  - combobox "T-Shirt Size" [ref=f21e7046]
+                - generic [ref=f21e7047]:
+                  - button "clear" [ref=f21e7049] [cursor=pointer]
+                  - button "toggle select menu" [ref=f21e7052] [cursor=pointer]:
+                    - img "open" [ref=f21e7054]
+            - paragraph [ref=f21e7061]: estimating issue effort
+          - generic [ref=f21e7063]:
+            - generic [ref=f21e7064]: Team
+            - generic [ref=f21e7065]:
+              - generic [ref=f21e7066]:
+                - status [ref=f21e7068]
+                - generic [ref=f21e7070]:
+                  - generic [ref=f21e7074]: Choose a team
+                  - combobox "Team" [ref=f21e7076]
+              - generic [ref=f21e7078]: Associates a team to an issue. You can use this field to search and filter issues by team.
+            - paragraph [ref=f21e7085]: Associates a team to an issue. You can use this field to search and filter issues by team.
+    - generic [ref=f21e6179]:
+      - generic [ref=f21e6180]:
+        - checkbox "Create another" [ref=f21e6181]
+        - generic [ref=f21e6182]: Create another
+      - button "Cancel" [ref=f21e7224] [cursor=pointer]
+      - button "Create" [ref=f21e6186] [cursor=pointer]

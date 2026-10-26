@@ -1,0 +1,537 @@
+{
+ "run": "2026-10-10T08:49:49.794885",
+ "baseline": 219,
+ "results": [
+  {
+   "id": "TC_001",
+   "area": "Filter - RYG",
+   "title": "RYG = Red only",
+   "steps": "Select RYG = Red only, click Go.",
+   "expected": "Only Red rows are listed (single RYG indicator) and they exist in the unfiltered list.",
+   "actual": "3 rows, RYG images shown: ['SQ2.gif']; baseline 219 rows",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_002",
+   "area": "Filter - RYG",
+   "title": "RYG = Yellow only",
+   "steps": "Select RYG = Yellow only, click Go.",
+   "expected": "Only Yellow rows are listed (single RYG indicator) and they exist in the unfiltered list.",
+   "actual": "0 rows, RYG images shown: []; baseline 219 rows",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_002.png"
+  },
+  {
+   "id": "TC_003",
+   "area": "Filter - RYG",
+   "title": "RYG = Green only",
+   "steps": "Select RYG = Green only, click Go.",
+   "expected": "Only Green rows are listed (single RYG indicator) and they exist in the unfiltered list.",
+   "actual": "216 rows, RYG images shown: ['SQ0.gif']; baseline 219 rows",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_004",
+   "area": "Filter - RYG",
+   "title": "Red + Yellow + Green partitions the full list",
+   "steps": "Compare row counts of single-colour RYG filters with the unfiltered list.",
+   "expected": "The three colour filters together return exactly all rows, with no row in two colours.",
+   "actual": "R/Y/G row counts sum to 219; baseline 219; images disjoint: True",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_005",
+   "area": "Filter - RYG",
+   "title": "RYG = Red+Yellow",
+   "steps": "Select RYG Red+Yellow, click Go.",
+   "expected": "Rows of both selected colours are listed and nothing else.",
+   "actual": "3 rows returned, expected 3; unexpected indicators: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_006",
+   "area": "Filter - RYG",
+   "title": "RYG = Red+Green",
+   "steps": "Select RYG Red+Green, click Go.",
+   "expected": "Rows of both selected colours are listed and nothing else.",
+   "actual": "219 rows returned, expected 219; unexpected indicators: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_007",
+   "area": "Filter - RYG",
+   "title": "RYG = Yellow+Green",
+   "steps": "Select RYG Yellow+Green, click Go.",
+   "expected": "Rows of both selected colours are listed and nothing else.",
+   "actual": "216 rows returned, expected 216; unexpected indicators: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_008",
+   "area": "Filter - Category",
+   "title": "Category = Forecast only",
+   "steps": "Select Category = Forecast only, click Go.",
+   "expected": "Only Forecast items listed, all of them part of the unfiltered list.",
+   "actual": "40 rows for Forecast; baseline 219; rows not in baseline: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_009",
+   "area": "Filter - Category",
+   "title": "Category = Kanban only",
+   "steps": "Select Category = Kanban only, click Go.",
+   "expected": "Only Kanban items listed, all of them part of the unfiltered list.",
+   "actual": "179 rows for Kanban; baseline 219; rows not in baseline: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_010",
+   "area": "Filter - Category",
+   "title": "Forecast + Kanban equals All",
+   "steps": "Compare Forecast, Kanban and both categories.",
+   "expected": "Forecast items plus Kanban items equal the unfiltered list.",
+   "actual": "Forecast (40) + Kanban (179) cover 219 items; All shows 219",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_011",
+   "area": "Filter - Cards",
+   "title": "Cards = Not cycled",
+   "steps": "Select Cards = Not cycled, click Go.",
+   "expected": "Rows are a subset of the unfiltered list and card counts never exceed the unfiltered counts.",
+   "actual": "130 rows, total cards 1820; items not in baseline or with more cards than unfiltered: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_012",
+   "area": "Filter - Cards",
+   "title": "Cards = Aged 0 Days",
+   "steps": "Select Cards = Aged 0 Days, click Go.",
+   "expected": "Rows are a subset of the unfiltered list and card counts never exceed the unfiltered counts.",
+   "actual": "0 rows, total cards 0; items not in baseline or with more cards than unfiltered: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_013",
+   "area": "Filter - Cards",
+   "title": "Cards = Aged 1 Days",
+   "steps": "Select Cards = Aged 1 Days, click Go.",
+   "expected": "Rows are a subset of the unfiltered list and card counts never exceed the unfiltered counts.",
+   "actual": "0 rows, total cards 0; items not in baseline or with more cards than unfiltered: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_014",
+   "area": "Filter - Cards",
+   "title": "Cards = Aged 2 Days",
+   "steps": "Select Cards = Aged 2 Days, click Go.",
+   "expected": "Rows are a subset of the unfiltered list and card counts never exceed the unfiltered counts.",
+   "actual": "0 rows, total cards 0; items not in baseline or with more cards than unfiltered: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_015",
+   "area": "Filter - Cards",
+   "title": "Cards = Aged 3 Days",
+   "steps": "Select Cards = Aged 3 Days, click Go.",
+   "expected": "Rows are a subset of the unfiltered list and card counts never exceed the unfiltered counts.",
+   "actual": "0 rows, total cards 0; items not in baseline or with more cards than unfiltered: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_016",
+   "area": "Filter - Cards",
+   "title": "Cards = Aged 4 Days",
+   "steps": "Select Cards = Aged 4 Days, click Go.",
+   "expected": "Rows are a subset of the unfiltered list and card counts never exceed the unfiltered counts.",
+   "actual": "0 rows, total cards 0; items not in baseline or with more cards than unfiltered: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_017",
+   "area": "Filter - Cards",
+   "title": "Cards = Aged 5 Days",
+   "steps": "Select Cards = Aged 5 Days, click Go.",
+   "expected": "Rows are a subset of the unfiltered list and card counts never exceed the unfiltered counts.",
+   "actual": "0 rows, total cards 0; items not in baseline or with more cards than unfiltered: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_018",
+   "area": "Filter - Cards",
+   "title": "Cards = Aged > 5 Days",
+   "steps": "Select Cards = Aged > 5 Days, click Go.",
+   "expected": "Rows are a subset of the unfiltered list and card counts never exceed the unfiltered counts.",
+   "actual": "97 rows, total cards 1168; items not in baseline or with more cards than unfiltered: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_019",
+   "area": "Filter - Cards",
+   "title": "Sum of all aging buckets equals Cards = All",
+   "steps": "Add Total Cards of every Cards option and compare with All.",
+   "expected": "Every card falls in exactly one aging bucket, so per-item totals add up to the All value.",
+   "actual": "55 item(s) where sum of aging buckets differs from All (bucket sum, All): {'IT_ERP_RECEIPTS': (21, 290), 'IT_Percent_200': (17, 824), 'IT_Percent_201': (154, 351), 'IT_SUP_SUPNEW': (0, 17)}",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_019.png"
+  },
+  {
+   "id": "TC_020",
+   "area": "Filter - Show",
+   "title": "Show = Cards List",
+   "steps": "Select Show = Cards List, click Go.",
+   "expected": "Cards List page opens with a grid and no error.",
+   "actual": "System Error!! page displayed (URL: https://engineering.ultrivalms.com/POC/BuyerAction/ReleaseCards)",
+   "status": "SYSERR",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_020.png"
+  },
+  {
+   "id": "TC_021",
+   "area": "Filter - Show",
+   "title": "Show = My Items List",
+   "steps": "Select Show = My Items List, click Go.",
+   "expected": "My Items List page opens with a grid and no error.",
+   "actual": "213 rows; My Items subset of Items List: True",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_022",
+   "area": "Filter - Show",
+   "title": "Show = My Cards List",
+   "steps": "Select Show = My Cards List, click Go.",
+   "expected": "My Cards List page opens with a grid and no error.",
+   "actual": "System Error!! page displayed (URL: https://engineering.ultrivalms.com/POC/BuyerAction/ReleaseCards)",
+   "status": "SYSERR",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_022.png"
+  },
+  {
+   "id": "TC_023",
+   "area": "Filter - Supplier",
+   "title": "Supplier = Supnew vs All Suppliers",
+   "steps": "Select supplier Supnew (Supnew), click Go; then All Suppliers, click Go.",
+   "expected": "Supnew shows only its own items, all of which also appear under All Suppliers.",
+   "actual": "Supnew: 219 rows; All Suppliers: 237 rows; Supnew items missing from All: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_024",
+   "area": "Filter - Supplier",
+   "title": "Supplier chip and grid agree after Go",
+   "steps": "Select Supnew, click Go.",
+   "expected": "Only the Supnew chip is shown and the grid lists Supnew rows.",
+   "actual": "Chips ['Supnew (Supnew)']; 219 rows (baseline 219)",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_025",
+   "area": "Filter - Supplier",
+   "title": "Multiple suppliers (Supnew + sup060219)",
+   "steps": "Add a second supplier to Supnew, click Go.",
+   "expected": "Rows of both suppliers are listed (at least all Supnew rows).",
+   "actual": "Automation error, case skipped: Supplier suggestion 'sup060219 (sup060219)' not found in ['']",
+   "status": "SKIP",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_025.png"
+  },
+  {
+   "id": "TC_026",
+   "area": "Filter - Supplier",
+   "title": "Removing the supplier chip returns all suppliers",
+   "steps": "Remove the supplier chip, click Go.",
+   "expected": "Behaves like All Suppliers or prompts to select a supplier.",
+   "actual": "No supplier chip: 237 rows; All Suppliers 237 rows",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_027",
+   "area": "Filter Combination",
+   "title": "RYG Green + Category Kanban",
+   "steps": "Select RYG Green + Category Kanban, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "176 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_028",
+   "area": "Filter Combination",
+   "title": "RYG Green + Category Forecast",
+   "steps": "Select RYG Green + Category Forecast, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "40 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_029",
+   "area": "Filter Combination",
+   "title": "RYG Red + Category Kanban",
+   "steps": "Select RYG Red + Category Kanban, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "3 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_030",
+   "area": "Filter Combination",
+   "title": "RYG Red+Yellow + Category Forecast",
+   "steps": "Select RYG Red+Yellow + Category Forecast, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "0 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_031",
+   "area": "Filter Combination",
+   "title": "Cards Aged 0 Days + RYG Green",
+   "steps": "Select Cards Aged 0 Days + RYG Green, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "0 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_032",
+   "area": "Filter Combination",
+   "title": "Cards Not cycled + RYG Red+Yellow",
+   "steps": "Select Cards Not cycled + RYG Red+Yellow, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "2 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_033",
+   "area": "Filter Combination",
+   "title": "Cards Aged > 5 Days + Category Kanban",
+   "steps": "Select Cards Aged > 5 Days + Category Kanban, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "84 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_034",
+   "area": "Filter Combination",
+   "title": "Cards Aged 1 Days + Category Forecast",
+   "steps": "Select Cards Aged 1 Days + Category Forecast, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "0 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_035",
+   "area": "Filter Combination",
+   "title": "Cards Aged 2 Days + Category Kanban + RYG Green",
+   "steps": "Select Cards Aged 2 Days + Category Kanban + RYG Green, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "0 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_036",
+   "area": "Filter Combination",
+   "title": "Cards Not cycled + Category Forecast + RYG Red+Yellow+Green",
+   "steps": "Select Cards Not cycled + Category Forecast + RYG Red+Yellow+Green, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "32 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_037",
+   "area": "Filter Combination",
+   "title": "Show My Items List + RYG Green",
+   "steps": "Select Show My Items List + RYG Green, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "210 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_038",
+   "area": "Filter Combination",
+   "title": "Show My Items List + Category Kanban",
+   "steps": "Select Show My Items List + Category Kanban, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "174 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_039",
+   "area": "Filter Combination",
+   "title": "Show My Items List + Cards Aged 0 Days",
+   "steps": "Select Show My Items List + Cards Aged 0 Days, click Go.",
+   "expected": "Result honours every selected filter (rows are within each single-filter result).",
+   "actual": "0 rows. All selected filters honoured",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_040",
+   "area": "Filter - State",
+   "title": "Filter selections vs grid after page reload",
+   "steps": "Set My Items List, Green, Kanban, click Go, reload page.",
+   "expected": "Filter controls and grid show the same (saved) selection.",
+   "actual": "After reload dropdowns show Show=MI, RYG=G, Category=K; grid has 171 rows (all Green: True)",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_041",
+   "area": "Search all columns",
+   "title": "Search 'IT_'",
+   "steps": "Type 'IT_' in Search all columns.",
+   "expected": "Only rows containing the text in any column are listed.",
+   "actual": "6 rows, expected 6; rows without the text: 0",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_042",
+   "area": "Search all columns",
+   "title": "Search 'test'",
+   "steps": "Type 'test' in Search all columns.",
+   "expected": "Only rows containing the text in any column are listed.",
+   "actual": "194 rows, expected 194; rows without the text: 0",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_043",
+   "area": "Search all columns",
+   "title": "Search '45'",
+   "steps": "Type '45' in Search all columns.",
+   "expected": "Only rows containing the text in any column are listed.",
+   "actual": "18 rows, expected 18; rows without the text: 0",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_044",
+   "area": "Search all columns",
+   "title": "Search 'zzzzqq'",
+   "steps": "Type 'zzzzqq' in Search all columns.",
+   "expected": "Only rows containing the text in any column are listed.",
+   "actual": "0 rows for non-matching text",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_045",
+   "area": "Sorting",
+   "title": "Sort column 'RYG' asc / desc / clear",
+   "steps": "Click 'RYG' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: WRONG (colour groups in order: ['SQ0.gif', 'SQ2.gif', 'SQ0.gif', 'SQ2.gif', 'SQ0.gif'] | aria-sort='None' expected ascending) || desc: WRONG (colour groups in order: ['SQ0.gif', 'SQ2.gif', 'SQ0.gif', 'SQ2.gif', 'SQ0.gif'] | aria-sort='None' expected descending) || 3rd click state=None, original order restored=True",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_045.png"
+  },
+  {
+   "id": "TC_046",
+   "area": "Sorting",
+   "title": "Sort column 'Item' asc / desc / clear",
+   "steps": "Click 'Item' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: WRONG (first ['00kantest', '111_testitem', 'IT010421', 'IT010724', 'IT010822']; expected first ['00kantest', '111_testitem', 'IT010421', 'IT010724', 'IT010822']) || desc: WRONG (first ['T17640980', 'T17640948', 'T17640931', 'T17640911_1', 'T17640911']; expected first ['T17640980', 'T17640948', 'T17640931', 'T17640911_1', 'T17640911']) || 3rd click state=none, original order restored=True",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_046.png"
+  },
+  {
+   "id": "TC_047",
+   "area": "Sorting",
+   "title": "Sort column 'Description' asc / desc / clear",
+   "steps": "Click 'Description' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: WRONG (first ['!@#$%%%', '00kantesthi88', '10 regression', '10 version regression testing', '10.7 Regresiion testing']; expected first ['!@#$%%%', '00kantesthi88', '10 regression', '10 version regression testing', '10.7 Regresiion testing']) || desc: WRONG (first ['test test', 'test QMS module', 'test Netted calculations', 'test', 'test']; expected first ['TestOnTimeShipmentReport', 'TestOnTimeShipmentReport', 'TestOnTimeShipmentReport', 'TestOnTimeShipmentReport', 'TestMinordersquot']) || 3rd click state=none, original order restored=True",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_047.png"
+  },
+  {
+   "id": "TC_048",
+   "area": "Sorting",
+   "title": "Sort column 'Is Consignment' asc / desc / clear",
+   "steps": "Click 'Is Consignment' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: OK (first ['No', 'No', 'No', 'No']) || desc: OK (first ['Yes', 'Yes', 'Yes', 'Yes']) || 3rd click state=none, original order restored=True",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_049",
+   "area": "Sorting",
+   "title": "Sort column 'Total Cards' asc / desc / clear",
+   "steps": "Click 'Total Cards' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: OK (first values ['1', '1', '1', '1'] ... last ['608', '696', '824']) || desc: OK (first values ['824', '696', '608', '600'] ... last ['1', '1', '1']) || 3rd click state=none, original order restored=True",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_050",
+   "area": "Sorting",
+   "title": "Sort column 'Total Qty' asc / desc / clear",
+   "steps": "Click 'Total Qty' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: OK (first values ['0', '0', '0', '0'] ... last ['87000', '100875', '101900']) || desc: OK (first values ['101900', '100875', '87000', '86381'] ... last ['0', '0', '0']) || 3rd click state=none, original order restored=True",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_051",
+   "area": "Sorting",
+   "title": "Sort retained after applying a filter with Go",
+   "steps": "Sort Total Qty descending, select RYG=Green, Go.",
+   "expected": "Grid stays sorted by Total Qty descending (or sort indicator resets).",
+   "actual": "Sorted by Total Qty desc, then RYG=Green applied: aria-sort=none; first values ['154', '0', '27100', '45'] ... last ['285', '2700', '1500']",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_051.png"
+  },
+  {
+   "id": "TC_052",
+   "area": "Sorting",
+   "title": "Sort a filtered result (Green + Kanban) by Item",
+   "steps": "Apply RYG=Green, Category=Kanban, Go; sort by Item.",
+   "expected": "Filtered rows are sorted correctly.",
+   "actual": "Filtered (176 rows) + sorted by Item asc: first ['00kantest', '111_testitem', 'IT010421', 'IT010724', 'IT010822']; expected first ['00kantest', '111_testitem', 'IT010421', 'IT010724', 'IT010822']",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_052.png"
+  },
+  {
+   "id": "TC_053",
+   "area": "Sorting",
+   "title": "Multi-column sort with Shift+click",
+   "steps": "Sort Is Consignment, Shift+click Total Cards.",
+   "expected": "Rows ordered by Is Consignment then Total Cards.",
+   "actual": "Multi-sort Is Consignment then Total Cards; first [('No', 824.0), ('No', 696.0), ('No', 608.0)]",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_053.png"
+  }
+ ],
+ "side": {}
+}

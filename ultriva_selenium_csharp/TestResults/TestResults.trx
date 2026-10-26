@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="58a0995e-4dee-4e5b-b835-c63564538d2b" name="vseelam@INRQASEELAMLT1 2026-03-18 15:50:21" runUser="INRQASEELAMLT1\vseelam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-03-18T15:50:21.4025406+05:30" queuing="2026-03-18T15:50:21.4025413+05:30" start="2026-03-18T15:49:21.2295468+05:30" finish="2026-03-18T15:50:53.9714227+05:30" />
+  <TestSettings name="default" id="901e09df-7adc-48dc-9db2-c006abd4f2eb">
+    <Deployment runDeploymentRoot="vseelam_INRQASEELAMLT1_2026-03-18_15_50_21" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6265f925-79c7-48e4-abd9-922673d9774d" testId="78092266-3f13-33f0-d497-f0399fb5eaa2" testName="Login_With_Valid_Credentials_Should_Navigate_To_Home_Page" computerName="INRQASEELAMLT1" duration="00:00:32.4507580" startTime="2026-03-18T15:50:21.3498826+05:30" endTime="2026-03-18T15:50:53.8006373+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6265f925-79c7-48e4-abd9-922673d9774d">
+      <Output>
+        <StdOut>Screenshot saved: C:\Prcatices-AI\qa_automation\ultriva_selenium_csharp\bin\Debug\net10.0\TestResults\login-result-20260318-155052.png&#xD;
+Browser left open by configuration (KeepBrowserOpenAfterTest=true).</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf12214c-fa2e-4e97-8cde-88a63817cba1" testId="fcca86d1-f77e-ebbf-6341-13299716e8c1" testName="Login_Then_Logout_Should_Return_To_Login_Page" computerName="INRQASEELAMLT1" duration="00:00:56.5293720" startTime="2026-03-18T15:49:24.8185341+05:30" endTime="2026-03-18T15:50:21.3478497+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf12214c-fa2e-4e97-8cde-88a63817cba1">
+      <Output>
+        <StdOut>Screenshot saved: C:\Prcatices-AI\qa_automation\ultriva_selenium_csharp\bin\Debug\net10.0\TestResults\login-result-20260318-155020.png&#xD;
+Browser left open by configuration (KeepBrowserOpenAfterTest=true).</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Login_With_Valid_Credentials_Should_Navigate_To_Home_Page" storage="c:\prcatices-ai\qa_automation\ultriva_selenium_csharp\bin\debug\net10.0\ultriva_selenium_csharp.dll" id="78092266-3f13-33f0-d497-f0399fb5eaa2">
+      <Execution id="6265f925-79c7-48e4-abd9-922673d9774d" />
+      <TestMethod codeBase="C:\Prcatices-AI\qa_automation\ultriva_selenium_csharp\bin\Debug\net10.0\ultriva_selenium_csharp.dll" adapterTypeName="executor://nunit3testexecutor/" className="ultriva_selenium_csharp.Tests" name="Login_With_Valid_Credentials_Should_Navigate_To_Home_Page" />
+    </UnitTest>
+    <UnitTest name="Login_Then_Logout_Should_Return_To_Login_Page" storage="c:\prcatices-ai\qa_automation\ultriva_selenium_csharp\bin\debug\net10.0\ultriva_selenium_csharp.dll" id="fcca86d1-f77e-ebbf-6341-13299716e8c1">
+      <Execution id="bf12214c-fa2e-4e97-8cde-88a63817cba1" />
+      <TestMethod codeBase="C:\Prcatices-AI\qa_automation\ultriva_selenium_csharp\bin\Debug\net10.0\ultriva_selenium_csharp.dll" adapterTypeName="executor://nunit3testexecutor/" className="ultriva_selenium_csharp.Tests" name="Login_Then_Logout_Should_Return_To_Login_Page" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="78092266-3f13-33f0-d497-f0399fb5eaa2" executionId="6265f925-79c7-48e4-abd9-922673d9774d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcca86d1-f77e-ebbf-6341-13299716e8c1" executionId="bf12214c-fa2e-4e97-8cde-88a63817cba1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in C:\Prcatices-AI\qa_automation\ultriva_selenium_csharp\bin\Debug\net10.0\ultriva_selenium_csharp.dll&#xD;
+   NUnit3TestExecutor discovered 2 of 2 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+Screenshot saved: C:\Prcatices-AI\qa_automation\ultriva_selenium_csharp\bin\Debug\net10.0\TestResults\login-result-20260318-155020.png&#xD;
+Browser left open by configuration (KeepBrowserOpenAfterTest=true).&#xD;
+&#xD;
+Screenshot saved: C:\Prcatices-AI\qa_automation\ultriva_selenium_csharp\bin\Debug\net10.0\TestResults\login-result-20260318-155052.png&#xD;
+Browser left open by configuration (KeepBrowserOpenAfterTest=true).&#xD;
+&#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

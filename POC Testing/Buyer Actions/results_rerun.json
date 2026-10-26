@@ -1,0 +1,160 @@
+{
+ "run": "2026-10-10T09:50:54.018052",
+ "baseline": 219,
+ "results": [
+  {
+   "id": "TC_301",
+   "area": "Filter - Supplier",
+   "title": "Supplier = Supnew vs All Suppliers",
+   "steps": "Select supplier Supnew (Supnew), click Go; then All Suppliers, click Go.",
+   "expected": "Supnew shows only its own items, all of which also appear under All Suppliers.",
+   "actual": "Supnew: 219 rows; All Suppliers: 237 rows; Supnew items missing from All: []",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_302",
+   "area": "Filter - Supplier",
+   "title": "Supplier chip and grid agree after Go",
+   "steps": "Select Supnew, click Go.",
+   "expected": "Only the Supnew chip is shown and the grid lists Supnew rows.",
+   "actual": "Chips ['Supnew (Supnew)']; 219 rows (baseline 219)",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_303",
+   "area": "Filter - Supplier",
+   "title": "Multiple suppliers (Supnew + Sup111023)",
+   "steps": "Add a second supplier to Supnew, click Go.",
+   "expected": "Rows of both suppliers are listed (union of the two single-supplier results).",
+   "actual": "Automation error, case skipped: Supplier suggestion 'Sup111023 (Sup111023)' not found in []",
+   "status": "SKIP",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_303.png"
+  },
+  {
+   "id": "TC_304",
+   "area": "Filter - Supplier",
+   "title": "Removing the supplier chip returns all suppliers",
+   "steps": "Remove the supplier chip, click Go.",
+   "expected": "Behaves like All Suppliers or prompts to select a supplier.",
+   "actual": "No supplier chip: 237 rows; All Suppliers 237 rows",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_305",
+   "area": "Sorting",
+   "title": "Sort column 'RYG' asc / desc / clear",
+   "steps": "Click 'RYG' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: WRONG (colour groups in order: ['SQ0.gif', 'SQ2.gif', 'SQ0.gif', 'SQ2.gif', 'SQ0.gif'] | aria-sort='None' expected ascending) || desc: WRONG (colour groups in order: ['SQ0.gif', 'SQ2.gif', 'SQ0.gif', 'SQ2.gif', 'SQ0.gif'] | aria-sort='None' expected descending) || 3rd click state=None, original order restored=True",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_305.png"
+  },
+  {
+   "id": "TC_306",
+   "area": "Sorting",
+   "title": "Sort column 'Item' asc / desc / clear",
+   "steps": "Click 'Item' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: WRONG (first ['00kantest', '111_testitem', 'IT010421', 'IT010724', 'IT010822']; order is case-sensitive (lowercase values after uppercase) | order is case-sensitive (lowercase after uppercase)) || desc: WRONG (first ['T17640980', 'T17640948', 'T17640931', 'T17640911_1', 'T17640911']; order is case-sensitive (lowercase values after uppercase) | order is case-sensitive (lowercase after uppercase)) || 3rd click state=none, original order restored=True",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_306.png"
+  },
+  {
+   "id": "TC_307",
+   "area": "Sorting",
+   "title": "Sort column 'Description' asc / desc / clear",
+   "steps": "Click 'Description' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: WRONG (not in ascending order; first violation: row 22 'ITSerial07222020_1' before row 23 'IT_ERP_RECEIPTS'; first ['!@#$%%%', '00kantesthi88', '10 regression', '10 version regression testing']) || desc: WRONG (not in descending order; first violation: row 9 'test' before row 10 'Testcheckboxes'; first ['test test', 'test QMS module', 'test Netted calculations', 'test']) || 3rd click state=none, original order restored=True",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_307.png"
+  },
+  {
+   "id": "TC_308",
+   "area": "Sorting",
+   "title": "Sort column 'Is Consignment' asc / desc / clear",
+   "steps": "Click 'Is Consignment' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: WRONG (not in ascending order; first violation: row 200 'Yes' before row 201 ''; first ['No', 'No', 'No', 'No']) || desc: OK (first ['', '', '', '']) || 3rd click state=none, original order restored=False",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_308.png"
+  },
+  {
+   "id": "TC_309",
+   "area": "Sorting",
+   "title": "Sort column 'Total Cards' asc / desc / clear",
+   "steps": "Click 'Total Cards' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: OK (first values ['1', '1', '1', '1'] ... last ['608', '696', '824']) || desc: OK (first values ['824', '696', '608', '600'] ... last ['1', '1', '1']) || 3rd click state=none, original order restored=True",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_310",
+   "area": "Sorting",
+   "title": "Sort column 'Total Qty' asc / desc / clear",
+   "steps": "Click 'Total Qty' header three times; verify order across both pages.",
+   "expected": "Ascending, descending, then original (unsorted) order; whole result set sorted, not just one page.",
+   "actual": "asc: OK (first values ['0', '0', '0', '0'] ... last ['87000', '100875', '101900']) || desc: OK (first values ['101900', '100875', '87000', '86381'] ... last ['0', '0', '0']) || 3rd click state=none, original order restored=True",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_311",
+   "area": "Sorting",
+   "title": "Sort after applying a filter with Go",
+   "steps": "Sort Total Qty descending, select RYG=Green, Go.",
+   "expected": "Grid is either still sorted descending with the indicator shown, or the indicator is cleared.",
+   "actual": "Sorted by Total Qty desc, then RYG=Green applied: aria-sort=none; first values ['154', '0', '27100', '45'] ... last ['285', '2700', '1500']",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TC_312",
+   "area": "Sorting",
+   "title": "Sort a filtered result (Green + Kanban) by Item",
+   "steps": "Apply RYG=Green, Category=Kanban, Go; sort by Item.",
+   "expected": "Filtered rows are sorted correctly.",
+   "actual": "Filtered (176 rows) + sorted by Item asc: first ['00kantest', '111_testitem', 'IT010421', 'IT010724', 'IT010822']; order is case-sensitive (lowercase values after uppercase)",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\POC Testing\\Buyer Actions\\shots\\TC_312.png"
+  },
+  {
+   "id": "TC_313",
+   "area": "Sorting",
+   "title": "Multi-column sort with Shift+click",
+   "steps": "Sort Is Consignment, Shift+click Total Cards.",
+   "expected": "Rows ordered by Is Consignment then Total Cards.",
+   "actual": "Multi-sort Is Consignment then Total Cards; first [('No', 1.0), ('No', 1.0), ('No', 1.0)]",
+   "status": "PASS",
+   "shot": ""
+  }
+ ],
+ "side": {
+  "case_sort": [
+   [
+    "QKCItemNo",
+    "asc"
+   ],
+   [
+    "QKCItemNo",
+    "desc"
+   ]
+  ],
+  "count_mismatch": [
+   [
+    "TC_308",
+    219,
+    38
+   ],
+   [
+    "TC_308",
+    219,
+    38
+   ]
+  ]
+ }
+}

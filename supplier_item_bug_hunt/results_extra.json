@@ -1,0 +1,151 @@
+{
+ "results": [
+  {
+   "id": "TX_001",
+   "plant": "Cust240720",
+   "area": "Filter",
+   "title": "Lead Time Between 0.08",
+   "steps": "Plant Cust240720 > Go > apply filter: Lead Time Between 0.08",
+   "expected": "5 row(s): ['Cust080323', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'IT_ReqRec']",
+   "actual": "System/automation error, case skipped: Message: stale element reference: stale element not found in the current frame (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentati",
+   "status": "SKIP",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\supplier_item_bug_hunt\\shots\\TX_001.png"
+  },
+  {
+   "id": "TX_002",
+   "plant": "Cust240720",
+   "area": "Filter",
+   "title": "Transit Time Between 1e-05",
+   "steps": "Plant Cust240720 > Go > apply filter: Transit Time Between 1e-05",
+   "expected": "5 row(s): ['Cust080323', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'IT_ReqRec']",
+   "actual": "5 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_003",
+   "plant": "Cust240720",
+   "area": "Filter",
+   "title": "Qty On Card Between 1",
+   "steps": "Plant Cust240720 > Go > apply filter: Qty On Card Between 1",
+   "expected": "5 row(s): ['Cust080323', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622']",
+   "actual": "5 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_004",
+   "plant": "Cust240720",
+   "area": "Filter",
+   "title": "Qty On Card Less than 44 OR Greater than 44",
+   "steps": "Plant Cust240720 > Go > apply filter: Qty On Card Less than 44 OR Greater than 44",
+   "expected": "6 row(s): ['Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622', 'IT_ReqRec']",
+   "actual": "6 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_005",
+   "plant": "Cust240720",
+   "area": "Search all columns",
+   "title": "Search all columns = 'cust'",
+   "steps": "Plant Cust240720 > Go > apply filter: Search all columns = 'cust'",
+   "expected": "6 row(s): ['Cust080323', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622']",
+   "actual": "6 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_006",
+   "plant": "Cust240720",
+   "area": "Filter Combination",
+   "title": "Lead Time Between 1; Transit Time Greater than 2",
+   "steps": "Plant Cust240720 > Go > apply filter: Lead Time Between 1; Transit Time Greater than 2",
+   "expected": "3 row(s): ['Cust080323', 'ITCust16021', 'IT_ReqRec']",
+   "actual": "3 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_007",
+   "plant": "Cust240720",
+   "area": "Filter Combination",
+   "title": "Search all columns = 'cust'; Lead Time Less than or equal to 3",
+   "steps": "Plant Cust240720 > Go > apply filter: Search all columns = 'cust'; Lead Time Less than or equal to 3",
+   "expected": "5 row(s): ['Cust080323', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021']",
+   "actual": "5 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_008",
+   "plant": "Cust1201023",
+   "area": "Filter",
+   "title": "Lead Time Between 2",
+   "steps": "Plant Cust1201023 > Go > apply filter: Lead Time Between 2",
+   "expected": "5 row(s): ['Cust121023', 'Cust121023-1', 'cust005test', 'cust006test', 'cust1234']",
+   "actual": "5 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_009",
+   "plant": "Cust1201023",
+   "area": "Filter",
+   "title": "Transit Time Between 2",
+   "steps": "Plant Cust1201023 > Go > apply filter: Transit Time Between 2",
+   "expected": "1 row(s): ['IT131023']",
+   "actual": "Grid shows 1 row(s): [''] | Pagination: 'Page Size: 200 1 to 1 of 1 Page 1 of 1'",
+   "status": "FAIL",
+   "shot": "C:\\Prcatices-AI\\qa_automation\\supplier_item_bug_hunt\\shots\\TX_009.png"
+  },
+  {
+   "id": "TX_010",
+   "plant": "Cust1201023",
+   "area": "Filter",
+   "title": "Qty On Card Between 30",
+   "steps": "Plant Cust1201023 > Go > apply filter: Qty On Card Between 30",
+   "expected": "0 row(s): []",
+   "actual": "0 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_011",
+   "plant": "Cust1201023",
+   "area": "Search all columns",
+   "title": "Search all columns = 'cust'",
+   "steps": "Plant Cust1201023 > Go > apply filter: Search all columns = 'cust'",
+   "expected": "6 row(s): ['Cust121023', 'Cust121023-1', 'IT131023', 'cust005test', 'cust006test', 'cust1234']",
+   "actual": "6 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_012",
+   "plant": "Cust1201023",
+   "area": "Filter Combination",
+   "title": "Lead Time Between 1; Transit Time Greater than 2",
+   "steps": "Plant Cust1201023 > Go > apply filter: Lead Time Between 1; Transit Time Greater than 2",
+   "expected": "5 row(s): ['Cust121023', 'Cust121023-1', 'cust005test', 'cust006test', 'cust1234']",
+   "actual": "5 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  },
+  {
+   "id": "TX_013",
+   "plant": "Cust1201023",
+   "area": "Filter Combination",
+   "title": "Search all columns = 'cust'; Lead Time Less than or equal to 3",
+   "steps": "Plant Cust1201023 > Go > apply filter: Search all columns = 'cust'; Lead Time Less than or equal to 3",
+   "expected": "0 row(s): []",
+   "actual": "0 row(s) shown as expected",
+   "status": "PASS",
+   "shot": ""
+  }
+ ],
+ "side": {
+  "case_sort": []
+ },
+ "run": "2026-10-09 10:51:06.073630"
+}

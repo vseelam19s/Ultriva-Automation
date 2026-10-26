@@ -1,0 +1,27 @@
+
+======================================================================
+  SUPPLIER CALENDAR — ADD HOLIDAY REPORT
+======================================================================
+  Date   : 2026-04-28 09:53:52
+  URL    : https://engineering.ultrivalms.com/QALS1011
+  User   : buyeruser
+
+  SUPPLIER
+  --------
+  Name   : cimplsupplier
+  GID    : BSU232HQALMF
+
+  HOLIDAY DETAILS
+  ---------------
+  Date   : 04/28/2026
+  Desc   : QA Test Holiday
+
+  RESULTS
+  -------
+  [PASS] Login                    — buyeruser authenticated
+  [PASS] Open Supplier List       — External Supplier List loaded
+  [PASS] More Options > Calendar  — Calendar Holiday List opened
+  [PASS] Add Holiday              — Create Holiday form opened
+  [PASS] Fill & Save Holiday      — Holiday date and description saved
+  [PASS] Verify Holiday           — Holiday confirmed in list
+======================================================================

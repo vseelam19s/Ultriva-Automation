@@ -1,0 +1,262 @@
+﻿PLANT Cust240720 7
+TC_001 PASS Sorting | Default sort on page load | Order=['CUST080323!!', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622', 'IT_ReqRec']; indicator=ascending
+TC_002 PASS Sorting | Sort Plant Item No ascending (header click) | Order=['Cust080323', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622', 'IT_ReqRec']; sort indicator='ascending' [
+TC_003 PASS Sorting | Sort Plant Item No descending (header click) | Order=['IT_ReqRec', 'ITCust200622', 'ITCust16021', 'ITCust010822', 'CustIT240720', 'Cust190722', 'Cust080323']; sort indicator='descending' 
+TC_004 PASS Sorting | Remove sort on Plant Item No (3rd click) | indicator=none
+TC_005 PASS Sorting | Sort Supplier Item No. ascending (header click) | Order=['CUST080323!!', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622', 'IT_ReqRec']; sort indicator='ascending'
+TC_006 PASS Sorting | Sort Supplier Item No. descending (header click) | Order=['IT_ReqRec', 'ITCust200622', 'ITCust16021', 'ITCust010822', 'CustIT240720', 'Cust190722', 'CUST080323!!']; sort indicator='descending
+TC_007 PASS Sorting | Remove sort on Supplier Item No. (3rd click) | indicator=none
+TC_008 PASS Sorting | Sort Description ascending (header click) | Order=['COMMUNICATION SYSTEM QUICK CONNECTION GUIDE', 'Customer issues', 'IT_ReqRec', 'Test', 'Test Dash board', 'Test Integration tasks', '
+TC_009 PASS Sorting | Sort Description descending (header click) | Order=['Test Speacila charactors', 'Test Integration tasks', 'Test Dash board', 'Test', 'IT_ReqRec', 'Customer issues', 'COMMUNICATION SYSTE
+TC_010 PASS Sorting | Remove sort on Description (3rd click) | indicator=none
+TC_011 PASS Sorting | Sort Carrier ascending (header click) | Order=['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']; sort indicator='ascending'
+TC_012 PASS Sorting | Sort Carrier descending (header click) | Order=['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']; sort indicator='descending'
+TC_013 PASS Sorting | Remove sort on Carrier (3rd click) | indicator=none
+TC_014 PASS Sorting | Sort Lead Time ascending (header click) | Order=['0.08', '2', '2', '3', '3', '4', '5']; sort indicator='ascending'
+TC_015 PASS Sorting | Sort Lead Time descending (header click) | Order=['5', '4', '3', '3', '2', '2', '0.08']; sort indicator='descending'
+TC_016 PASS Sorting | Remove sort on Lead Time (3rd click) | indicator=none
+TC_017 PASS Sorting | Sort Transit Time ascending (header click) | Order=['0.00001', '2', '2', '3', '3', '4', '5']; sort indicator='ascending'
+TC_018 PASS Sorting | Sort Transit Time descending (header click) | Order=['5', '4', '3', '3', '2', '2', '0.00001']; sort indicator='descending'
+TC_019 PASS Sorting | Remove sort on Transit Time (3rd click) | indicator=none
+TC_020 PASS Sorting | Sort Qty On Card ascending (header click) | Order=['1.0000', '25.0000', '44.0000', '45.0000', '45.0000', '45.0000', '100.0000']; sort indicator='ascending'
+TC_021 PASS Sorting | Sort Qty On Card descending (header click) | Order=['100.0000', '45.0000', '45.0000', '45.0000', '44.0000', '25.0000', '1.0000']; sort indicator='descending'
+TC_022 PASS Sorting | Remove sort on Qty On Card (3rd click) | indicator=none
+TC_023 FAIL Sorting | Sort Unit Description ascending (header click) | Order=['', '', '', '', '', '', '']; sort indicator='None'
+TC_024 FAIL Sorting | Sort Unit Description descending (header click) | Order=['', '', '', '', '', '', '']; sort indicator='None'
+TC_025 PASS Sorting | Remove sort on Unit Description (3rd click) | indicator=None
+TC_026 PASS Sorting | Column menu 'Sort Ascending' on Plant Item No | Order=['Cust080323', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622', 'IT_ReqRec']; sort indicator='ascending' [
+TC_027 PASS Sorting | Column menu 'Sort Descending' on Plant Item No | Order=['IT_ReqRec', 'ITCust200622', 'ITCust16021', 'ITCust010822', 'CustIT240720', 'Cust190722', 'Cust080323']; sort indicator='descending' 
+TC_028 PASS Sorting | Column menu 'Sort Ascending' on Supplier Item No. | Order=['CUST080323!!', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622', 'IT_ReqRec']; sort indicator='ascending'
+TC_029 PASS Sorting | Column menu 'Sort Descending' on Supplier Item No. | Order=['IT_ReqRec', 'ITCust200622', 'ITCust16021', 'ITCust010822', 'CustIT240720', 'Cust190722', 'CUST080323!!']; sort indicator='descending
+TC_030 PASS Sorting | Column menu 'Sort Ascending' on Description | Order=['COMMUNICATION SYSTEM QUICK CONNECTION GUIDE', 'Customer issues', 'IT_ReqRec', 'Test', 'Test Dash board', 'Test Integration tasks', '
+TC_031 PASS Sorting | Column menu 'Sort Descending' on Description | Order=['Test Speacila charactors', 'Test Integration tasks', 'Test Dash board', 'Test', 'IT_ReqRec', 'Customer issues', 'COMMUNICATION SYSTE
+TC_032 PASS Sorting | Column menu 'Sort Ascending' on Carrier | Order=['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']; sort indicator='ascending'
+TC_033 PASS Sorting | Column menu 'Sort Descending' on Carrier | Order=['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']; sort indicator='descending'
+TC_034 PASS Sorting | Column menu 'Sort Ascending' on Lead Time | Order=['0.08', '2', '2', '3', '3', '4', '5']; sort indicator='ascending'
+TC_035 PASS Sorting | Column menu 'Sort Descending' on Lead Time | Order=['5', '4', '3', '3', '2', '2', '0.08']; sort indicator='descending'
+TC_036 PASS Sorting | Column menu 'Sort Ascending' on Transit Time | Order=['0.00001', '2', '2', '3', '3', '4', '5']; sort indicator='ascending'
+TC_037 PASS Sorting | Column menu 'Sort Descending' on Transit Time | Order=['5', '4', '3', '3', '2', '2', '0.00001']; sort indicator='descending'
+TC_038 PASS Sorting | Column menu 'Sort Ascending' on Qty On Card | Order=['1.0000', '25.0000', '44.0000', '45.0000', '45.0000', '45.0000', '100.0000']; sort indicator='ascending'
+TC_039 PASS Sorting | Column menu 'Sort Descending' on Qty On Card | Order=['100.0000', '45.0000', '45.0000', '45.0000', '44.0000', '25.0000', '1.0000']; sort indicator='descending'
+TC_040 FAIL Sorting | Column menu 'Sort Ascending' on Unit Description | menu option not found
+TC_041 FAIL Sorting | Column menu 'Sort Descending' on Unit Description | menu option not found
+TC_042 PASS Sorting | Multi-column sort (Carrier, then Shift+Lead Time) | Carrier/LeadTime order=[('unknown', 0.08), ('unknown', 2.0), ('unknown', 2.0), ('unknown', 3.0), ('unknown', 3.0), ('unknown', 4.0), ('unkno
+TC_043 PASS Sorting+Filter | Description descending sort retained after Lead Time >= 3 filter | Order=['Test Speacila charactors', 'Test Integration tasks', 'Test Dash board', 'IT_ReqRec']; LeadTimes=['3', '5', '3', '4']
+TC_044 PASS Filter | Plant Item No filter value list matches grid data | Filter list=['Cust080323', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622', 'IT_ReqRec']; expected=['Cust080323'
+TC_045 PASS Filter | Supplier Item No. filter value list matches grid data | Filter list=['CUST080323!!', 'Cust190722', 'CustIT240720', 'ITCust010822', 'ITCust16021', 'ITCust200622', 'IT_ReqRec']; expected=['CUST08032
+TC_046 PASS Filter | Description filter value list matches grid data | Filter list=['COMMUNICATION SYSTEM QUICK CONNECTION GUIDE', 'Customer issues', 'IT_ReqRec', 'Test', 'Test Dash board', 'Test Integration tas
+TC_047 PASS Filter | Carrier filter value list matches grid data | Filter list=['Unknown']; expected=['Unknown']
+TC_048 FAIL Filter | Unit Description filter value list matches grid data | Filter list=['']; expected=['(Blanks)']
+TC_049 PASS Filter | Plant Item No set-filter = ['Cust080323'] | 1 row(s) shown as expected
+TC_050 PASS Filter | Plant Item No set-filter = ['Cust190722'] | 1 row(s) shown as expected
+TC_051 PASS Filter | Plant Item No set-filter = ['CustIT240720'] | 1 row(s) shown as expected
+TC_052 PASS Filter | Plant Item No set-filter = ['Cust080323', 'Cust190722'] | 2 row(s) shown as expected
+TC_053 PASS Filter | Supplier Item No. set-filter = ['CUST080323!!'] | 1 row(s) shown as expected
+TC_054 PASS Filter | Supplier Item No. set-filter = ['Cust190722'] | 1 row(s) shown as expected
+TC_055 PASS Filter | Supplier Item No. set-filter = ['CustIT240720'] | 1 row(s) shown as expected
+TC_056 PASS Filter | Supplier Item No. set-filter = ['CUST080323!!', 'Cust190722'] | 2 row(s) shown as expected
+TC_057 PASS Filter | Description set-filter = ['Test Speacila charactors'] | 1 row(s) shown as expected
+TC_058 PASS Filter | Description set-filter = ['COMMUNICATION SYSTEM QUICK CONNECTION GUIDE'] | 1 row(s) shown as expected
+TC_059 PASS Filter | Description set-filter = ['Test'] | 1 row(s) shown as expected
+TC_060 PASS Filter | Description set-filter = ['Test Speacila charactors', 'COMMUNICATION SYSTEM QUICK CONNECTION GUIDE'] | 2 row(s) shown as expected
+TC_061 PASS Filter | Carrier set-filter = ['Unknown'] | 7 row(s) shown as expected
+TC_062 PASS Filter | Unit Description set-filter = ['(Blanks)'] | 7 row(s) shown as expected
+TC_063 PASS Filter | Lead Time Equals 3 | 2 row(s) shown as expected
+TC_064 PASS Filter | Lead Time Does not equal 3 | 5 row(s) shown as expected
+TC_065 PASS Filter | Lead Time Greater than 3 | 2 row(s) shown as expected
+TC_066 PASS Filter | Lead Time Greater than or equal to 3 | 4 row(s) shown as expected
+TC_067 PASS Filter | Lead Time Less than 3 | 3 row(s) shown as expected
+TC_068 PASS Filter | Lead Time Less than or equal to 3 | 5 row(s) shown as expected
+TC_069 SKIP Filter | Lead Time In range 0.08 and 5 | System/automation error, case skipped: operator option not found: In range (available: ['Equals', 'Does not equal', 'Greater than', 'Greater
+TC_070 PASS Filter | Lead Time Blank  | 0 row(s) shown as expected
+TC_071 PASS Filter | Lead Time Not blank  | 7 row(s) shown as expected
+TC_072 PASS Filter | Lead Time Equals smallest value 0.08 | 1 row(s) shown as expected
+TC_073 PASS Filter | Lead Time Less than smallest value (no match expected) | 0 row(s) shown as expected
+TC_074 PASS Filter | Lead Time Less than 3 OR Greater than 3 | 5 row(s) shown as expected
+TC_075 PASS Filter | Lead Time Greater than 0.08 AND Less than 5 | 5 row(s) shown as expected
+TC_076 PASS Filter | Lead Time > max AND < min (contradictory, no rows expected) | 0 row(s) shown as expected
+TC_077 PASS Filter | Transit Time Equals 3 | 2 row(s) shown as expected
+TC_078 PASS Filter | Transit Time Does not equal 3 | 5 row(s) shown as expected
+TC_079 PASS Filter | Transit Time Greater than 3 | 2 row(s) shown as expected
+TC_080 PASS Filter | Transit Time Greater than or equal to 3 | 4 row(s) shown as expected
+TC_081 PASS Filter | Transit Time Less than 3 | 3 row(s) shown as expected
+TC_082 PASS Filter | Transit Time Less than or equal to 3 | 5 row(s) shown as expected
+TC_083 SKIP Filter | Transit Time In range 1e-05 and 5 | System/automation error, case skipped: Message: stale element reference: stale element not found in the current frame (Session info: chrome=
+TC_084 PASS Filter | Transit Time Blank  | 0 row(s) shown as expected
+TC_085 PASS Filter | Transit Time Not blank  | 7 row(s) shown as expected
+TC_086 PASS Filter | Transit Time Equals smallest value 1e-05 | 1 row(s) shown as expected
+TC_087 PASS Filter | Transit Time Less than smallest value (no match expected) | 0 row(s) shown as expected
+TC_088 PASS Filter | Transit Time Less than 3 OR Greater than 3 | 5 row(s) shown as expected
+TC_089 PASS Filter | Transit Time Greater than 1e-05 AND Less than 5 | 5 row(s) shown as expected
+TC_090 PASS Filter | Transit Time > max AND < min (contradictory, no rows expected) | 0 row(s) shown as expected
+TC_091 PASS Filter | Qty On Card Equals 44 | 1 row(s) shown as expected
+TC_092 PASS Filter | Qty On Card Does not equal 44 | 6 row(s) shown as expected
+TC_093 PASS Filter | Qty On Card Greater than 44 | 4 row(s) shown as expected
+TC_094 PASS Filter | Qty On Card Greater than or equal to 44 | 5 row(s) shown as expected
+TC_095 PASS Filter | Qty On Card Less than 44 | 2 row(s) shown as expected
+TC_096 PASS Filter | Qty On Card Less than or equal to 44 | 3 row(s) shown as expected
+TC_097 SKIP Filter | Qty On Card In range 1 and 100 | System/automation error, case skipped: operator option not found: In range (available: ['Equals', 'Does not equal', 'Greater than', 'Greater
+TC_098 PASS Filter | Qty On Card Blank  | 0 row(s) shown as expected
+TC_099 PASS Filter | Qty On Card Not blank  | 7 row(s) shown as expected
+TC_100 PASS Filter | Qty On Card Equals smallest value 1 | 1 row(s) shown as expected
+TC_101 PASS Filter | Qty On Card Less than smallest value (no match expected) | 0 row(s) shown as expected
+TC_102 FAIL Filter | Qty On Card Less than 44 OR Greater than 44 | Grid shows 6 row(s): ['', '', '', '', '', ''] | Pagination: 'Page Size: 200 1 to 6 of 6 Page 1 of 1'
+TC_103 PASS Filter | Qty On Card Greater than 1 AND Less than 100 | 5 row(s) shown as expected
+TC_104 PASS Filter | Qty On Card > max AND < min (contradictory, no rows expected) | 0 row(s) shown as expected
+TC_105 FAIL Search all columns | Search all columns = 'cust' | Grid shows 6 row(s): ['', '', '', '', '', ''] | Pagination: 'Page Size: 200 1 to 6 of 6 Page 1 of 1'
+TC_106 PASS Search all columns | Search all columns = 'TEST' | 4 row(s) shown as expected
+TC_107 PASS Search all columns | Search all columns = 'unknown' | 7 row(s) shown as expected
+TC_108 PASS Search all columns | Search all columns = '45' | 3 row(s) shown as expected
+TC_109 FAIL Search all columns | Search all columns = '45.0000' | Grid shows 0 row(s): [] | Pagination: 'Page Size: 200 0 to 0 of 0 Page 0 of 0'
+TC_110 FAIL Search all columns | Search all columns = '44.0000' | Grid shows 0 row(s): [] | Pagination: 'Page Size: 200 0 to 0 of 0 Page 0 of 0'
+TC_111 PASS Search all columns | Search all columns = '0.00001' | 1 row(s) shown as expected
+TC_112 PASS Search all columns | Search all columns = '0.08' | 1 row(s) shown as expected
+TC_113 PASS Search all columns | Search all columns = '!!' | 1 row(s) shown as expected
+TC_114 PASS Search all columns | Search all columns = '_' | 1 row(s) shown as expected
+TC_115 PASS Search all columns | Search all columns = 'test cust' | 4 row(s) shown as expected
+TC_116 PASS Search all columns | Search all columns = 'zzzz' | 0 row(s) shown as expected
+TC_117 PASS Search all columns | Search all columns = ' cust ' | 6 row(s) shown as expected
+TC_118 PASS Filter Combination | Carrier set-filter = ['Unknown']; Lead Time Greater than or equal to 3 | 4 row(s) shown as expected
+TC_119 PASS Filter Combination | Description set-filter = ['Test Speacila charactors']; Qty On Card Equals 45 | 0 row(s) shown as expected
+TC_120 SKIP Filter Combination | Lead Time In range 1 and 5; Transit Time Greater than 2 | System/automation error, case skipped: operator option not found: In range (available: ['Equals', 'Does not equal', 'Greater than', 'Greater
+TC_121 PASS Filter Combination | Lead Time Less than 3; Qty On Card Greater than 40 | 2 row(s) shown as expected
+TC_122 PASS Filter Combination | Search all columns = 'cust'; Lead Time Less than or equal to 3 | 5 row(s) shown as expected
+TC_123 PASS Filter Combination | Carrier set-filter = ['Unknown']; Search all columns = 'test' | 4 row(s) shown as expected
+TC_124 PASS Filter Combination | Plant Item No set-filter = ['Cust080323', 'IT_ReqRec']; Transit Time Greater than 2 | 2 row(s) shown as expected
+TC_125 PASS Filter Combination | Lead Time Equals 4; Transit Time Equals 4; Qty On Card Equals 45 | 0 row(s) shown as expected
+TC_126 PASS Filter Combination | Unit Description set-filter = ['(Blanks)']; Carrier set-filter = ['Unknown']; Qty On Card Greater than or equal to 45 | 4 row(s) shown as expected
+TC_127 PASS Filter Combination | Lead Time Less than 3 OR Greater than 4; Search all columns = 'it' | 3 row(s) shown as expected
+TC_128 PASS Filter | Clear Filters button resets all column filters | Rows with filters=1; after 'Clear Filters'=7 (expected 7); quick-search text left=''
+TC_129 PASS Filter | Filter behaviour after clicking Go again | Rows before Go=2; after Go (same plant)=7
+PLANT Cust1201023 7
+TC_130 PASS Sorting | Default sort on page load | Order=['111_testitem1', 'Cust121023', 'Cust121023-1', 'IT131023', 'cust005test', 'cust006test', 'cust1234']; indicator=ascending
+TC_131 PASS Sorting | Sort Plant Item No ascending (header click) | Order=['111_testitem1', 'Cust121023', 'Cust121023-1', 'IT131023', 'cust005test', 'cust006test', 'cust1234']; sort indicator='ascending' [NOT
+TC_132 PASS Sorting | Sort Plant Item No descending (header click) | Order=['cust1234', 'cust006test', 'cust005test', 'IT131023', 'Cust121023-1', 'Cust121023', '111_testitem1']; sort indicator='descending' [NO
+TC_133 PASS Sorting | Remove sort on Plant Item No (3rd click) | indicator=none
+TC_134 PASS Sorting | Sort Supplier Item No. ascending (header click) | Order=['111_testitem1', 'Cust121023', 'Cust121023-1', 'IT131023', 'cust005test', 'cust006test', 'cust1234']; sort indicator='ascending' [NOT
+TC_135 PASS Sorting | Sort Supplier Item No. descending (header click) | Order=['cust1234', 'cust006test', 'cust005test', 'IT131023', 'Cust121023-1', 'Cust121023', '111_testitem1']; sort indicator='descending' [NO
+TC_136 PASS Sorting | Remove sort on Supplier Item No. (3rd click) | indicator=none
+TC_137 PASS Sorting | Sort Description ascending (header click) | Order=['111_testitem1', 'Cust Item', 'Test', 'Test', 'cust005test', 'cut006test', 'test']; sort indicator='ascending' [NOTE: ordering is cas
+TC_138 PASS Sorting | Sort Description descending (header click) | Order=['test', 'cut006test', 'cust005test', 'Test', 'Test', 'Cust Item', '111_testitem1']; sort indicator='descending' [NOTE: ordering is ca
+TC_139 PASS Sorting | Remove sort on Description (3rd click) | indicator=none
+TC_140 PASS Sorting | Sort Carrier ascending (header click) | Order=['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']; sort indicator='ascending'
+TC_141 PASS Sorting | Sort Carrier descending (header click) | Order=['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']; sort indicator='descending'
+TC_142 PASS Sorting | Remove sort on Carrier (3rd click) | indicator=none
+TC_143 PASS Sorting | Sort Lead Time ascending (header click) | Order=['2', '4', '4', '4', '4', '4', '45']; sort indicator='ascending'
+TC_144 PASS Sorting | Sort Lead Time descending (header click) | Order=['45', '4', '4', '4', '4', '4', '2']; sort indicator='descending'
+TC_145 PASS Sorting | Remove sort on Lead Time (3rd click) | indicator=none
+TC_146 PASS Sorting | Sort Transit Time ascending (header click) | Order=['2', '3', '4', '4', '4', '4', '4']; sort indicator='ascending'
+TC_147 PASS Sorting | Sort Transit Time descending (header click) | Order=['4', '4', '4', '4', '4', '3', '2']; sort indicator='descending'
+TC_148 PASS Sorting | Remove sort on Transit Time (3rd click) | indicator=none
+TC_149 PASS Sorting | Sort Qty On Card ascending (header click) | Order=['30.0000', '45.0000', '45.0000', '45.0000', '45.0000', '45.0000', '45.0000']; sort indicator='ascending'
+TC_150 PASS Sorting | Sort Qty On Card descending (header click) | Order=['45.0000', '45.0000', '45.0000', '45.0000', '45.0000', '45.0000', '30.0000']; sort indicator='descending'
+TC_151 PASS Sorting | Remove sort on Qty On Card (3rd click) | indicator=none
+TC_152 FAIL Sorting | Sort Unit Description ascending (header click) | Order=['', '', '', '', '', '', '']; sort indicator='None'
+TC_153 FAIL Sorting | Sort Unit Description descending (header click) | Order=['', '', '', '', '', '', '']; sort indicator='None'
+TC_154 PASS Sorting | Remove sort on Unit Description (3rd click) | indicator=None
+TC_155 PASS Sorting | Column menu 'Sort Ascending' on Plant Item No | Order=['111_testitem1', 'Cust121023', 'Cust121023-1', 'IT131023', 'cust005test', 'cust006test', 'cust1234']; sort indicator='ascending' [NOT
+TC_156 PASS Sorting | Column menu 'Sort Descending' on Plant Item No | Order=['cust1234', 'cust006test', 'cust005test', 'IT131023', 'Cust121023-1', 'Cust121023', '111_testitem1']; sort indicator='descending' [NO
+TC_157 PASS Sorting | Column menu 'Sort Ascending' on Supplier Item No. | Order=['111_testitem1', 'Cust121023', 'Cust121023-1', 'IT131023', 'cust005test', 'cust006test', 'cust1234']; sort indicator='ascending' [NOT
+TC_158 PASS Sorting | Column menu 'Sort Descending' on Supplier Item No. | Order=['cust1234', 'cust006test', 'cust005test', 'IT131023', 'Cust121023-1', 'Cust121023', '111_testitem1']; sort indicator='descending' [NO
+TC_159 PASS Sorting | Column menu 'Sort Ascending' on Description | Order=['111_testitem1', 'Cust Item', 'Test', 'Test', 'cust005test', 'cut006test', 'test']; sort indicator='ascending' [NOTE: ordering is cas
+TC_160 PASS Sorting | Column menu 'Sort Descending' on Description | Order=['test', 'cut006test', 'cust005test', 'Test', 'Test', 'Cust Item', '111_testitem1']; sort indicator='descending' [NOTE: ordering is ca
+TC_161 PASS Sorting | Column menu 'Sort Ascending' on Carrier | Order=['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']; sort indicator='ascending'
+TC_162 PASS Sorting | Column menu 'Sort Descending' on Carrier | Order=['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']; sort indicator='descending'
+TC_163 PASS Sorting | Column menu 'Sort Ascending' on Lead Time | Order=['2', '4', '4', '4', '4', '4', '45']; sort indicator='ascending'
+TC_164 PASS Sorting | Column menu 'Sort Descending' on Lead Time | Order=['45', '4', '4', '4', '4', '4', '2']; sort indicator='descending'
+TC_165 PASS Sorting | Column menu 'Sort Ascending' on Transit Time | Order=['2', '3', '4', '4', '4', '4', '4']; sort indicator='ascending'
+TC_166 PASS Sorting | Column menu 'Sort Descending' on Transit Time | Order=['4', '4', '4', '4', '4', '3', '2']; sort indicator='descending'
+TC_167 PASS Sorting | Column menu 'Sort Ascending' on Qty On Card | Order=['30.0000', '45.0000', '45.0000', '45.0000', '45.0000', '45.0000', '45.0000']; sort indicator='ascending'
+TC_168 PASS Sorting | Column menu 'Sort Descending' on Qty On Card | Order=['45.0000', '45.0000', '45.0000', '45.0000', '45.0000', '45.0000', '30.0000']; sort indicator='descending'
+TC_169 FAIL Sorting | Column menu 'Sort Ascending' on Unit Description | menu option not found
+TC_170 FAIL Sorting | Column menu 'Sort Descending' on Unit Description | menu option not found
+TC_171 PASS Sorting | Multi-column sort (Carrier, then Shift+Lead Time) | Carrier/LeadTime order=[('unknown', 2.0), ('unknown', 4.0), ('unknown', 4.0), ('unknown', 4.0), ('unknown', 4.0), ('unknown', 4.0), ('unknow
+TC_172 PASS Sorting+Filter | Description descending sort retained after Lead Time >= 3 filter | Order=['test', 'cut006test', 'cust005test', 'Test', 'Test', 'Cust Item']; LeadTimes=['4', '4', '4', '4', '4', '45']
+TC_173 PASS Filter | Plant Item No filter value list matches grid data | Filter list=['111_testitem1', 'Cust121023', 'Cust121023-1', 'IT131023', 'cust005test', 'cust006test', 'cust1234']; expected=['111_testitem1'
+TC_174 PASS Filter | Supplier Item No. filter value list matches grid data | Filter list=['111_testitem1', 'Cust121023', 'Cust121023-1', 'IT131023', 'cust005test', 'cust006test', 'cust1234']; expected=['111_testitem1'
+TC_175 FAIL Filter | Description filter value list matches grid data | Filter list=['111_testitem1', 'Cust Item', 'Test', 'cust005test', 'cut006test']; expected=['111_testitem1', 'Cust Item', 'cust005test', 'cut
+TC_176 PASS Filter | Carrier filter value list matches grid data | Filter list=['Unknown']; expected=['Unknown']
+TC_177 FAIL Filter | Unit Description filter value list matches grid data | Filter list=['']; expected=['(Blanks)']
+TC_178 PASS Filter | Plant Item No set-filter = ['111_testitem1'] | 1 row(s) shown as expected
+TC_179 PASS Filter | Plant Item No set-filter = ['Cust121023'] | 1 row(s) shown as expected
+TC_180 PASS Filter | Plant Item No set-filter = ['Cust121023-1'] | 1 row(s) shown as expected
+TC_181 PASS Filter | Plant Item No set-filter = ['111_testitem1', 'Cust121023'] | 2 row(s) shown as expected
+TC_182 PASS Filter | Supplier Item No. set-filter = ['111_testitem1'] | 1 row(s) shown as expected
+TC_183 PASS Filter | Supplier Item No. set-filter = ['Cust121023'] | 1 row(s) shown as expected
+TC_184 PASS Filter | Supplier Item No. set-filter = ['Cust121023-1'] | 1 row(s) shown as expected
+TC_185 PASS Filter | Supplier Item No. set-filter = ['111_testitem1', 'Cust121023'] | 2 row(s) shown as expected
+TC_186 PASS Filter | Description set-filter = ['111_testitem1'] | 1 row(s) shown as expected
+TC_187 FAIL Filter | Description set-filter = ['Test'] | Grid shows 3 row(s): ['Cust121023', 'Cust121023-1', 'cust1234'] | Pagination: 'Page Size: 200 1 to 3 of 3 Page 1 of 1'
+TC_188 PASS Filter | Description set-filter = ['Cust Item'] | 1 row(s) shown as expected
+TC_189 FAIL Filter | Description set-filter = ['111_testitem1', 'Test'] | Grid shows 4 row(s): ['111_testitem1', 'Cust121023', 'Cust121023-1', 'cust1234'] | Pagination: 'Page Size: 200 1 to 4 of 4 Page 1 of 1'
+TC_190 PASS Filter | Carrier set-filter = ['Unknown'] | 7 row(s) shown as expected
+TC_191 PASS Filter | Unit Description set-filter = ['(Blanks)'] | 7 row(s) shown as expected
+TC_192 PASS Filter | Lead Time Equals 4 | 5 row(s) shown as expected
+TC_193 PASS Filter | Lead Time Does not equal 4 | 2 row(s) shown as expected
+TC_194 PASS Filter | Lead Time Greater than 4 | 1 row(s) shown as expected
+TC_195 PASS Filter | Lead Time Greater than or equal to 4 | 6 row(s) shown as expected
+TC_196 PASS Filter | Lead Time Less than 4 | 1 row(s) shown as expected
+TC_197 PASS Filter | Lead Time Less than or equal to 4 | 6 row(s) shown as expected
+TC_198 SKIP Filter | Lead Time In range 2 and 45 | System/automation error, case skipped: operator option not found: In range (available: ['Equals', 'Does not equal', 'Greater than', 'Greater
+TC_199 PASS Filter | Lead Time Blank  | 0 row(s) shown as expected
+TC_200 PASS Filter | Lead Time Not blank  | 7 row(s) shown as expected
+TC_201 PASS Filter | Lead Time Equals smallest value 2 | 1 row(s) shown as expected
+TC_202 PASS Filter | Lead Time Less than smallest value (no match expected) | 0 row(s) shown as expected
+TC_203 PASS Filter | Lead Time Less than 4 OR Greater than 4 | 2 row(s) shown as expected
+TC_204 PASS Filter | Lead Time Greater than 2 AND Less than 45 | 5 row(s) shown as expected
+TC_205 PASS Filter | Lead Time > max AND < min (contradictory, no rows expected) | 0 row(s) shown as expected
+TC_206 PASS Filter | Transit Time Equals 3 | 1 row(s) shown as expected
+TC_207 PASS Filter | Transit Time Does not equal 3 | 6 row(s) shown as expected
+TC_208 PASS Filter | Transit Time Greater than 3 | 5 row(s) shown as expected
+TC_209 PASS Filter | Transit Time Greater than or equal to 3 | 6 row(s) shown as expected
+TC_210 PASS Filter | Transit Time Less than 3 | 1 row(s) shown as expected
+TC_211 PASS Filter | Transit Time Less than or equal to 3 | 2 row(s) shown as expected
+TC_212 SKIP Filter | Transit Time In range 2 and 4 | System/automation error, case skipped: operator option not found: In range (available: ['Equals', 'Does not equal', 'Greater than', 'Greater
+TC_213 PASS Filter | Transit Time Blank  | 0 row(s) shown as expected
+TC_214 PASS Filter | Transit Time Not blank  | 7 row(s) shown as expected
+TC_215 PASS Filter | Transit Time Equals smallest value 2 | 1 row(s) shown as expected
+TC_216 PASS Filter | Transit Time Less than smallest value (no match expected) | 0 row(s) shown as expected
+TC_217 PASS Filter | Transit Time Less than 3 OR Greater than 3 | 6 row(s) shown as expected
+TC_218 PASS Filter | Transit Time Greater than 2 AND Less than 4 | 1 row(s) shown as expected
+TC_219 PASS Filter | Transit Time > max AND < min (contradictory, no rows expected) | 0 row(s) shown as expected
+TC_220 PASS Filter | Qty On Card Equals 45 | 6 row(s) shown as expected
+TC_221 PASS Filter | Qty On Card Does not equal 45 | 1 row(s) shown as expected
+TC_222 PASS Filter | Qty On Card Greater than 45 | 0 row(s) shown as expected
+TC_223 PASS Filter | Qty On Card Greater than or equal to 45 | 6 row(s) shown as expected
+TC_224 PASS Filter | Qty On Card Less than 45 | 1 row(s) shown as expected
+TC_225 PASS Filter | Qty On Card Less than or equal to 45 | 7 row(s) shown as expected
+TC_226 SKIP Filter | Qty On Card In range 30 and 45 | System/automation error, case skipped: operator option not found: In range (available: ['Equals', 'Does not equal', 'Greater than', 'Greater
+TC_227 PASS Filter | Qty On Card Blank  | 0 row(s) shown as expected
+TC_228 PASS Filter | Qty On Card Not blank  | 7 row(s) shown as expected
+TC_229 PASS Filter | Qty On Card Equals smallest value 30 | 1 row(s) shown as expected
+TC_230 PASS Filter | Qty On Card Less than smallest value (no match expected) | 0 row(s) shown as expected
+TC_231 PASS Filter | Qty On Card Less than 45 OR Greater than 45 | 1 row(s) shown as expected
+TC_232 PASS Filter | Qty On Card Greater than 30 AND Less than 45 | 0 row(s) shown as expected
+TC_233 PASS Filter | Qty On Card > max AND < min (contradictory, no rows expected) | 0 row(s) shown as expected
+TC_234 PASS Search all columns | Search all columns = 'cust' | 6 row(s) shown as expected
+TC_235 PASS Search all columns | Search all columns = 'TEST' | 6 row(s) shown as expected
+TC_236 PASS Search all columns | Search all columns = 'unknown' | 7 row(s) shown as expected
+TC_237 PASS Search all columns | Search all columns = '45' | 6 row(s) shown as expected
+TC_238 FAIL Search all columns | Search all columns = '45.0000' | Grid shows 0 row(s): [] | Pagination: 'Page Size: 200 0 to 0 of 0 Page 0 of 0'
+TC_239 PASS Search all columns | Search all columns = '44.0000' | 0 row(s) shown as expected
+TC_240 PASS Search all columns | Search all columns = '0.00001' | 0 row(s) shown as expected
+TC_241 PASS Search all columns | Search all columns = '0.08' | 0 row(s) shown as expected
+TC_242 PASS Search all columns | Search all columns = '!!' | 0 row(s) shown as expected
+TC_243 PASS Search all columns | Search all columns = '_' | 1 row(s) shown as expected
+TC_244 PASS Search all columns | Search all columns = 'test cust' | 5 row(s) shown as expected
+TC_245 PASS Search all columns | Search all columns = 'zzzz' | 0 row(s) shown as expected
+TC_246 PASS Search all columns | Search all columns = ' cust ' | 6 row(s) shown as expected
+TC_247 PASS Filter Combination | Carrier set-filter = ['Unknown']; Lead Time Greater than or equal to 3 | 6 row(s) shown as expected
+TC_248 PASS Filter Combination | Description set-filter = ['111_testitem1']; Qty On Card Equals 45 | 0 row(s) shown as expected
+TC_249 SKIP Filter Combination | Lead Time In range 1 and 5; Transit Time Greater than 2 | System/automation error, case skipped: operator option not found: In range (available: ['Equals', 'Does not equal', 'Greater than', 'Greater
+TC_250 PASS Filter Combination | Lead Time Less than 3; Qty On Card Greater than 40 | 0 row(s) shown as expected
+TC_251 PASS Filter Combination | Search all columns = 'cust'; Lead Time Less than or equal to 3 | 0 row(s) shown as expected
+TC_252 PASS Filter Combination | Carrier set-filter = ['Unknown']; Search all columns = 'test' | 6 row(s) shown as expected
+TC_253 PASS Filter Combination | Plant Item No set-filter = ['111_testitem1', 'cust1234']; Transit Time Greater than 2 | 1 row(s) shown as expected
+TC_254 PASS Filter Combination | Lead Time Equals 4; Transit Time Equals 4; Qty On Card Equals 45 | 5 row(s) shown as expected
+TC_255 PASS Filter Combination | Unit Description set-filter = ['(Blanks)']; Carrier set-filter = ['Unknown']; Qty On Card Greater than or equal to 45 | 6 row(s) shown as expected
+TC_256 PASS Filter Combination | Lead Time Less than 3 OR Greater than 4; Search all columns = 'it' | 2 row(s) shown as expected
+TC_257 PASS Filter | Clear Filters button resets all column filters | Rows with filters=5; after 'Clear Filters'=7 (expected 7); quick-search text left=''
+TC_258 PASS Filter | Filter behaviour after clicking Go again | Rows before Go=6; after Go (same plant)=7
+DONE 258
+FINISHED

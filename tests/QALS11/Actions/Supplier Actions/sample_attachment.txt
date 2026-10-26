@@ -1,0 +1,2 @@
+This is a sample attachment used for the Add Notes attachment automation flow.
+It confirms file upload works in the attach notes popup.

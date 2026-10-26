@@ -1,0 +1,114 @@
+﻿[INFO] Autocomplete clicked
+=== LINES WITH COMPUTE/VALIDATE/SUBMIT/RECEIPT (case-insensitive) ===
+  Line 63: var DEL_FAV_URL = '%2FQALS1011%2FBuyerAction%2FRemoveFavorite%3Fpc%3DBuyerAction%26pa%3DAdhocReceipt';
+  Line 131: <form id="FFTbform" method="post" action="/QALS1011/Search/DoSearch" onsubmit="return _tskbar_dosrch();">
+  Line 202: <button type="button" class="set-home-btn" title="Make current page my Homepage" onclick="HomeHelper.OnHomePageBtnClickListener('BuyerAction/AdhocReceipt', 'Adhoc Receipt');" style="margin-right: 16px
+  Line 207: <div class="dropdown dropdown--ultriva rhs-link rhs-link-dropdown Favorites-dropdown" id="li_rhs1"><button type="button" data-toggle="dropdown" class="rhs-link-btn-header" onclick="RHSLinkHelper.OnRHS
+  Line 334: <li class="last"><a href="/QALS1011/BuyerAction/PopBreadCrumb?idx=0">Ad hoc Receipts</a><div class="inner-chevron-overlay fa fa-chevron-right"></div></li>
+  Line 417: <div class="pagetitle"><div style="float:left;" class="pagetitleinner" title="Ad hoc Receipts">Ad hoc Receipts</div><div style="float:right;" class="pagelinksrightsection"><div class="pagelinks hwdi p
+  Line 444: <form action="/QALS1011/BuyerAction/AdhocReceipt" method="post" name="frmCa" style="padding:0px;margin:0px;"><input name="__RequestVerificationToken" type="hidden" value="c1gWoIo_JiWhqlh_0ZKr9XE_7QLGc
+  Line 470: <input id="FILTER_ReceiptType" name="FILTER$ReceiptType" type="hidden" value="">
+  Line 653: <span>Receipt Summary</span>:<br>
+  Line 654: <textarea cols="50" id="FILTER$ReceiptSummary" name="FILTER$ReceiptSummary" readonly="true" rows="4" style="width:350px;border:solid 1px #6699cc;"></textarea>
+  Line 691: <span tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item" onclick="_computecards();" title="Compute Cards">
+  Line 693: <span class="btn-toolbar-text">Compute Cards</span>
+  Line 697: <span id="btnValidateT" data-name="btnValidate" tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item off" onclick="_submitReceipt('VERIFY');" title="Validate Receipt">
+  Line 699: <span class="btn-toolbar-text">Validate Receipt</span>
+  Line 701: <span id="btnSubmitT" data-name="btnSubmit" tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item off' off" onclick="_submitReceipt('SUBMIT');" title="Submit Receipt">
+  Line 703: <span class="btn-toolbar-text">Submit Receipt</span>
+  Line 771: var pageURL = '/QALS1011/BuyerAction/AdhocReceipt', _lkpurl = '/QALS1011/BuyerAction/AdhocRcpLkp';
+  Line 790: <div><a href="/QALS1011/BuyerAction/AddToFavorite?curAct=BuyerAction%2FAdhocReceipt"><i class="fa fa-bookmark-o fav-icon add-fav-icon rhs-link-icon" aria-hidden="true"></i>Add to Favorites</a></div><d
+  Line 794: <div><a href="/QALS1011/BuyerAction/AddToFavorite?curAct=BuyerAction%2FAdhocReceipt"><i class="fa fa-bookmark-o fav-icon add-fav-icon rhs-link-icon" aria-hidden="true"></i>Add to Favorites</a></div><d
+
+=== ALL ELEMENTS WITH ONCLICK ATTR ===
+  BUTTON id= cls=set-home-btn
+    text: 
+    onclick: HomeHelper.OnHomePageBtnClickListener('BuyerAction/AdhocReceipt', 'Adhoc Receipt');
+    html: <button type="button" class="set-home-btn" title="Make current page my Homepage" onclick="HomeHelper.OnHomePageBtnClickListener('BuyerAction/AdhocReceipt', 'Adhoc Receipt');" style="margin-right: 16px
+  SPAN id= cls=btn vd-blue-btn btn-toolbar-right-item
+    text: Compute Cards
+    onclick: _computecards();
+    html: <span tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item" onclick="_computecards();" title="Compute Cards">
+                    <i class="fa fa-calculator btn-toolbar-icon" aria-hidden="true">
+  SPAN id=btnValidateT cls=btn vd-blue-btn btn-toolbar-right-item off
+    text: Validate Receipt
+    onclick: _submitReceipt('VERIFY');
+    html: <span id="btnValidateT" data-name="btnValidate" tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item off" onclick="_submitReceipt('VERIFY');" title="Validate Receipt">
+                    <i cla
+  SPAN id=btnSubmitT cls=btn vd-blue-btn btn-toolbar-right-item off' off
+    text: Submit Receipt
+    onclick: _submitReceipt('SUBMIT');
+    html: <span id="btnSubmitT" data-name="btnSubmit" tabindex="0" class="btn vd-blue-btn btn-toolbar-right-item off' off" onclick="_submitReceipt('SUBMIT');" title="Submit Receipt">
+                    <i clas
+
+=== INPUT SUBMIT/BUTTON ELEMENTS ===
+
+=== MAIN CONTENT DIV ===
+Found: main-content
+<div class="content master-content main-content main-master-content" style="height: 548.6px;">
+        <table id="table-home-data" style="width: 100%;">
+            <tbody><tr>
+                <td>
+                    <div class="master-container" id="cnt_rnd_cntnr">
+                        <div class="contentb">
+                            <input id="ScrollFindPosition" name="ScrollFindPosition" type="hidden" value="">
+                            <table style="width:100%;" class="pageheader">
+                                <tbody><tr><td style="height:5px;"></td></tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align:left;vertical-align:top;" id="tdMainContent">
+                                        
+ <!--Adding this line to avoid IntelliSense error related with __o does not exist in context.-->
+<form action="/QALS1011/BuyerAction/AdhocReceipt" method="post" name="frmCa" style="padding:0px;margin:0px;"><input name="__RequestVerificationToken" type="hidden" value="c1gWoIo_JiWhqlh_0ZKr9XE_7QLGcjSmF4XzkIAcrL1iRizKF51hkoBdqxCb0HtA_9fZx6hud5oLdsgr2IXCCxaaGmTz2TLnqeSnE2tuDOg1">
+        <table style="width:100%;padding:10px; border: 1px solid #ccc; background-color: #fff;" class="entryform" cellpadding="0" border="0" cellspacing="0">
+        <tbody><tr>
+            <td colspan="5" style="padding:0px;padding-left:10px;">
+                <fieldset><legend><span>Item Information</span></legend></fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div style="display: inline-block;">
+                    <div style="display: inline-block;"><div class="ebo-label-field"><span class="requiredfield">*</span><span class="cssnc">Item No</span><span class="colon">:</span></div></div>
+                    <div style="display: inline-block; margin-left: 5px;"><div class="tipsy-help-container "><i tiptext="To pick an item enter the starting letters of the item." style="border:0px;" class="fa fa-question-circle-o TipsyImg tipsy-help-icon"></i></div></div>
+                </div>
+            </td>
+            <td>
+                <div style="display: inline-block;">
+                    <div style="display: inline-block;">
+                        <ul class="acfb-holder" id="ulac_ITM" onclick="$(&quot;input[id='ITM']&quot;).focus();" style="width: 192px;"><li class="acfb-data" gid="KITM23NGQALLN"><span>IT040924</span> <img class="acpimg" src="../Content/images/icons/acdel.gif"></li><input ac-lookup="getLookupUrl " ac-result-callback="OnValueFound" id="ITM" name="ITM" type="text" value="" autocomplete="off" class="acfb-input" style="width: 0px;"></ul>
+                        <input id="FILTER_ITM" name="FILTER$ITM" type="hidden" value="KITM23NGQALLN">
+                    </div>
+                    <div style="display: inline-block; margin-left: 5px;"></div>
+                </div>
+                <input id="FILTER_HID_ITMNO" name="FILTER$HID_ITMNO" type="hidden" value="IT040924">
+                <input id="FILTER_PgMode" name="FILTER$PgMode" type="hidden" value="">
+                <input id="FILTER_PO_LKP_ID" name="FILTER$PO_LKP_ID" type="hidden" value="">
+                <input id="FILTER_PI" name="FILTER$PI" type="hidden" value="0">
+                <input id="FILTER_ReceiptType" name="FILTER$ReceiptType" type="hidden" value="">
+            </td>
+            <td class="filler"></td>
+            <td><div class="ebo-label-field"><span class="requiredfield"></span><span>Warehouse</span><span class="colon">:</span></div></td>
+            <td>
+                <div style="display: inline-block;">
+                    <div style="display: inline-block;"><input id="FILTER_SubInventory" maxlength="20" name="FILTER$SubInventory" type="text" value="" autocomplete="off"></div>
+                    <div style="display: inline-block; margin-left: 5px;"></div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="ebo-label-field"><span class="requiredfield"></span><span>Location</span><span class="colon">:</span></div></td>
+            <td>
+                <div style="display: inline-block;">
+                    <div style="display: inline-block;"><input id="FILTER_LocationCode" maxlength="20" name="FILTER$LocationCode" type="text" value="" autocomplete="off"></div>
+                    <div style="display: inline-block; margin-left: 5px;"></div>
+                </div>
+            </td>
+            <td class="filler"></td>
+            <td><div class="ebo-label-field"><span class="requiredfield"></span><span>Freight Terms</span><span class="colon">:</span></div></td>
+            <td>
+                <input checked="checked" class="checkbox" id="FILTER$FreightTerms0" name="FILTER$FreightTerms" type="radio" value="COLLECT"><

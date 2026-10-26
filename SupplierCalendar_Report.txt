@@ -1,0 +1,28 @@
+
+======================================================================
+  SUPPLIER CALENDAR -- TEST EXECUTION REPORT
+======================================================================
+  Run Date : 2026-09-18 19:01:06
+  Site     : https://engineering.ultrivalms.com/QALS1011
+  User     : buyeruser
+
+  SUPPLIER
+  --------
+  Name     : Plant-A
+  GID      : BSU235HQALMX
+
+  HOLIDAY ADDED
+  -------------
+  Date     : 05/13/2026
+  Desc     : Plant-A QA Holiday
+
+  TEST SEQUENCE
+  -------------
+  TC-01  Login                          PASS  -- buyeruser authenticated
+  TC-02  Open Supplier List             PASS  -- Searched & found 'Plant-A'
+  TC-03  Open Supplier Calendar         PASS  -- Calendar/ListS loaded
+  TC-04  Click Add Holiday              PASS  -- Create Holiday form opened
+  TC-05  Fill & Save Holiday            PASS  -- 05/13/2026 saved to DB
+  TC-06  Verify Holiday in List         PASS  -- Date confirmed in page source
+  TC-07  Summary Report                 PASS  -- Report generated
+======================================================================

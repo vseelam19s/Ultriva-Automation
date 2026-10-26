@@ -1,0 +1,1 @@
+Test note attachment file for Add Notes QA automation.
